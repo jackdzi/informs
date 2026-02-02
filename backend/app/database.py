@@ -16,7 +16,7 @@ def get_session():
 
 
 def seed_data():
-    from .models import Exam, Room, Schedule, Student, StudentExam, TimeSlot
+    from .models import Exam, Room, Schedule, ScheduleVersion, Student, StudentExam, TimeSlot
 
     with Session(engine) as session:
         if session.exec(select(Room)).first():
@@ -95,18 +95,23 @@ def seed_data():
             for eid in exam_ids:
                 session.add(StudentExam(student_id=s.id, exam_id=eid))
 
+        # Create default schedule version
+        default_version = ScheduleVersion(name="Default Schedule", active=True)
+        session.add(default_version)
+        session.flush()
+
         # Schedule some exams in the same timeslots to create conflicts
         schedules = [
-            Schedule(exam_id=1, room_id=1, timeslot_id=1),   # CS101 Mon 8-10
-            Schedule(exam_id=2, room_id=2, timeslot_id=1),   # MATH201 Mon 8-10 (conflict with CS101 students)
-            Schedule(exam_id=3, room_id=3, timeslot_id=2),   # PHYS101 Mon 10:30-12:30
-            Schedule(exam_id=4, room_id=4, timeslot_id=5),   # ENG102 Tue 8-10
-            Schedule(exam_id=5, room_id=5, timeslot_id=6),   # CHEM301 Tue 10:30-12:30
-            Schedule(exam_id=6, room_id=7, timeslot_id=9),   # BUS201 Wed 8-10
-            Schedule(exam_id=7, room_id=2, timeslot_id=10),  # CS301 Wed 10:30-12:30
-            Schedule(exam_id=8, room_id=8, timeslot_id=1),   # MATH101 Mon 8-10 (conflict!)
-            Schedule(exam_id=9, room_id=6, timeslot_id=13),  # HIST101 Thu 8-10
-            Schedule(exam_id=10, room_id=4, timeslot_id=14), # BIO201 Thu 10:30-12:30
+            Schedule(exam_id=1, room_id=1, timeslot_id=1, version_id=default_version.id),
+            Schedule(exam_id=2, room_id=2, timeslot_id=1, version_id=default_version.id),
+            Schedule(exam_id=3, room_id=3, timeslot_id=2, version_id=default_version.id),
+            Schedule(exam_id=4, room_id=4, timeslot_id=5, version_id=default_version.id),
+            Schedule(exam_id=5, room_id=5, timeslot_id=6, version_id=default_version.id),
+            Schedule(exam_id=6, room_id=7, timeslot_id=9, version_id=default_version.id),
+            Schedule(exam_id=7, room_id=2, timeslot_id=10, version_id=default_version.id),
+            Schedule(exam_id=8, room_id=8, timeslot_id=1, version_id=default_version.id),
+            Schedule(exam_id=9, room_id=6, timeslot_id=13, version_id=default_version.id),
+            Schedule(exam_id=10, room_id=4, timeslot_id=14, version_id=default_version.id),
         ]
         for s in schedules:
             session.add(s)

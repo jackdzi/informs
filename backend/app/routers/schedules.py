@@ -1,6 +1,7 @@
 from collections import defaultdict
+from typing import Optional
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlmodel import Session, select
 
 from ..database import get_session
@@ -9,6 +10,8 @@ from ..models import (
     Room,
     Schedule,
     ScheduleCreate,
+    ScheduleVersion,
+    ScheduleVersionCreate,
     Student,
     StudentExam,
     TimeSlot,
@@ -16,6 +19,72 @@ from ..models import (
 )
 
 router = APIRouter(prefix="/schedules", tags=["schedules"])
+
+
+# --- Schedule Versions ---
+
+
+@router.get("/versions", response_model=list[ScheduleVersion])
+def list_versions(session: Session = Depends(get_session)):
+    return session.exec(select(ScheduleVersion)).all()
+
+
+@router.post("/versions", response_model=ScheduleVersion, status_code=201)
+def create_version(body: ScheduleVersionCreate, session: Session = Depends(get_session)):
+    v = ScheduleVersion(name=body.name, active=True)
+    session.add(v)
+    session.commit()
+    session.refresh(v)
+    return v
+
+
+@router.post("/versions/{version_id}/duplicate", response_model=ScheduleVersion, status_code=201)
+def duplicate_version(version_id: int, body: ScheduleVersionCreate, session: Session = Depends(get_session)):
+    source = session.get(ScheduleVersion, version_id)
+    if not source:
+        raise HTTPException(404, "Version not found")
+    new_v = ScheduleVersion(name=body.name, active=True)
+    session.add(new_v)
+    session.flush()
+    # Copy all schedules from source version
+    source_schedules = session.exec(
+        select(Schedule).where(Schedule.version_id == version_id)
+    ).all()
+    for s in source_schedules:
+        session.add(Schedule(
+            version_id=new_v.id,
+            exam_id=s.exam_id,
+            room_id=s.room_id,
+            timeslot_id=s.timeslot_id,
+        ))
+    session.commit()
+    session.refresh(new_v)
+    return new_v
+
+
+@router.put("/versions/{version_id}", response_model=ScheduleVersion)
+def update_version(version_id: int, body: ScheduleVersionCreate, session: Session = Depends(get_session)):
+    v = session.get(ScheduleVersion, version_id)
+    if not v:
+        raise HTTPException(404, "Version not found")
+    v.name = body.name
+    session.add(v)
+    session.commit()
+    session.refresh(v)
+    return v
+
+
+@router.delete("/versions/{version_id}", status_code=204)
+def delete_version(version_id: int, session: Session = Depends(get_session)):
+    v = session.get(ScheduleVersion, version_id)
+    if not v:
+        raise HTTPException(404, "Version not found")
+    # Delete all schedules in this version
+    scheds = session.exec(select(Schedule).where(Schedule.version_id == version_id)).all()
+    for s in scheds:
+        session.delete(s)
+    session.delete(v)
+    session.commit()
 
 
 # --- TimeSlots ---
@@ -47,14 +116,24 @@ def delete_timeslot(timeslot_id: int, session: Session = Depends(get_session)):
 # --- Schedules ---
 
 
+def _get_version_id(session: Session, version_id: Optional[int]) -> int:
+    """Resolve version_id, defaulting to the first version."""
+    if version_id:
+        return version_id
+    v = session.exec(select(ScheduleVersion)).first()
+    return v.id if v else 1
+
+
 @router.get("/", response_model=list[Schedule])
-def list_schedules(session: Session = Depends(get_session)):
-    return session.exec(select(Schedule)).all()
+def list_schedules(version_id: Optional[int] = Query(None), session: Session = Depends(get_session)):
+    vid = _get_version_id(session, version_id)
+    return session.exec(select(Schedule).where(Schedule.version_id == vid)).all()
 
 
 @router.get("/detailed")
-def list_schedules_detailed(session: Session = Depends(get_session)):
-    schedules = session.exec(select(Schedule)).all()
+def list_schedules_detailed(version_id: Optional[int] = Query(None), session: Session = Depends(get_session)):
+    vid = _get_version_id(session, version_id)
+    schedules = session.exec(select(Schedule).where(Schedule.version_id == vid)).all()
     result = []
     for s in schedules:
         exam = session.get(Exam, s.exam_id)
@@ -70,14 +149,20 @@ def list_schedules_detailed(session: Session = Depends(get_session)):
 
 
 @router.post("/", response_model=Schedule, status_code=201)
-def create_schedule(body: ScheduleCreate, session: Session = Depends(get_session)):
+def create_schedule(body: ScheduleCreate, version_id: Optional[int] = Query(None), session: Session = Depends(get_session)):
+    vid = _get_version_id(session, version_id)
     if not session.get(Exam, body.exam_id):
         raise HTTPException(404, "Exam not found")
     if not session.get(Room, body.room_id):
         raise HTTPException(404, "Room not found")
     if not session.get(TimeSlot, body.timeslot_id):
         raise HTTPException(404, "TimeSlot not found")
-    schedule = Schedule.model_validate(body)
+    schedule = Schedule(
+        version_id=vid,
+        exam_id=body.exam_id,
+        room_id=body.room_id,
+        timeslot_id=body.timeslot_id,
+    )
     session.add(schedule)
     session.commit()
     session.refresh(schedule)
@@ -111,15 +196,16 @@ def delete_schedule(schedule_id: int, session: Session = Depends(get_session)):
 
 
 @router.put("/bulk")
-def bulk_save_schedules(items: list[ScheduleCreate], session: Session = Depends(get_session)):
-    existing = session.exec(select(Schedule)).all()
+def bulk_save_schedules(items: list[ScheduleCreate], version_id: Optional[int] = Query(None), session: Session = Depends(get_session)):
+    vid = _get_version_id(session, version_id)
+    existing = session.exec(select(Schedule).where(Schedule.version_id == vid)).all()
     for s in existing:
         session.delete(s)
     session.flush()
 
     created = []
     for item in items:
-        s = Schedule.model_validate(item)
+        s = Schedule(version_id=vid, exam_id=item.exam_id, room_id=item.room_id, timeslot_id=item.timeslot_id)
         session.add(s)
         session.flush()
         session.refresh(s)
@@ -137,7 +223,8 @@ def list_students(session: Session = Depends(get_session)):
 
 
 @router.get("/students/{student_id}/schedule")
-def get_student_schedule(student_id: int, session: Session = Depends(get_session)):
+def get_student_schedule(student_id: int, version_id: Optional[int] = Query(None), session: Session = Depends(get_session)):
+    vid = _get_version_id(session, version_id)
     student = session.get(Student, student_id)
     if not student:
         raise HTTPException(404, "Student not found")
@@ -147,7 +234,7 @@ def get_student_schedule(student_id: int, session: Session = Depends(get_session
     ).all()
     exam_ids = {e.exam_id for e in enrollments}
 
-    schedules = session.exec(select(Schedule)).all()
+    schedules = session.exec(select(Schedule).where(Schedule.version_id == vid)).all()
     result = []
     for s in schedules:
         if s.exam_id in exam_ids:
@@ -172,8 +259,9 @@ def get_student_schedule(student_id: int, session: Session = Depends(get_session
 
 
 @router.get("/conflicts")
-def get_conflicts(session: Session = Depends(get_session)):
-    schedules = session.exec(select(Schedule)).all()
+def get_conflicts(version_id: Optional[int] = Query(None), session: Session = Depends(get_session)):
+    vid = _get_version_id(session, version_id)
+    schedules = session.exec(select(Schedule).where(Schedule.version_id == vid)).all()
     enrollments = session.exec(select(StudentExam)).all()
     students = session.exec(select(Student)).all()
     exams = session.exec(select(Exam)).all()
@@ -222,8 +310,9 @@ def get_conflicts(session: Session = Depends(get_session)):
 
 
 @router.get("/analytics")
-def get_analytics(session: Session = Depends(get_session)):
-    schedules = session.exec(select(Schedule)).all()
+def get_analytics(version_id: Optional[int] = Query(None), session: Session = Depends(get_session)):
+    vid = _get_version_id(session, version_id)
+    schedules = session.exec(select(Schedule).where(Schedule.version_id == vid)).all()
     rooms = session.exec(select(Room)).all()
     exams = session.exec(select(Exam)).all()
     timeslots = session.exec(select(TimeSlot)).all()

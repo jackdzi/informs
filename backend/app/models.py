@@ -42,8 +42,19 @@ class TimeSlotCreate(SQLModel):
     date: str
 
 
+class ScheduleVersion(SQLModel, table=True):
+    id: Optional[int] = Field(default=None, primary_key=True)
+    name: str
+    active: bool = True
+
+
+class ScheduleVersionCreate(SQLModel):
+    name: str
+
+
 class Schedule(SQLModel, table=True):
     id: Optional[int] = Field(default=None, primary_key=True)
+    version_id: int = Field(default=1, foreign_key="scheduleversion.id")
     exam_id: int = Field(foreign_key="exam.id")
     room_id: int = Field(foreign_key="room.id")
     timeslot_id: int = Field(foreign_key="timeslot.id")
