@@ -1,0 +1,20 @@
+{
+  "productName": "informs",
+  "version": "0.1.0",
+  "identifier": "com.informs.app",
+  "build": {
+    "frontendDist": "../dist",
+    "devUrl": "http://localhost:1420",
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Exam Scheduling",
+        "width": 1024,
+        "height": 768
+      }
+    ]
+  }
+}
