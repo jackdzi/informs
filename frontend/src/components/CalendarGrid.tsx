@@ -37,8 +37,8 @@ export function CalendarGrid({
             key={i}
             className={`week-btn ${week === i ? "active" : ""}${dragHoverWeek === i && week !== i ? " drag-hover" : ""}`}
             onClick={() => setWeek(i)}
-            onDragEnter={(e) => { e.preventDefault(); setWeek(i); setDragHoverWeek(i); }}
-            onDragOver={(e) => e.preventDefault()}
+            onDragEnter={(e) => { e.preventDefault(); e.dataTransfer.dropEffect = "move"; setWeek(i); setDragHoverWeek(i); }}
+            onDragOver={(e) => { e.preventDefault(); e.dataTransfer.dropEffect = "move"; }}
             onDrop={(e) => { e.preventDefault(); setDragHoverWeek(null); }}
           >
             Week {i + 1}

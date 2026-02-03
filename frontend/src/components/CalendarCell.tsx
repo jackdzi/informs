@@ -26,7 +26,7 @@ export function CalendarCell({
     <div
       className={`calendar-cell${dragOver ? " drag-over" : ""}`}
       onDragOver={(e) => { e.preventDefault(); e.dataTransfer.dropEffect = "move"; }}
-      onDragEnter={(e) => { e.preventDefault(); dragCountRef.current++; setDragOver(true); }}
+      onDragEnter={(e) => { e.preventDefault(); e.dataTransfer.dropEffect = "move"; dragCountRef.current++; setDragOver(true); }}
       onDragLeave={() => { dragCountRef.current--; if (dragCountRef.current <= 0) { dragCountRef.current = 0; setDragOver(false); } }}
       onDrop={(e) => { e.preventDefault(); dragCountRef.current = 0; setDragOver(false); onDrop?.(date, timeRange); }}
     >
