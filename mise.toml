@@ -3,3 +3,27 @@ python = "3.12"
 node = "22"
 rust = "latest"
 bun = "latest"
+"cargo:tauri-cli" = "latest"
+
+[tasks.install]
+description = "Install all dependencies"
+run = """
+#!/usr/bin/env bash
+set -e
+cd frontend && bun install
+cd ../backend && pip install -e .
+"""
+
+[tasks.dev]
+description = "Run frontend and backend servers"
+depends = ["dev:backend", "dev:frontend"]
+
+[tasks."dev:backend"]
+description = "Run the backend server"
+dir = "backend"
+run = "uvicorn app.main:app --reload"
+
+[tasks."dev:frontend"]
+description = "Run the frontend (Tauri) dev server"
+dir = "frontend"
+run = "bun run tauri dev"
