@@ -13,7 +13,8 @@
       {
         "title": "Exam Scheduling",
         "width": 1024,
-        "height": 768
+        "height": 768,
+        "dragDropEnabled": false
       }
     ]
   }
