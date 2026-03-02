@@ -1,3 +1,11 @@
-# General Instructions
+# First time
 
-There are instructions in each directory, you must have 2 instances open (one to run the backend and one to run the frontend).
+docker compose up --build
+
+# After that
+
+docker compose up
+
+# Restart just the backend
+
+docker compose restart backend

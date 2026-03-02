@@ -92,6 +92,7 @@ def seed_data():
             s = Student(name=name, email=email)
             session.add(s)
             session.flush()
+            assert s.id is not None
             for eid in exam_ids:
                 session.add(StudentExam(student_id=s.id, exam_id=eid))
 
@@ -99,6 +100,7 @@ def seed_data():
         default_version = ScheduleVersion(name="Default Schedule", active=True)
         session.add(default_version)
         session.flush()
+        assert default_version.id is not None
 
         # Schedule some exams in the same timeslots to create conflicts
         schedules = [

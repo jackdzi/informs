@@ -1,0 +1,19 @@
+services:
+  backend:
+    build: ./backend
+    volumes:
+      - ./backend:/app:z
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend/src:/app/src:z
+      - ./frontend/index.html:/app/index.html:z
+      - ./frontend/vite.config.ts:/app/vite.config.ts:z
+      - /app/node_modules
+    ports:
+      - "1420:1420"
+    cap_add:
+      - NET_ADMIN
