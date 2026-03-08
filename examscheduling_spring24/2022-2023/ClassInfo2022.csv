@@ -1,0 +1,106 @@
+OTR_BUILDINGCODE,OTR_BUILDINGNAME,OTR_ROOMTYPE,OTR_ROOMNUMBER,OTR_ROOMCAPACITY,OTR_SPECIALINFO,Morning,Afternoon,Evening
+SEW,Sewall Hall,Classroom,460,20,OTR: 24/7,1,1,1
+SEW,Sewall Hall,Conference Room,462,17,"OTR: summer - 24/7, fa/sp - wknds; 6am-12pm, 6pm-6am M-F; PSYC 12-6pm M-F",1,0,0
+SEW,Sewall Hall,Classroom,560,20,OTR: 24/7,1,1,1
+SEW,Sewall Hall,Conference Room,562,17,OTR: 24/7,1,1,1
+TUD,Tudor Field House and Youngkin Center,Classroom,201,30,OTR: 24/7,1,1,1
+WSC,Wiess College,Conference Room,123,14,"OTR: summer - 24/7, fall/spring - 6am-5pm M-F; Wiess College at all other times",1,1,0
+WSC,Wiess College,Classroom - Flexible/SCALAR,146,36,"OTR: summer - 24/7, fall/spring - 6am-5pm M-F; Wiess College at all other times",1,1,0
+HBH,Herman Brown Hall,Lecture Hall,227,46,OTR: 24/7,1,1,1
+HBH,Herman Brown Hall,Classroom,423,17,OTR: 24/7,1,1,1
+ABL,Anderson Biological Laboratories,Classroom - Flexible/SCALAR,130,26,OTR: 24/7,1,1,1
+ABL,Anderson Biological Laboratories,Lecture Hall,131,70,OTR: 24/7,1,1,1
+HBH,Herman Brown Hall,Classroom,427,27,OTR: 24/7,1,1,1
+HBH,Herman Brown Hall,Classroom,453,17,OTR: 24/7,1,1,1
+HBH,Herman Brown Hall,Classroom - Flexible/SCALAR,B21,24,OTR: 24/7,1,1,1
+HRG,Herring Hall,Lecture Hall,100,197,OTR: 24/7,1,1,1
+HRG,Herring Hall,Classroom,125,24,"OTR: summer - 24/7, fa/sp - wknds; 6am-12pm, 6pm-6am M-F; LING 12-6pm M-F",1,0,0
+HRG,Herring Hall,Conference Room,126,24,"OTR: summer - 24/7, fa/sp - wknds; 6am-12pm, 6pm-6am M-F; HART 12-6pm M-F",1,0,0
+HRG,Herring Hall,Conference Room,128,2,OTR: 24/7,1,1,1
+HRG,Herring Hall,Conference Room,224,22,"OTR: summer - 24/7, fa/sp - wknds; 6am-12pm, 6pm-6am M-F; ENGL 12-6pm M-F",1,0,0
+HRZ,Herzstein Hall,Lecture Hall,210,125,OTR: 24/7,1,1,1
+HRZ,Herzstein Hall,Classroom,211,20,OTR: 24/7,1,1,1
+HRZ,Herzstein Hall,Lecture Hall,212,123,OTR: 24/7,1,1,1
+HRZ,Herzstein Hall,Lecture Hall,AMP,300,OTR: 24/7,1,1,1
+HUM,Humanities Building,Classroom,117,70,OTR: 24/7,1,1,1
+HUM,Humanities Building,Classroom,118,24,OTR: 24/7,1,1,1
+HUM,Humanities Building,Classroom,119,35,OTR: 24/7,1,1,1
+HUM,Humanities Building,Conference Room,120,17,OTR: 24/7,1,1,1
+HUM,Humanities Building,Conference Room,226,24,"OTR: summer - 24/7, fa/sp - wknds; 6am-12pm, 6pm-6am M-F; RELI 12-6pm M-F",1,1,0
+HUM,Humanities Building,Conference Room,227,24,"OTR: summer - 24/7, fa/sp - wknds; 6am-12pm, 6pm-6am M-F; PHIL 12-6pm M-F",1,1,0
+HUM,Humanities Building,Conference Room,327,24,"OTR: summer - 24/7, fa/sp - wknds; 6am-12pm, 6pm-6am M-F; HIST 12-6pm M-F",1,1,0
+HUM,Humanities Building,Classroom,328,30,OTR: 24/7,1,1,1
+KCK,Keck Hall,Lecture Hall,100,265,OTR: 24/7,1,1,1
+KCK,Keck Hall,Classroom,101,30,OTR: 24/7,1,1,1
+KCK,Keck Hall,Lecture Hall,102,69,OTR: 6am-12pm M-F; BIOS all other times,1,0,0
+KCK,Keck Hall,Classroom,105,20,OTR: 24/7,1,1,1
+KCK,Keck Hall,Classroom,107,20,OTR: 24/7,1,1,1
+ANH,Anderson Hall,Lecture Hall,117,29,OTR: 24/7,1,1,1
+KRF,Kraft Hall for Social Sciences,Classroom - Flexible/SCALAR,102,15,OTR: 24/7,1,1,1
+KRF,Kraft Hall for Social Sciences,Classroom - Flexible/SCALAR,105,16,OTR: 24/7,1,1,1
+KRF,Kraft Hall for Social Sciences,Lecture Hall,110,24,OTR: 24/7,1,1,1
+KRF,Kraft Hall for Social Sciences,Classroom - Flexible/SCALAR,120,8,OTR: 24/7,1,1,1
+KRF,Kraft Hall for Social Sciences,Classroom,125,16,OTR: 24/7,1,1,1
+KWG,Keith-Wiess Geological Laboratories,Lecture Hall,100,68,OTR: 24/7,1,1,1
+KWG,Keith-Wiess Geological Laboratories,Classroom,128,18,OTR: 24/7,1,1,1
+KWG,Keith-Wiess Geological Laboratories,Computer Lab,130,18,OTR: 24/7,1,1,1
+BKH,Baker Hall,Classroom,102,18,OTR: 24/7,1,1,1
+BKH,Baker Hall,Classroom,116,18,OTR: 24/7,1,1,1
+BKH,Baker Hall,Classroom,229,12,OTR: 24/7,1,1,1
+BKH,Baker Hall,Classroom,233,12,OTR: 24/7,1,1,1
+BNC,Brown College,Conference Room,145,12,"OTR: summer - 24/7, fall/spring - 6am-5pm M-F; Brown College at all other times",1,1,0
+LVC,Lovett College,Classroom - Flexible/SCALAR,COMMNS,184,"OTR: MWF 10-11 & 2-4, TR 9:25-10:40 & 2:30-3:45; Lovett College at all other times",1,1,0
+MCA,Moody Center for the Arts,Classroom - Flexible/SCALAR,103,18,OTR: 24/7,1,1,1
+MCA,Moody Center for the Arts,Classroom - Flexible/SCALAR,210,20,OTR: 24/7,1,1,1
+MCA,Moody Center for the Arts,Classroom - Flexible/SCALAR,237,24,OTR: 24/7,1,1,1
+BNC,Brown College,Conference Room,146,10,"OTR: summer - 24/7, fall/spring - 6am-5pm M-F; Brown College at all other times",1,1,0
+BRC,BioScience Research Collaborative,Classroom,282,33,OTR: 24/7,1,1,1
+BRC,BioScience Research Collaborative,Classroom,284,25,OTR: 24/7,1,1,1
+BRC,BioScience Research Collaborative,Classroom,285,12,OTR: 24/7,1,1,1
+BRC,BioScience Research Collaborative,Classroom,286,16,OTR: 24/7,1,1,1
+BRK,Brockman Hall for Physics,Classroom - Flexible/SCALAR,101,72,OTR: 24/7,1,1,1
+BRK,Brockman Hall for Physics,Classroom,103,15,OTR: 24/7,1,1,1
+MEB,Mechanical Engineering Building,Classroom,128,48,OTR: 24/7,1,1,1
+MLC,Martel College,Classroom - Flexible/SCALAR,101,16,"OTR: summer - 24/7, fall/spring - 6am-5pm M-F; Martel College at all other times",1,1,0
+MLC,Martel College,Conference Room,103,6,"OTR: summer - 24/7, fall/spring - 6am-5pm M-F; Martel College at all other times",1,1,0
+MLC,Martel College,Conference Room,104,12,"OTR: summer - 24/7, fall/spring - 6am-5pm M-F; Martel College at all other times",1,1,0
+MXF,Maxfield Hall,Classroom,251,56,OTR: 24/7,1,1,1
+MXF,Maxfield Hall,Classroom - Flexible/SCALAR,252,48,OTR: 24/7,1,1,1
+DBH,Dell Butcher Hall,Lecture Hall,180,87,"OTR: summer - 24/7, fall/spring - 6am-12pm M-F; Chemistry at all other times",1,0,0
+DCC,Duncan College,Classroom - Flexible/SCALAR,113,99,"OTR: summer - 24/7, fall/spring - 6am-5pm M-F; Duncan College at all other times",1,0,0
+DCH,Duncan Hall,Computer Lab,1020 / SYM II,66,OTR: 24/7,1,1,1
+DCH,Duncan Hall,Classroom,1042,46,OTR: 24/7,1,1,1
+DCH,Duncan Hall,Classroom,1046,46,OTR: 24/7,1,1,1
+DCH,Duncan Hall,Lecture Hall,1055,240,OTR: fall/spring - 6am-12:05pm Tue/Thu; Sch of Engineering at all other times,1,0,0
+DCH,Duncan Hall,Lecture Hall,1064,73,OTR: 24/7,1,1,1
+DCH,Duncan Hall,Lecture Hall,1070,73,OTR: 24/7,1,1,1
+DCH,Duncan Hall,Classroom,1075,35,OTR: 24/7,1,1,1
+GRB,George R. Brown Hall,Classroom,W211,40,OTR: 24/7; no room use on weekdays after 5pm or on weekends,1,1,0
+GRB,George R. Brown Hall,Classroom,W212,40,OTR: 24/7; no room use on weekdays after 5pm or on weekends,1,1,0
+GRW,Gibbs Recreation and Wellness Center,Classroom - Flexible/SCALAR,160A,30,"OTR: fa/sp - 8am-12pm, 1pm-5pm M-F; GRW all other times",1,1,0
+GRW,Gibbs Recreation and Wellness Center,Classroom - Flexible/SCALAR,220,26,"OTR: fa/sp - 8am-12pm, 1pm-5pm M-F; GRW all other times",1,1,0
+PCF,Provisional Campus Facility,Classroom,2,77,OTR: 7am-6:30pm M-F; Hollie Fulsom all other times,1,1,0
+PCF,Provisional Campus Facility,Classroom - Flexible/SCALAR,3,114,OTR: 7am-6:30pm M-F; Hollie Fulsom all other times,1,1,0
+PCF,Provisional Campus Facility,Classroom - Flexible/SCALAR,4,114,OTR: 7am-6:30pm M-F; Hollie Fulsom all other times,1,1,0
+RYN,Ryon Engineering Laboratory,Computer Lab,102,20,OTR: 24/7,1,1,1
+RYN,Ryon Engineering Laboratory,Lecture Hall,201,78,"OTR: summer - 24/7, fa/sp - 6am-2pm MWF, 6am-2:30pm TR; CEEG all other times",1,0,0
+RZR,Rayzor Hall,Classroom,106,28,OTR: 24/7,1,1,1
+RZR,Rayzor Hall,Classroom - Flexible/SCALAR,113,20,OTR: 24/7,1,1,1
+RZR,Rayzor Hall,Classroom - Flexible/SCALAR,119,66,OTR: 24/7,1,1,1
+RZR,Rayzor Hall,Classroom - Flexible/SCALAR,123,36,OTR: 24/7,1,1,1
+RZR,Rayzor Hall,Conference Room,202,12,"OTR: summer - 24/7, fa/sp - wknds; 6am-12pm, 6pm-6am M-F; CLAS 12-6pm M-F",1,0,0
+RZR,Rayzor Hall,Classroom - Flexible/SCALAR,204,20,OTR: 24/7,1,1,1
+RZR,Rayzor Hall,Classroom - Flexible/SCALAR,205,20,OTR: 24/7,1,1,1
+RZR,Rayzor Hall,Classroom - Flexible/SCALAR,227,12,OTR: 24/7,1,1,1
+RZR,Rayzor Hall,Conference Room,302,12,"OTR: summer - 24/7, fa/sp - wknds; 6am-12pm, 6pm-6am M-F; SPPO 12-6pm M-F",1,1,0
+RZR,Rayzor Hall,Classroom - Flexible/SCALAR,304,20,OTR: 24/7,1,1,1
+RZR,Rayzor Hall,Classroom - Flexible/SCALAR,305,20,OTR: 24/7,1,1,1
+RZR,Rayzor Hall,Conference Room,310,12,"OTR: summer - 24/7, fa/sp - wknds; 6am-12pm, 6pm-6am M-F; Humanities Dean's Office 12-6pm M-F",1,1,0
+SEW,Sewall Hall,Classroom - Flexible/SCALAR,101,36,OTR: 24/7; being transformed from computer lab into classroom,1,1,1
+SEW,Sewall Hall,Classroom - Flexible/SCALAR,133,24,OTR: 24/7; being transformed from computer lab into classroom,1,1,1
+SEW,Sewall Hall,Computer Lab,207 / SYM I,36,OTR: 24/7,1,1,1
+SEW,Sewall Hall,Lecture Hall,301,168,OTR: 24/7,1,1,1
+SEW,Sewall Hall,Lecture Hall,303,45,OTR: 24/7,1,1,1
+SEW,Sewall Hall,Lecture Hall,305,45,OTR: 24/7,1,1,1
+SEW,Sewall Hall,Lecture Hall,307,45,OTR: 24/7,1,1,1
+SEW,Sewall Hall,Lecture Hall,309,82,OTR: 24/7,1,1,1
