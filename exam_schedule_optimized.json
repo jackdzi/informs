@@ -1,129 +1,129 @@
 {
   "14344": {
-    "date": "12/6/2023",
-    "time": 900,
+    "date": "12/12/2023",
+    "time": 1900,
     "building": "BKH",
     "room": "116"
   },
   "14345": {
-    "date": "12/9/2023",
-    "time": 1400,
+    "date": "12/6/2023",
+    "time": 900,
     "building": "DCH",
-    "room": "1046"
+    "room": "1042"
   },
   "10253": {
-    "date": "12/8/2023",
-    "time": 900,
-    "building": "UNASSIGNED",
-    "room": "UNASSIGNED"
+    "date": "12/7/2023",
+    "time": 1400,
+    "building": "dummy",
+    "room": "1"
   },
   "14349": {
-    "date": "12/11/2023",
+    "date": "12/10/2023",
     "time": 1400,
-    "building": "WSC",
-    "room": "123"
+    "building": "KRF",
+    "room": "102"
   },
   "12306": {
     "date": "12/11/2023",
-    "time": 1900,
+    "time": 1400,
     "building": "PCF",
     "room": "4"
   },
   "10259": {
-    "date": "12/12/2023",
+    "date": "12/8/2023",
     "time": 900,
-    "building": "SST",
-    "room": "106"
+    "building": "ABL",
+    "room": "130"
   },
   "12316": {
-    "date": "12/11/2023",
-    "time": 1400,
+    "date": "12/12/2023",
+    "time": 900,
     "building": "HRZ",
     "room": "AMP"
   },
   "10282": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "building": "KRF",
-    "room": "120"
+    "date": "12/8/2023",
+    "time": 900,
+    "building": "HRG",
+    "room": "128"
   },
   "14380": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "building": "TUD",
-    "room": "201"
+    "date": "12/10/2023",
+    "time": 900,
+    "building": "GRW",
+    "room": "160A"
   },
   "12342": {
-    "date": "12/6/2023",
-    "time": 900,
+    "date": "12/7/2023",
+    "time": 1900,
     "building": "HRZ",
     "room": "AMP"
   },
   "14391": {
-    "date": "12/11/2023",
-    "time": 900,
+    "date": "12/12/2023",
+    "time": 1400,
     "building": "HUM",
     "room": "328"
   },
   "10300": {
-    "date": "12/6/2023",
-    "time": 1400,
+    "date": "12/9/2023",
+    "time": 900,
     "building": "HRG",
     "room": "224"
   },
   "10301": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "building": "SEW",
-    "room": "133"
+    "date": "12/8/2023",
+    "time": 900,
+    "building": "HRG",
+    "room": "224"
   },
   "10310": {
     "date": "12/9/2023",
-    "time": 1900,
+    "time": 1400,
     "building": "HRG",
     "room": "100"
   },
   "10315": {
-    "date": "12/7/2023",
-    "time": 1900,
+    "date": "12/10/2023",
+    "time": 1400,
     "building": "SEW",
-    "room": "207 / SYM I"
+    "room": "101"
   },
   "10316": {
-    "date": "12/12/2023",
+    "date": "12/11/2023",
     "time": 1900,
     "building": "RZR",
-    "room": "302"
+    "room": "202"
   },
   "10317": {
-    "date": "12/7/2023",
+    "date": "12/12/2023",
     "time": 900,
     "building": "RZR",
     "room": "119"
   },
   "16470": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "building": "HBH",
-    "room": "423"
-  },
-  "16471": {
-    "date": "12/11/2023",
+    "date": "12/6/2023",
     "time": 900,
     "building": "RZR",
-    "room": "310"
+    "room": "205"
   },
-  "16473": {
-    "date": "12/8/2023",
-    "time": 1400,
+  "16471": {
+    "date": "12/6/2023",
+    "time": 1900,
     "building": "RZR",
     "room": "202"
+  },
+  "16473": {
+    "date": "12/6/2023",
+    "time": 1900,
+    "building": "KRF",
+    "room": "102"
   },
   "12389": {
     "date": "12/6/2023",
     "time": 900,
-    "building": "KCK",
-    "room": "105"
+    "building": "KRF",
+    "room": "120"
   },
   "12395": {
     "date": "12/12/2023",
@@ -132,127 +132,127 @@
     "room": "1"
   },
   "12397": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "building": "DCH",
-    "room": "1020 / SYM II"
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "BRC",
+    "room": "282"
   },
   "10355": {
-    "date": "12/6/2023",
-    "time": 1900,
+    "date": "12/11/2023",
+    "time": 900,
     "building": "RZR",
-    "room": "202"
+    "room": "310"
   },
   "10417": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "building": "RZR",
-    "room": "202"
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "MCA",
+    "room": "103"
   },
   "10419": {
     "date": "12/12/2023",
     "time": 900,
-    "building": "KRF",
-    "room": "102"
+    "building": "RZR",
+    "room": "310"
   },
   "10432": {
-    "date": "12/12/2023",
+    "date": "12/8/2023",
     "time": 900,
     "building": "OES",
     "room": "132"
   },
   "12546": {
-    "date": "12/11/2023",
-    "time": 900,
-    "building": "SEW",
-    "room": "301"
+    "date": "12/8/2023",
+    "time": 1900,
+    "building": "PCF",
+    "room": "3"
   },
   "12549": {
-    "date": "12/10/2023",
-    "time": 900,
+    "date": "12/9/2023",
+    "time": 1900,
     "building": "DCH",
     "room": "1055"
   },
   "12551": {
-    "date": "12/6/2023",
-    "time": 900,
+    "date": "12/8/2023",
+    "time": 1900,
     "building": "MXF",
     "room": "251"
   },
   "14605": {
-    "date": "12/6/2023",
-    "time": 1900,
+    "date": "12/9/2023",
+    "time": 900,
     "building": "ABL",
     "room": "131"
   },
   "12557": {
-    "date": "12/9/2023",
+    "date": "12/12/2023",
     "time": 1900,
-    "building": "RZR",
-    "room": "302"
+    "building": "HBH",
+    "room": "423"
   },
   "14613": {
-    "date": "12/7/2023",
-    "time": 1400,
+    "date": "12/6/2023",
+    "time": 900,
     "building": "ANH",
     "room": "117"
   },
   "10522": {
-    "date": "12/7/2023",
+    "date": "12/8/2023",
     "time": 1400,
-    "building": "KRF",
-    "room": "105"
+    "building": "DCH",
+    "room": "1075"
   },
   "10523": {
     "date": "12/12/2023",
     "time": 900,
-    "building": "KRF",
-    "room": "120"
+    "building": "RZR",
+    "room": "227"
   },
   "12573": {
     "date": "12/12/2023",
     "time": 1900,
-    "building": "RZR",
-    "room": "106"
+    "building": "BRK",
+    "room": "103"
   },
   "12574": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "building": "SEW",
-    "room": "562"
+    "date": "12/9/2023",
+    "time": 900,
+    "building": "KRF",
+    "room": "102"
   },
   "14623": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "building": "PCF",
-    "room": "4"
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "DCC",
+    "room": "113"
   },
   "14624": {
-    "date": "12/10/2023",
-    "time": 1400,
+    "date": "12/6/2023",
+    "time": 900,
     "building": "GRW",
     "room": "220"
   },
   "14625": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "building": "HRG",
-    "room": "128"
+    "date": "12/7/2023",
+    "time": 1400,
+    "building": "RZR",
+    "room": "310"
   },
   "12575": {
     "date": "12/6/2023",
     "time": 900,
-    "building": "HRG",
-    "room": "128"
+    "building": "RZR",
+    "room": "227"
   },
   "12584": {
-    "date": "12/9/2023",
-    "time": 1900,
+    "date": "12/12/2023",
+    "time": 900,
     "building": "BRC",
     "room": "282"
   },
   "14634": {
-    "date": "12/7/2023",
+    "date": "12/11/2023",
     "time": 1400,
     "building": "HUM",
     "room": "328"
@@ -260,8 +260,8 @@
   "10543": {
     "date": "12/10/2023",
     "time": 900,
-    "building": "BRK",
-    "room": "101"
+    "building": "PCF",
+    "room": "3"
   },
   "10545": {
     "date": "12/9/2023",
@@ -270,16 +270,16 @@
     "room": "220"
   },
   "10574": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "building": "BKH",
-    "room": "102"
+    "date": "12/9/2023",
+    "time": 900,
+    "building": "DCH",
+    "room": "1075"
   },
   "10594": {
     "date": "12/12/2023",
     "time": 900,
-    "building": "KRF",
-    "room": "105"
+    "building": "BKH",
+    "room": "116"
   },
   "10595": {
     "date": "12/6/2023",
@@ -288,7 +288,7 @@
     "room": "3"
   },
   "14701": {
-    "date": "12/7/2023",
+    "date": "12/10/2023",
     "time": 1400,
     "building": "MXF",
     "room": "251"
@@ -300,74 +300,74 @@
     "room": "116"
   },
   "14720": {
+    "date": "12/12/2023",
+    "time": 1400,
+    "building": "RZR",
+    "room": "202"
+  },
+  "10628": {
+    "date": "12/8/2023",
+    "time": 900,
+    "building": "DCC",
+    "room": "113"
+  },
+  "10634": {
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "KCK",
+    "room": "102"
+  },
+  "10635": {
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "106"
+  },
+  "14734": {
     "date": "12/10/2023",
     "time": 1400,
     "building": "HRG",
     "room": "128"
   },
-  "10628": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "building": "DCC",
-    "room": "113"
-  },
-  "10634": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "building": "BRC",
-    "room": "282"
-  },
-  "10635": {
-    "date": "12/7/2023",
-    "time": 900,
-    "building": "RZR",
-    "room": "106"
-  },
-  "14734": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "RZR",
-    "room": "310"
-  },
   "14735": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "building": "HRG",
-    "room": "224"
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "SEW",
+    "room": "133"
   },
   "12695": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "building": "dummy",
-    "room": "3"
+    "date": "12/11/2023",
+    "time": 900,
+    "building": "SEW",
+    "room": "301"
   },
   "10650": {
     "date": "12/12/2023",
     "time": 900,
-    "building": "BRK",
-    "room": "101"
+    "building": "ABL",
+    "room": "131"
   },
   "10651": {
-    "date": "12/12/2023",
+    "date": "12/9/2023",
     "time": 900,
-    "building": "DBH",
-    "room": "180"
+    "building": "KRF",
+    "room": "110"
   },
   "10652": {
     "date": "12/6/2023",
     "time": 900,
-    "building": "RZR",
-    "room": "204"
+    "building": "HRG",
+    "room": "128"
   },
   "12711": {
-    "date": "12/6/2023",
-    "time": 1900,
+    "date": "12/12/2023",
+    "time": 900,
     "building": "RZR",
     "room": "205"
   },
   "12712": {
-    "date": "12/8/2023",
-    "time": 1400,
+    "date": "12/12/2023",
+    "time": 900,
     "building": "RZR",
     "room": "302"
   },
@@ -378,44 +378,44 @@
     "room": "131"
   },
   "10667": {
-    "date": "12/6/2023",
-    "time": 1900,
+    "date": "12/9/2023",
+    "time": 1400,
     "building": "HRZ",
     "room": "AMP"
   },
   "10668": {
-    "date": "12/7/2023",
-    "time": 1400,
+    "date": "12/12/2023",
+    "time": 900,
     "building": "DCH",
     "room": "1075"
   },
   "10687": {
     "date": "12/8/2023",
     "time": 900,
-    "building": "UNASSIGNED",
-    "room": "UNASSIGNED"
+    "building": "HUM",
+    "room": "328"
   },
   "12740": {
-    "date": "12/6/2023",
-    "time": 900,
+    "date": "12/12/2023",
+    "time": 1900,
     "building": "RZR",
-    "room": "304"
+    "room": "205"
   },
   "10715": {
-    "date": "12/11/2023",
+    "date": "12/12/2023",
     "time": 900,
     "building": "SEW",
     "room": "305"
   },
   "12763": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "HBH",
-    "room": "453"
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "WSC",
+    "room": "123"
   },
   "10718": {
-    "date": "12/9/2023",
-    "time": 900,
+    "date": "12/10/2023",
+    "time": 1400,
     "building": "SEW",
     "room": "309"
   },
@@ -426,116 +426,116 @@
     "room": "130"
   },
   "12775": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "building": "HRG",
-    "room": "128"
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "202"
   },
   "10729": {
-    "date": "12/12/2023",
-    "time": 900,
+    "date": "12/9/2023",
+    "time": 1400,
     "building": "PCF",
     "room": "4"
   },
   "12808": {
-    "date": "12/10/2023",
+    "date": "12/6/2023",
     "time": 900,
     "building": "PCF",
     "room": "4"
   },
   "12845": {
     "date": "12/12/2023",
-    "time": 1900,
-    "building": "DCH",
-    "room": "1020 / SYM II"
+    "time": 900,
+    "building": "ANH",
+    "room": "117"
   },
   "12861": {
     "date": "12/10/2023",
-    "time": 1400,
+    "time": 1900,
     "building": "RZR",
     "room": "302"
   },
   "12881": {
-    "date": "12/8/2023",
-    "time": 1400,
+    "date": "12/12/2023",
+    "time": 1900,
     "building": "SEW",
     "room": "305"
   },
   "12882": {
-    "date": "12/9/2023",
-    "time": 900,
-    "building": "DCH",
-    "room": "1020 / SYM II"
+    "date": "12/10/2023",
+    "time": 1400,
+    "building": "BRC",
+    "room": "282"
   },
   "12885": {
-    "date": "12/6/2023",
-    "time": 1900,
+    "date": "12/7/2023",
+    "time": 1400,
     "building": "RZR",
-    "room": "302"
+    "room": "227"
   },
   "10992": {
-    "date": "12/8/2023",
-    "time": 900,
-    "building": "UNASSIGNED",
-    "room": "UNASSIGNED"
-  },
-  "10996": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "building": "KRF",
-    "room": "102"
-  },
-  "15128": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "building": "SEW",
-    "room": "101"
-  },
-  "15149": {
     "date": "12/6/2023",
     "time": 900,
-    "building": "KWG",
-    "room": "130"
+    "building": "SEW",
+    "room": "307"
+  },
+  "10996": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "WSC",
+    "room": "123"
+  },
+  "15128": {
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "123"
+  },
+  "15149": {
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "HUM",
+    "room": "120"
   },
   "15163": {
-    "date": "12/11/2023",
+    "date": "12/7/2023",
     "time": 1400,
     "building": "MXF",
     "room": "251"
   },
   "15164": {
-    "date": "12/9/2023",
-    "time": 900,
-    "building": "RYN",
-    "room": "201"
+    "date": "12/8/2023",
+    "time": 1900,
+    "building": "SEW",
+    "room": "309"
   },
   "15176": {
-    "date": "12/12/2023",
+    "date": "12/10/2023",
     "time": 900,
-    "building": "ABL",
-    "room": "131"
+    "building": "BRK",
+    "room": "101"
   },
   "15178": {
-    "date": "12/9/2023",
-    "time": 900,
+    "date": "12/8/2023",
+    "time": 1400,
     "building": "RZR",
-    "room": "302"
+    "room": "202"
   },
   "15179": {
-    "date": "12/7/2023",
+    "date": "12/6/2023",
     "time": 1900,
     "building": "DCH",
     "room": "1042"
   },
   "15180": {
-    "date": "12/6/2023",
-    "time": 900,
+    "date": "12/11/2023",
+    "time": 1900,
     "building": "KWG",
     "room": "128"
   },
   "15194": {
-    "date": "12/10/2023",
-    "time": 1900,
+    "date": "12/12/2023",
+    "time": 900,
     "building": "SEW",
     "room": "101"
   },
@@ -546,74 +546,74 @@
     "room": "462"
   },
   "13207": {
-    "date": "12/11/2023",
-    "time": 1900,
+    "date": "12/10/2023",
+    "time": 900,
     "building": "ABL",
     "room": "131"
   },
   "13217": {
-    "date": "12/9/2023",
+    "date": "12/12/2023",
     "time": 1900,
-    "building": "HRZ",
-    "room": "AMP"
+    "building": "dummy",
+    "room": "2"
   },
   "13218": {
-    "date": "12/6/2023",
-    "time": 1900,
+    "date": "12/10/2023",
+    "time": 900,
     "building": "HRG",
     "room": "100"
   },
   "13219": {
     "date": "12/8/2023",
-    "time": 900,
-    "building": "UNASSIGNED",
-    "room": "UNASSIGNED"
+    "time": 1400,
+    "building": "HRG",
+    "room": "100"
   },
   "15271": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "SEW",
-    "room": "101"
+    "date": "12/10/2023",
+    "time": 1900,
+    "building": "BKH",
+    "room": "116"
   },
   "15272": {
-    "date": "12/11/2023",
-    "time": 900,
+    "date": "12/12/2023",
+    "time": 1900,
     "building": "RZR",
-    "room": "227"
+    "room": "310"
   },
   "15273": {
-    "date": "12/12/2023",
-    "time": 1400,
+    "date": "12/11/2023",
+    "time": 1900,
     "building": "RZR",
-    "room": "302"
+    "room": "310"
   },
   "15275": {
-    "date": "12/8/2023",
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "HRG",
+    "room": "128"
+  },
+  "15276": {
+    "date": "12/12/2023",
     "time": 1900,
     "building": "RZR",
     "room": "302"
   },
-  "15276": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "RZR",
-    "room": "302"
-  },
   "15301": {
-    "date": "12/12/2023",
-    "time": 900,
+    "date": "12/6/2023",
+    "time": 1900,
     "building": "BRC",
     "room": "284"
   },
   "13258": {
-    "date": "12/12/2023",
+    "date": "12/11/2023",
     "time": 1400,
-    "building": "ABL",
-    "room": "131"
+    "building": "PCF",
+    "room": "3"
   },
   "13262": {
-    "date": "12/7/2023",
-    "time": 1400,
+    "date": "12/10/2023",
+    "time": 900,
     "building": "HRG",
     "room": "224"
   },
@@ -624,58 +624,58 @@
     "room": "229"
   },
   "15327": {
-    "date": "12/12/2023",
-    "time": 900,
+    "date": "12/9/2023",
+    "time": 1900,
     "building": "DCC",
     "room": "113"
   },
   "15328": {
     "date": "12/12/2023",
-    "time": 900,
+    "time": 1900,
     "building": "SEW",
     "room": "101"
   },
   "15346": {
     "date": "12/6/2023",
     "time": 900,
-    "building": "RZR",
-    "room": "205"
+    "building": "KWG",
+    "room": "130"
   },
   "13299": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "HBH",
-    "room": "423"
+    "date": "12/11/2023",
+    "time": 1400,
+    "building": "RZR",
+    "room": "227"
   },
   "13300": {
-    "date": "12/11/2023",
-    "time": 1900,
+    "date": "12/6/2023",
+    "time": 900,
     "building": "HRG",
     "room": "224"
   },
   "13301": {
-    "date": "12/10/2023",
-    "time": 1400,
+    "date": "12/11/2023",
+    "time": 900,
     "building": "RZR",
     "room": "304"
   },
   "13302": {
     "date": "12/6/2023",
     "time": 900,
-    "building": "KRF",
-    "room": "102"
+    "building": "HUM",
+    "room": "120"
   },
   "13303": {
     "date": "12/6/2023",
     "time": 900,
-    "building": "SEW",
-    "room": "462"
+    "building": "KRF",
+    "room": "102"
   },
   "15360": {
     "date": "12/6/2023",
     "time": 1900,
-    "building": "HBH",
-    "room": "427"
+    "building": "GRW",
+    "room": "220"
   },
   "15371": {
     "date": "12/6/2023",
@@ -684,76 +684,76 @@
     "room": "160A"
   },
   "15375": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "building": "DCC",
-    "room": "113"
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "ABL",
+    "room": "131"
   },
   "15376": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "building": "HRZ",
-    "room": "211"
+    "date": "12/11/2023",
+    "time": 1400,
+    "building": "RZR",
+    "room": "304"
   },
   "13352": {
     "date": "12/12/2023",
     "time": 900,
     "building": "RZR",
-    "room": "302"
+    "room": "202"
   },
   "13354": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "building": "HRG",
-    "room": "128"
+    "date": "12/12/2023",
+    "time": 1400,
+    "building": "RZR",
+    "room": "310"
   },
   "15403": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "building": "GRW",
-    "room": "220"
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "HBH",
+    "room": "427"
   },
   "15405": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "building": "ABL",
-    "room": "131"
+    "date": "12/9/2023",
+    "time": 1900,
+    "building": "BRK",
+    "room": "101"
   },
   "15406": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "building": "DCC",
-    "room": "113"
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "OES",
+    "room": "130"
   },
   "15407": {
     "date": "12/6/2023",
     "time": 1900,
-    "building": "HRG",
-    "room": "128"
+    "building": "WSC",
+    "room": "123"
   },
   "15408": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "building": "RZR",
-    "room": "302"
-  },
-  "15409": {
-    "date": "12/9/2023",
-    "time": 900,
+    "date": "12/12/2023",
+    "time": 1400,
     "building": "RZR",
     "room": "227"
+  },
+  "15409": {
+    "date": "12/8/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "202"
   },
   "15410": {
     "date": "12/8/2023",
-    "time": 1900,
-    "building": "RZR",
-    "room": "227"
+    "time": 1400,
+    "building": "HRG",
+    "room": "128"
   },
   "15411": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "building": "RZR",
-    "room": "310"
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "HBH",
+    "room": "453"
   },
   "11323": {
     "date": "12/6/2023",
@@ -762,112 +762,112 @@
     "room": "328"
   },
   "11324": {
-    "date": "12/12/2023",
-    "time": 900,
+    "date": "12/6/2023",
+    "time": 1900,
     "building": "ABL",
     "room": "130"
   },
   "15422": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "building": "SEW",
-    "room": "305"
+    "date": "12/10/2023",
+    "time": 1400,
+    "building": "HUM",
+    "room": "328"
   },
   "15434": {
-    "date": "12/8/2023",
+    "date": "12/9/2023",
     "time": 1900,
-    "building": "KRF",
-    "room": "125"
+    "building": "MEB",
+    "room": "128"
   },
   "15435": {
-    "date": "12/9/2023",
+    "date": "12/7/2023",
     "time": 900,
-    "building": "SEW",
-    "room": "101"
+    "building": "BKH",
+    "room": "102"
   },
   "15442": {
-    "date": "12/8/2023",
-    "time": 1900,
+    "date": "12/12/2023",
+    "time": 900,
     "building": "HUM",
     "room": "328"
   },
   "15443": {
-    "date": "12/6/2023",
-    "time": 1400,
+    "date": "12/9/2023",
+    "time": 900,
     "building": "SEW",
     "room": "133"
   },
   "11354": {
-    "date": "12/7/2023",
-    "time": 1400,
+    "date": "12/12/2023",
+    "time": 1900,
     "building": "ABL",
     "room": "131"
   },
   "11363": {
-    "date": "12/9/2023",
+    "date": "12/12/2023",
     "time": 1900,
     "building": "DCC",
     "room": "113"
   },
   "11377": {
-    "date": "12/12/2023",
-    "time": 1900,
+    "date": "12/8/2023",
+    "time": 1400,
     "building": "ABL",
     "room": "131"
   },
   "11378": {
-    "date": "12/12/2023",
+    "date": "12/7/2023",
     "time": 1900,
-    "building": "BRK",
-    "room": "101"
+    "building": "ABL",
+    "room": "131"
   },
   "15475": {
-    "date": "12/12/2023",
+    "date": "12/9/2023",
     "time": 1900,
     "building": "MCA",
     "room": "103"
   },
   "15500": {
     "date": "12/9/2023",
-    "time": 1400,
+    "time": 900,
     "building": "RZR",
-    "room": "310"
+    "room": "227"
   },
   "15505": {
     "date": "12/6/2023",
     "time": 1900,
-    "building": "HBH",
-    "room": "423"
+    "building": "SEW",
+    "room": "462"
   },
   "15510": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "building": "MXF",
-    "room": "251"
+    "date": "12/10/2023",
+    "time": 900,
+    "building": "SST",
+    "room": "106"
   },
   "15520": {
-    "date": "12/8/2023",
-    "time": 900,
-    "building": "UNASSIGNED",
-    "room": "UNASSIGNED"
+    "date": "12/6/2023",
+    "time": 1400,
+    "building": "ABL",
+    "room": "131"
   },
   "15535": {
-    "date": "12/10/2023",
+    "date": "12/12/2023",
     "time": 1400,
     "building": "ABL",
     "room": "131"
   },
   "15536": {
-    "date": "12/12/2023",
-    "time": 900,
+    "date": "12/7/2023",
+    "time": 1400,
     "building": "RZR",
     "room": "205"
   },
   "13496": {
-    "date": "12/11/2023",
-    "time": 900,
-    "building": "PCF",
-    "room": "3"
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "SEW",
+    "room": "301"
   },
   "13499": {
     "date": "12/9/2023",
@@ -876,10 +876,10 @@
     "room": "328"
   },
   "15551": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "DCH",
-    "room": "1020 / SYM II"
+    "date": "12/7/2023",
+    "time": 1400,
+    "building": "BRC",
+    "room": "282"
   },
   "13510": {
     "date": "12/6/2023",
@@ -888,10 +888,10 @@
     "room": "309"
   },
   "13515": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "BRC",
-    "room": "282"
+    "date": "12/8/2023",
+    "time": 1900,
+    "building": "ANH",
+    "room": "117"
   },
   "15565": {
     "date": "12/12/2023",
@@ -900,52 +900,52 @@
     "room": "128"
   },
   "15566": {
-    "date": "12/8/2023",
-    "time": 1900,
+    "date": "12/10/2023",
+    "time": 900,
     "building": "BRK",
     "room": "103"
   },
   "15567": {
-    "date": "12/12/2023",
-    "time": 900,
-    "building": "HUM",
-    "room": "120"
-  },
-  "15575": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "building": "SEW",
-    "room": "462"
-  },
-  "15580": {
     "date": "12/10/2023",
     "time": 1900,
     "building": "RZR",
     "room": "227"
   },
+  "15575": {
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "SEW",
+    "room": "462"
+  },
+  "15580": {
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "HRG",
+    "room": "128"
+  },
   "13534": {
-    "date": "12/9/2023",
+    "date": "12/8/2023",
     "time": 900,
     "building": "ANH",
     "room": "117"
   },
   "15598": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "building": "SEW",
-    "room": "309"
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "DBH",
+    "room": "180"
   },
   "11504": {
-    "date": "12/12/2023",
+    "date": "12/6/2023",
     "time": 1900,
-    "building": "HBH",
-    "room": "453"
+    "building": "KRF",
+    "room": "120"
   },
   "13563": {
-    "date": "12/10/2023",
+    "date": "12/6/2023",
     "time": 900,
-    "building": "HUM",
-    "room": "328"
+    "building": "SEW",
+    "room": "303"
   },
   "15615": {
     "date": "12/10/2023",
@@ -954,140 +954,140 @@
     "room": "128"
   },
   "15624": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "RZR",
-    "room": "305"
-  },
-  "11533": {
     "date": "12/10/2023",
-    "time": 900,
-    "building": "RYN",
-    "room": "201"
-  },
-  "11538": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "building": "RZR",
-    "room": "302"
-  },
-  "15644": {
-    "date": "12/8/2023",
-    "time": 900,
-    "building": "UNASSIGNED",
-    "room": "UNASSIGNED"
-  },
-  "11549": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "RZR",
-    "room": "202"
-  },
-  "15654": {
-    "date": "12/12/2023",
     "time": 900,
     "building": "RZR",
     "room": "227"
   },
-  "15656": {
+  "11533": {
     "date": "12/12/2023",
     "time": 1900,
-    "building": "SEW",
-    "room": "101"
+    "building": "RYN",
+    "room": "201"
   },
-  "15657": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "building": "HRG",
-    "room": "128"
-  },
-  "15661": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "building": "HUM",
-    "room": "120"
-  },
-  "15664": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "HUM",
-    "room": "120"
-  },
-  "13619": {
-    "date": "12/12/2023",
+  "11538": {
+    "date": "12/7/2023",
     "time": 1400,
     "building": "HRG",
     "room": "128"
   },
-  "11585": {
-    "date": "12/8/2023",
+  "15644": {
+    "date": "12/6/2023",
     "time": 900,
-    "building": "UNASSIGNED",
-    "room": "UNASSIGNED"
-  },
-  "11586": {
-    "date": "12/12/2023",
-    "time": 1900,
     "building": "SEW",
-    "room": "305"
+    "room": "309"
   },
-  "15685": {
-    "date": "12/9/2023",
-    "time": 900,
+  "11549": {
+    "date": "12/11/2023",
+    "time": 1400,
     "building": "HRG",
-    "room": "224"
+    "room": "128"
   },
-  "13642": {
-    "date": "12/12/2023",
+  "15654": {
+    "date": "12/8/2023",
     "time": 1900,
     "building": "RZR",
     "room": "310"
   },
-  "13643": {
+  "15656": {
     "date": "12/12/2023",
+    "time": 1900,
+    "building": "WSC",
+    "room": "146"
+  },
+  "15657": {
+    "date": "12/8/2023",
     "time": 900,
     "building": "RZR",
-    "room": "202"
+    "room": "227"
+  },
+  "15661": {
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "227"
+  },
+  "15664": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "RZR",
+    "room": "310"
+  },
+  "13619": {
+    "date": "12/9/2023",
+    "time": 900,
+    "building": "HRG",
+    "room": "128"
+  },
+  "11585": {
+    "date": "12/11/2023",
+    "time": 900,
+    "building": "KRF",
+    "room": "125"
+  },
+  "11586": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "HUM",
+    "room": "119"
+  },
+  "15685": {
+    "date": "12/11/2023",
+    "time": 1900,
+    "building": "HRG",
+    "room": "224"
+  },
+  "13642": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "RZR",
+    "room": "304"
+  },
+  "13643": {
+    "date": "12/8/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "302"
   },
   "13652": {
-    "date": "12/6/2023",
-    "time": 1400,
+    "date": "12/12/2023",
+    "time": 900,
     "building": "MXF",
     "room": "251"
   },
   "13653": {
-    "date": "12/7/2023",
-    "time": 900,
+    "date": "12/8/2023",
+    "time": 1900,
     "building": "RYN",
     "room": "201"
   },
   "11607": {
-    "date": "12/9/2023",
-    "time": 1400,
+    "date": "12/6/2023",
+    "time": 900,
     "building": "HUM",
     "room": "117"
   },
   "11630": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1900,
     "building": "SEW",
     "room": "301"
   },
   "11631": {
-    "date": "12/6/2023",
-    "time": 900,
+    "date": "12/10/2023",
+    "time": 1400,
     "building": "ANH",
     "room": "117"
   },
   "11633": {
-    "date": "12/6/2023",
-    "time": 1900,
+    "date": "12/11/2023",
+    "time": 900,
     "building": "RZR",
     "room": "227"
   },
   "13697": {
-    "date": "12/6/2023",
-    "time": 900,
+    "date": "12/7/2023",
+    "time": 1400,
     "building": "DBH",
     "room": "180"
   },
@@ -1098,38 +1098,38 @@
     "room": "130"
   },
   "11683": {
-    "date": "12/9/2023",
-    "time": 1900,
+    "date": "12/11/2023",
+    "time": 1400,
     "building": "ABL",
     "room": "131"
   },
   "15798": {
-    "date": "12/10/2023",
+    "date": "12/12/2023",
     "time": 1900,
     "building": "BRC",
     "room": "284"
   },
   "15807": {
-    "date": "12/11/2023",
-    "time": 1900,
+    "date": "12/7/2023",
+    "time": 900,
     "building": "BRK",
     "room": "103"
   },
   "15813": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "building": "GRW",
-    "room": "220"
+    "date": "12/7/2023",
+    "time": 1900,
+    "building": "HBH",
+    "room": "427"
   },
   "15825": {
-    "date": "12/9/2023",
+    "date": "12/12/2023",
     "time": 900,
-    "building": "BRC",
-    "room": "282"
+    "building": "DCH",
+    "room": "1020 / SYM II"
   },
   "15832": {
-    "date": "12/10/2023",
-    "time": 1400,
+    "date": "12/9/2023",
+    "time": 1900,
     "building": "SEW",
     "room": "305"
   },
@@ -1140,40 +1140,40 @@
     "room": "103"
   },
   "13804": {
-    "date": "12/9/2023",
-    "time": 900,
+    "date": "12/10/2023",
+    "time": 1900,
     "building": "dummy",
     "room": "3"
   },
   "11795": {
-    "date": "12/12/2023",
-    "time": 900,
-    "building": "HRG",
-    "room": "128"
-  },
-  "11847": {
-    "date": "12/12/2023",
+    "date": "12/6/2023",
     "time": 1900,
     "building": "HRG",
     "room": "128"
   },
+  "11847": {
+    "date": "12/8/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "227"
+  },
   "11853": {
-    "date": "12/10/2023",
+    "date": "12/7/2023",
     "time": 1400,
     "building": "RZR",
-    "room": "310"
+    "room": "302"
   },
   "11854": {
     "date": "12/6/2023",
     "time": 1900,
     "building": "RZR",
-    "room": "310"
+    "room": "302"
   },
   "11856": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "RYN",
-    "room": "102"
+    "date": "12/10/2023",
+    "time": 1900,
+    "building": "HRG",
+    "room": "128"
   },
   "11868": {
     "date": "12/6/2023",
@@ -1182,64 +1182,64 @@
     "room": "4"
   },
   "11870": {
-    "date": "12/10/2023",
-    "time": 1900,
+    "date": "12/8/2023",
+    "time": 900,
     "building": "DCH",
     "room": "1064"
   },
   "13924": {
-    "date": "12/12/2023",
-    "time": 900,
+    "date": "12/10/2023",
+    "time": 1400,
     "building": "DCH",
     "room": "1075"
   },
   "11884": {
-    "date": "12/8/2023",
-    "time": 1900,
+    "date": "12/9/2023",
+    "time": 900,
     "building": "SEW",
     "room": "101"
   },
   "11896": {
-    "date": "12/7/2023",
-    "time": 1400,
+    "date": "12/9/2023",
+    "time": 900,
     "building": "HRZ",
     "room": "212"
   },
   "11903": {
-    "date": "12/12/2023",
-    "time": 1900,
+    "date": "12/6/2023",
+    "time": 900,
     "building": "BRC",
     "room": "286"
   },
   "11913": {
     "date": "12/7/2023",
     "time": 1400,
-    "building": "SEW",
-    "room": "560"
+    "building": "RZR",
+    "room": "304"
   },
   "11919": {
-    "date": "12/6/2023",
+    "date": "12/9/2023",
     "time": 900,
     "building": "SEW",
     "room": "309"
   },
   "16017": {
     "date": "12/11/2023",
-    "time": 1400,
+    "time": 1900,
     "building": "ABL",
     "room": "131"
   },
   "11922": {
-    "date": "12/7/2023",
+    "date": "12/12/2023",
     "time": 1900,
     "building": "HRZ",
     "room": "210"
   },
   "13970": {
-    "date": "12/6/2023",
+    "date": "12/9/2023",
     "time": 900,
-    "building": "MCA",
-    "room": "103"
+    "building": "RZR",
+    "room": "302"
   },
   "16019": {
     "date": "12/6/2023",
@@ -1248,46 +1248,46 @@
     "room": "282"
   },
   "16024": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "ABL",
-    "room": "131"
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "BRK",
+    "room": "101"
   },
   "11937": {
-    "date": "12/11/2023",
-    "time": 900,
+    "date": "12/6/2023",
+    "time": 1900,
     "building": "BRK",
     "room": "101"
   },
   "11939": {
-    "date": "12/7/2023",
-    "time": 900,
-    "building": "ABL",
-    "room": "131"
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "PCF",
+    "room": "3"
   },
   "11940": {
-    "date": "12/8/2023",
-    "time": 1900,
+    "date": "12/6/2023",
+    "time": 900,
     "building": "DCH",
     "room": "1064"
   },
   "11941": {
-    "date": "12/10/2023",
-    "time": 900,
+    "date": "12/11/2023",
+    "time": 1400,
     "building": "MXF",
     "room": "251"
   },
   "11945": {
-    "date": "12/6/2023",
+    "date": "12/9/2023",
     "time": 900,
     "building": "PCF",
     "room": "4"
   },
   "11951": {
-    "date": "12/11/2023",
+    "date": "12/6/2023",
     "time": 1900,
     "building": "RZR",
-    "room": "227"
+    "room": "310"
   },
   "11953": {
     "date": "12/12/2023",
@@ -1296,8 +1296,8 @@
     "room": "102"
   },
   "11961": {
-    "date": "12/12/2023",
-    "time": 900,
+    "date": "12/6/2023",
+    "time": 1900,
     "building": "BRC",
     "room": "286"
   },
@@ -1309,13 +1309,13 @@
   },
   "16063": {
     "date": "12/12/2023",
-    "time": 1400,
+    "time": 900,
     "building": "GRW",
     "room": "220"
   },
   "11975": {
-    "date": "12/6/2023",
-    "time": 1900,
+    "date": "12/12/2023",
+    "time": 900,
     "building": "KRF",
     "room": "105"
   },
@@ -1326,26 +1326,26 @@
     "room": "201"
   },
   "11980": {
-    "date": "12/6/2023",
+    "date": "12/11/2023",
     "time": 900,
-    "building": "MCA",
-    "room": "210"
+    "building": "HRG",
+    "room": "128"
   },
   "16083": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "building": "ANH",
-    "room": "117"
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "MXF",
+    "room": "251"
   },
   "11989": {
-    "date": "12/6/2023",
-    "time": 1900,
+    "date": "12/9/2023",
+    "time": 1400,
     "building": "DCH",
-    "room": "1042"
+    "room": "1046"
   },
   "11990": {
-    "date": "12/8/2023",
-    "time": 1900,
+    "date": "12/12/2023",
+    "time": 1400,
     "building": "HRG",
     "room": "128"
   },
@@ -1353,70 +1353,70 @@
     "date": "12/6/2023",
     "time": 1900,
     "building": "HUM",
-    "room": "119"
+    "room": "328"
   },
   "14056": {
     "date": "12/6/2023",
-    "time": 1900,
+    "time": 900,
     "building": "KRF",
     "room": "125"
   },
   "16107": {
-    "date": "12/8/2023",
-    "time": 1400,
+    "date": "12/12/2023",
+    "time": 900,
     "building": "SEW",
     "room": "309"
   },
   "16108": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "building": "HRG",
-    "room": "128"
-  },
-  "16109": {
     "date": "12/12/2023",
     "time": 1400,
+    "building": "RZR",
+    "room": "302"
+  },
+  "16109": {
+    "date": "12/11/2023",
+    "time": 1900,
     "building": "RZR",
     "room": "227"
   },
   "16127": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "building": "RZR",
-    "room": "106"
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "KCK",
+    "room": "101"
   },
   "16128": {
-    "date": "12/8/2023",
+    "date": "12/7/2023",
     "time": 900,
-    "building": "UNASSIGNED",
-    "room": "UNASSIGNED"
+    "building": "HRZ",
+    "room": "AMP"
   },
   "16140": {
-    "date": "12/9/2023",
-    "time": 1400,
+    "date": "12/12/2023",
+    "time": 1900,
     "building": "BRC",
     "room": "286"
   },
   "10013": {
-    "date": "12/12/2023",
-    "time": 1900,
+    "date": "12/9/2023",
+    "time": 900,
     "building": "RZR",
     "room": "304"
   },
   "10014": {
     "date": "12/6/2023",
     "time": 900,
-    "building": "KCK",
-    "room": "107"
+    "building": "KWG",
+    "room": "128"
   },
   "10018": {
-    "date": "12/12/2023",
+    "date": "12/9/2023",
     "time": 1900,
-    "building": "PCF",
-    "room": "3"
+    "building": "ABL",
+    "room": "131"
   },
   "10019": {
-    "date": "12/6/2023",
+    "date": "12/8/2023",
     "time": 1400,
     "building": "OES",
     "room": "132"
@@ -1425,25 +1425,25 @@
     "date": "12/6/2023",
     "time": 900,
     "building": "RZR",
-    "room": "227"
+    "room": "302"
   },
   "10024": {
-    "date": "12/12/2023",
-    "time": 1900,
+    "date": "12/7/2023",
+    "time": 1400,
     "building": "KWG",
     "room": "128"
   },
   "16171": {
-    "date": "12/12/2023",
-    "time": 900,
+    "date": "12/11/2023",
+    "time": 1900,
     "building": "SEW",
     "room": "133"
   },
   "16173": {
-    "date": "12/12/2023",
-    "time": 900,
-    "building": "HRZ",
-    "room": "211"
+    "date": "12/10/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "304"
   },
   "16174": {
     "date": "12/11/2023",
@@ -1452,13 +1452,13 @@
     "room": "102"
   },
   "16183": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "building": "SEW",
-    "room": "462"
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "HBH",
+    "room": "423"
   },
   "10053": {
-    "date": "12/9/2023",
+    "date": "12/10/2023",
     "time": 1400,
     "building": "DCH",
     "room": "1042"
@@ -1482,208 +1482,208 @@
     "room": "212"
   },
   "10059": {
-    "date": "12/9/2023",
+    "date": "12/7/2023",
     "time": 1900,
     "building": "OES",
     "room": "130"
   },
   "10060": {
-    "date": "12/6/2023",
+    "date": "12/12/2023",
     "time": 1400,
     "building": "PCF",
     "room": "3"
   },
   "14155": {
-    "date": "12/12/2023",
-    "time": 1900,
+    "date": "12/7/2023",
+    "time": 1400,
     "building": "DCH",
     "room": "1075"
   },
   "14156": {
-    "date": "12/6/2023",
-    "time": 900,
+    "date": "12/7/2023",
+    "time": 1400,
     "building": "BRK",
     "room": "101"
   },
   "14159": {
-    "date": "12/9/2023",
-    "time": 1400,
+    "date": "12/10/2023",
+    "time": 1900,
     "building": "SEW",
     "room": "101"
   },
   "14160": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "building": "HUM",
-    "room": "328"
-  },
-  "14162": {
-    "date": "12/12/2023",
-    "time": 900,
-    "building": "RZR",
-    "room": "304"
-  },
-  "14163": {
-    "date": "12/11/2023",
-    "time": 900,
-    "building": "DCH",
-    "room": "1075"
-  },
-  "14164": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "building": "RZR",
-    "room": "304"
-  },
-  "14165": {
-    "date": "12/10/2023",
+    "date": "12/9/2023",
     "time": 900,
     "building": "HUM",
     "room": "119"
   },
-  "14166": {
-    "date": "12/8/2023",
+  "14162": {
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "304"
+  },
+  "14163": {
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "DCH",
+    "room": "1075"
+  },
+  "14164": {
+    "date": "12/12/2023",
     "time": 900,
-    "building": "UNASSIGNED",
-    "room": "UNASSIGNED"
+    "building": "RZR",
+    "room": "304"
+  },
+  "14165": {
+    "date": "12/6/2023",
+    "time": 1400,
+    "building": "HUM",
+    "room": "328"
+  },
+  "14166": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "SEW",
+    "room": "305"
   },
   "10073": {
-    "date": "12/8/2023",
+    "date": "12/10/2023",
     "time": 1400,
     "building": "KWG",
     "room": "128"
   },
   "10074": {
-    "date": "12/8/2023",
-    "time": 1900,
+    "date": "12/12/2023",
+    "time": 900,
     "building": "ABL",
     "room": "130"
   },
   "10075": {
-    "date": "12/12/2023",
-    "time": 1900,
+    "date": "12/11/2023",
+    "time": 1400,
     "building": "dummy",
     "room": "2"
   },
   "10079": {
     "date": "12/6/2023",
     "time": 900,
-    "building": "SEW",
-    "room": "133"
+    "building": "BKH",
+    "room": "233"
   },
   "10084": {
-    "date": "12/7/2023",
+    "date": "12/11/2023",
     "time": 1400,
     "building": "SEW",
     "room": "309"
   },
   "12133": {
     "date": "12/11/2023",
-    "time": 900,
+    "time": 1900,
     "building": "HRG",
     "room": "128"
   },
   "10087": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "building": "SEW",
-    "room": "309"
-  },
-  "10092": {
     "date": "12/9/2023",
     "time": 900,
+    "building": "DBH",
+    "room": "180"
+  },
+  "10092": {
+    "date": "12/11/2023",
+    "time": 1400,
     "building": "BRK",
     "room": "101"
   },
   "10093": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "building": "KCK",
-    "room": "100"
+    "date": "12/7/2023",
+    "time": 1400,
+    "building": "dummy",
+    "room": "2"
   },
   "14198": {
     "date": "12/6/2023",
     "time": 900,
-    "building": "WSC",
-    "room": "146"
+    "building": "SEW",
+    "room": "101"
   },
   "14199": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "DCH",
-    "room": "1075"
+    "date": "12/7/2023",
+    "time": 1400,
+    "building": "KRF",
+    "room": "105"
   },
   "14200": {
-    "date": "12/8/2023",
-    "time": 1400,
+    "date": "12/6/2023",
+    "time": 900,
     "building": "SEW",
     "room": "462"
   },
   "12153": {
-    "date": "12/12/2023",
+    "date": "12/9/2023",
     "time": 1900,
-    "building": "WSC",
-    "room": "123"
+    "building": "HRG",
+    "room": "128"
   },
   "12157": {
-    "date": "12/8/2023",
-    "time": 1400,
+    "date": "12/7/2023",
+    "time": 900,
     "building": "RZR",
     "room": "227"
   },
   "10114": {
-    "date": "12/12/2023",
-    "time": 900,
+    "date": "12/8/2023",
+    "time": 1400,
     "building": "MXF",
     "room": "251"
   },
   "10115": {
-    "date": "12/12/2023",
-    "time": 1400,
+    "date": "12/11/2023",
+    "time": 900,
     "building": "DCC",
     "room": "113"
   },
   "10116": {
-    "date": "12/9/2023",
+    "date": "12/8/2023",
     "time": 1400,
-    "building": "DCH",
-    "room": "1055"
+    "building": "dummy",
+    "room": "3"
   },
   "12169": {
-    "date": "12/12/2023",
-    "time": 1900,
+    "date": "12/7/2023",
+    "time": 900,
     "building": "HUM",
-    "room": "119"
+    "room": "328"
   },
   "12170": {
     "date": "12/6/2023",
     "time": 1900,
     "building": "HUM",
-    "room": "328"
+    "room": "119"
   },
   "12179": {
-    "date": "12/7/2023",
-    "time": 1400,
+    "date": "12/6/2023",
+    "time": 900,
     "building": "OES",
-    "room": "130"
+    "room": "132"
   },
   "12180": {
     "date": "12/12/2023",
-    "time": 1900,
+    "time": 900,
     "building": "SST",
     "room": "106"
   },
   "16277": {
-    "date": "12/7/2023",
-    "time": 900,
-    "building": "HRG",
-    "room": "128"
+    "date": "12/11/2023",
+    "time": 1400,
+    "building": "RZR",
+    "room": "302"
   },
   "16282": {
-    "date": "12/12/2023",
+    "date": "12/9/2023",
     "time": 1900,
-    "building": "BRC",
-    "room": "282"
+    "building": "RZR",
+    "room": "119"
   },
   "10139": {
     "date": "12/6/2023",
@@ -1693,105 +1693,105 @@
   },
   "16285": {
     "date": "12/10/2023",
-    "time": 900,
+    "time": 1900,
     "building": "SEW",
     "room": "309"
   },
   "14254": {
-    "date": "12/8/2023",
-    "time": 1400,
+    "date": "12/10/2023",
+    "time": 1900,
     "building": "ABL",
     "room": "130"
   },
   "16311": {
-    "date": "12/12/2023",
-    "time": 900,
-    "building": "RZR",
-    "room": "310"
-  },
-  "12231": {
-    "date": "12/12/2023",
-    "time": 1900,
+    "date": "12/10/2023",
+    "time": 1400,
     "building": "RZR",
     "room": "227"
   },
-  "16343": {
+  "12231": {
     "date": "12/6/2023",
-    "time": 1900,
+    "time": 900,
+    "building": "RZR",
+    "room": "202"
+  },
+  "16343": {
+    "date": "12/12/2023",
+    "time": 900,
     "building": "HUM",
     "room": "117"
   },
   "10200": {
     "date": "12/12/2023",
-    "time": 900,
-    "building": "WSC",
-    "room": "123"
+    "time": 1900,
+    "building": "SEW",
+    "room": "562"
   },
   "16344": {
-    "date": "12/12/2023",
-    "time": 900,
-    "building": "OES",
-    "room": "130"
+    "date": "12/11/2023",
+    "time": 1400,
+    "building": "DCC",
+    "room": "113"
   },
   "14299": {
-    "date": "12/11/2023",
-    "time": 900,
+    "date": "12/6/2023",
+    "time": 1900,
     "building": "ABL",
     "room": "131"
   },
   "16347": {
-    "date": "12/10/2023",
-    "time": 1400,
+    "date": "12/8/2023",
+    "time": 900,
     "building": "RZR",
-    "room": "205"
+    "room": "304"
   },
   "16349": {
     "date": "12/11/2023",
-    "time": 1900,
+    "time": 900,
     "building": "BRC",
     "room": "286"
   },
   "16350": {
-    "date": "12/9/2023",
-    "time": 1400,
+    "date": "12/6/2023",
+    "time": 1900,
     "building": "RZR",
     "room": "227"
   },
   "14303": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "building": "SEW",
-    "room": "301"
+    "date": "12/7/2023",
+    "time": 900,
+    "building": "ABL",
+    "room": "131"
   },
   "10205": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "SEW",
-    "room": "562"
+    "date": "12/10/2023",
+    "time": 1400,
+    "building": "RZR",
+    "room": "302"
   },
   "12251": {
-    "date": "12/11/2023",
-    "time": 1400,
+    "date": "12/10/2023",
+    "time": 1900,
     "building": "BRC",
     "room": "282"
   },
   "10209": {
-    "date": "12/12/2023",
+    "date": "12/8/2023",
     "time": 1900,
-    "building": "RZR",
-    "room": "202"
+    "building": "HRG",
+    "room": "128"
   },
   "10210": {
-    "date": "12/8/2023",
-    "time": 900,
-    "building": "UNASSIGNED",
-    "room": "UNASSIGNED"
+    "date": "12/10/2023",
+    "time": 1400,
+    "building": "DCH",
+    "room": "1064"
   },
   "16354": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "building": "DCH",
-    "room": "1075"
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "RZR",
+    "room": "123"
   },
   "16352": {
     "date": "12/12/2023",
@@ -1801,73 +1801,73 @@
   },
   "16353": {
     "date": "12/12/2023",
-    "time": 1900,
+    "time": 900,
     "building": "DCH",
     "room": "1064"
   },
   "10211": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "building": "KWG",
-    "room": "128"
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "MCA",
+    "room": "103"
   },
   "10212": {
-    "date": "12/11/2023",
-    "time": 900,
-    "building": "SEW",
-    "room": "101"
+    "date": "12/10/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "123"
   },
   "16359": {
-    "date": "12/6/2023",
+    "date": "12/11/2023",
     "time": 900,
-    "building": "WSC",
-    "room": "123"
+    "building": "RZR",
+    "room": "302"
   },
   "16357": {
     "date": "12/11/2023",
-    "time": 900,
+    "time": 1900,
     "building": "RZR",
     "room": "302"
   },
   "16374": {
     "date": "12/9/2023",
     "time": 900,
-    "building": "KRF",
-    "room": "102"
+    "building": "WSC",
+    "room": "123"
   },
   "10233": {
-    "date": "12/9/2023",
+    "date": "12/6/2023",
     "time": 1900,
-    "building": "RZR",
-    "room": "227"
+    "building": "SEW",
+    "room": "562"
   },
   "10234": {
-    "date": "12/6/2023",
-    "time": 900,
-    "building": "KRF",
-    "room": "120"
+    "date": "12/10/2023",
+    "time": 1400,
+    "building": "WSC",
+    "room": "123"
   },
   "10235": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "building": "OES",
-    "room": "130"
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "BRK",
+    "room": "101"
   },
   "10237": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "building": "RZR",
-    "room": "227"
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "SEW",
+    "room": "562"
   },
   "16383": {
     "date": "12/8/2023",
-    "time": 900,
-    "building": "UNASSIGNED",
-    "room": "UNASSIGNED"
+    "time": 1400,
+    "building": "DCH",
+    "room": "1055"
   },
   "12802": {
-    "date": "12/6/2023",
-    "time": 900,
+    "date": "12/7/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -1903,7 +1903,7 @@
   },
   "14362": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -1962,7 +1962,7 @@
     "room": "N/A"
   },
   "11309": {
-    "date": "12/6/2023",
+    "date": "12/7/2023",
     "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
@@ -1974,14 +1974,14 @@
     "room": "N/A"
   },
   "12343": {
-    "date": "12/7/2023",
-    "time": 900,
+    "date": "12/6/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "12344": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -1999,13 +1999,13 @@
   },
   "12346": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "12347": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2029,7 +2029,7 @@
   },
   "12351": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2041,7 +2041,7 @@
   },
   "14914": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2088,7 +2088,7 @@
     "room": "N/A"
   },
   "12359": {
-    "date": "12/7/2023",
+    "date": "12/6/2023",
     "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
@@ -2113,7 +2113,7 @@
   },
   "12363": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2137,13 +2137,13 @@
   },
   "12367": {
     "date": "12/6/2023",
-    "time": 1900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "12368": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2179,7 +2179,7 @@
   },
   "12375": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2209,7 +2209,7 @@
   },
   "12381": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2244,7 +2244,7 @@
     "room": "N/A"
   },
   "10340": {
-    "date": "12/6/2023",
+    "date": "12/12/2023",
     "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
@@ -2256,8 +2256,8 @@
     "room": "N/A"
   },
   "12915": {
-    "date": "12/10/2023",
-    "time": 1900,
+    "date": "12/9/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2268,49 +2268,49 @@
     "room": "N/A"
   },
   "15478": {
-    "date": "12/10/2023",
-    "time": 1400,
+    "date": "12/11/2023",
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15479": {
-    "date": "12/9/2023",
-    "time": 1400,
+    "date": "12/8/2023",
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15480": {
-    "date": "12/10/2023",
+    "date": "12/8/2023",
     "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15481": {
-    "date": "12/7/2023",
-    "time": 1900,
+    "date": "12/8/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "11898": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15482": {
-    "date": "12/8/2023",
+    "date": "12/6/2023",
     "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15483": {
     "date": "12/8/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15484": {
-    "date": "12/6/2023",
+    "date": "12/8/2023",
     "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
@@ -2322,44 +2322,44 @@
     "room": "N/A"
   },
   "15487": {
-    "date": "12/6/2023",
-    "time": 1400,
+    "date": "12/7/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15488": {
-    "date": "12/7/2023",
-    "time": 1400,
+    "date": "12/6/2023",
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "12927": {
-    "date": "12/7/2023",
-    "time": 1400,
+    "date": "12/8/2023",
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15498": {
-    "date": "12/6/2023",
-    "time": 1400,
+    "date": "12/7/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "13453": {
-    "date": "12/11/2023",
-    "time": 1900,
+    "date": "12/6/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "12947": {
     "date": "12/7/2023",
-    "time": 1900,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "12948": {
-    "date": "12/9/2023",
-    "time": 900,
+    "date": "12/8/2023",
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2371,19 +2371,19 @@
   },
   "14999": {
     "date": "12/9/2023",
-    "time": 900,
-    "building": "TAKE_HOME",
-    "room": "N/A"
-  },
-  "16026": {
-    "date": "12/11/2023",
     "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
+  "16026": {
+    "date": "12/9/2023",
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
   "15433": {
-    "date": "12/6/2023",
-    "time": 900,
+    "date": "12/7/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2394,8 +2394,8 @@
     "room": "N/A"
   },
   "11946": {
-    "date": "12/7/2023",
-    "time": 900,
+    "date": "12/6/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2406,8 +2406,8 @@
     "room": "N/A"
   },
   "13485": {
-    "date": "12/6/2023",
-    "time": 1900,
+    "date": "12/7/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2419,37 +2419,37 @@
   },
   "15546": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "14012": {
-    "date": "12/6/2023",
-    "time": 1900,
+    "date": "12/8/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "16064": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15555": {
-    "date": "12/7/2023",
-    "time": 1400,
+    "date": "12/8/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15556": {
     "date": "12/6/2023",
-    "time": 1900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "16068": {
-    "date": "12/9/2023",
-    "time": 1400,
+    "date": "12/10/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2460,8 +2460,8 @@
     "room": "N/A"
   },
   "13512": {
-    "date": "12/7/2023",
-    "time": 1900,
+    "date": "12/8/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2479,25 +2479,25 @@
   },
   "14030": {
     "date": "12/7/2023",
-    "time": 1400,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "13529": {
-    "date": "12/8/2023",
+    "date": "12/6/2023",
     "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "13530": {
-    "date": "12/8/2023",
+    "date": "12/6/2023",
     "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "13531": {
-    "date": "12/7/2023",
-    "time": 900,
+    "date": "12/6/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2508,20 +2508,20 @@
     "room": "N/A"
   },
   "11340": {
-    "date": "12/11/2023",
+    "date": "12/8/2023",
     "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "13023": {
-    "date": "12/8/2023",
+    "date": "12/7/2023",
     "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15587": {
     "date": "12/8/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2545,7 +2545,7 @@
   },
   "14053": {
     "date": "12/11/2023",
-    "time": 1400,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2556,8 +2556,8 @@
     "room": "N/A"
   },
   "13552": {
-    "date": "12/8/2023",
-    "time": 1400,
+    "date": "12/10/2023",
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2574,8 +2574,8 @@
     "room": "N/A"
   },
   "10017": {
-    "date": "12/9/2023",
-    "time": 1400,
+    "date": "12/6/2023",
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2587,24 +2587,24 @@
   },
   "15652": {
     "date": "12/6/2023",
-    "time": 900,
-    "building": "TAKE_HOME",
-    "room": "N/A"
-  },
-  "15653": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "building": "TAKE_HOME",
-    "room": "N/A"
-  },
-  "15142": {
-    "date": "12/12/2023",
     "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
+  "15653": {
+    "date": "12/6/2023",
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15142": {
+    "date": "12/11/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
   "15143": {
-    "date": "12/9/2023",
+    "date": "12/8/2023",
     "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
@@ -2616,8 +2616,8 @@
     "room": "N/A"
   },
   "15660": {
-    "date": "12/7/2023",
-    "time": 1400,
+    "date": "12/6/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2629,7 +2629,7 @@
   },
   "15148": {
     "date": "12/7/2023",
-    "time": 1400,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2647,19 +2647,19 @@
   },
   "16444": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15154": {
-    "date": "12/6/2023",
-    "time": 1900,
+    "date": "12/9/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15667": {
-    "date": "12/7/2023",
-    "time": 1900,
+    "date": "12/6/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2676,8 +2676,8 @@
     "room": "N/A"
   },
   "11588": {
-    "date": "12/7/2023",
-    "time": 1400,
+    "date": "12/6/2023",
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2695,7 +2695,7 @@
   },
   "11592": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2706,20 +2706,20 @@
     "room": "N/A"
   },
   "15690": {
-    "date": "12/7/2023",
+    "date": "12/8/2023",
     "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15431": {
-    "date": "12/6/2023",
-    "time": 1900,
+    "date": "12/8/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "10061": {
-    "date": "12/10/2023",
-    "time": 900,
+    "date": "12/11/2023",
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2731,13 +2731,13 @@
   },
   "13647": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "13648": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2749,13 +2749,13 @@
   },
   "13650": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "13651": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2767,7 +2767,7 @@
   },
   "10578": {
     "date": "12/7/2023",
-    "time": 900,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2778,8 +2778,8 @@
     "room": "N/A"
   },
   "15191": {
-    "date": "12/6/2023",
-    "time": 1400,
+    "date": "12/7/2023",
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2790,8 +2790,8 @@
     "room": "N/A"
   },
   "16217": {
-    "date": "12/7/2023",
-    "time": 900,
+    "date": "12/6/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2808,20 +2808,20 @@
     "room": "N/A"
   },
   "10076": {
-    "date": "12/10/2023",
-    "time": 1900,
+    "date": "12/8/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "10077": {
-    "date": "12/6/2023",
-    "time": 1400,
+    "date": "12/7/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "10078": {
-    "date": "12/7/2023",
-    "time": 900,
+    "date": "12/8/2023",
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2839,13 +2839,13 @@
   },
   "10597": {
     "date": "12/7/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "16455": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2856,8 +2856,8 @@
     "room": "N/A"
   },
   "11624": {
-    "date": "12/7/2023",
-    "time": 900,
+    "date": "12/6/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2868,20 +2868,20 @@
     "room": "N/A"
   },
   "11625": {
-    "date": "12/6/2023",
-    "time": 1400,
+    "date": "12/7/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15725": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "10094": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2893,13 +2893,13 @@
   },
   "14707": {
     "date": "12/7/2023",
-    "time": 1900,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "14423": {
     "date": "12/11/2023",
-    "time": 900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2910,32 +2910,32 @@
     "room": "N/A"
   },
   "11654": {
-    "date": "12/6/2023",
+    "date": "12/10/2023",
     "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15755": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "10123": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15756": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "10128": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2965,13 +2965,13 @@
   },
   "13717": {
     "date": "12/7/2023",
-    "time": 1900,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "12181": {
-    "date": "12/8/2023",
-    "time": 1900,
+    "date": "12/7/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -2983,7 +2983,7 @@
   },
   "11155": {
     "date": "12/7/2023",
-    "time": 900,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -3000,8 +3000,8 @@
     "room": "N/A"
   },
   "11156": {
-    "date": "12/12/2023",
-    "time": 1400,
+    "date": "12/11/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -3013,7 +3013,7 @@
   },
   "15779": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -3025,7 +3025,7 @@
   },
   "14762": {
     "date": "12/7/2023",
-    "time": 900,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -3036,50 +3036,50 @@
     "room": "N/A"
   },
   "14253": {
-    "date": "12/7/2023",
-    "time": 900,
+    "date": "12/6/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "14764": {
-    "date": "12/9/2023",
-    "time": 1900,
+    "date": "12/8/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "14765": {
     "date": "12/6/2023",
-    "time": 1900,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "12210": {
     "date": "12/7/2023",
-    "time": 900,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15796": {
-    "date": "12/7/2023",
+    "date": "12/8/2023",
     "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15797": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "building": "TAKE_HOME",
-    "room": "N/A"
-  },
-  "11705": {
     "date": "12/6/2023",
     "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
-  "11708": {
+  "11705": {
     "date": "12/6/2023",
     "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "11708": {
+    "date": "12/6/2023",
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -3097,36 +3097,36 @@
   },
   "12741": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15304": {
-    "date": "12/9/2023",
-    "time": 1900,
+    "date": "12/6/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "15820": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "12749": {
     "date": "12/7/2023",
-    "time": 1900,
-    "building": "TAKE_HOME",
-    "room": "N/A"
-  },
-  "15821": {
-    "date": "12/7/2023",
     "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
+  "15821": {
+    "date": "12/6/2023",
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
   "13263": {
-    "date": "12/9/2023",
+    "date": "12/6/2023",
     "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
@@ -3138,8 +3138,8 @@
     "room": "N/A"
   },
   "16340": {
-    "date": "12/6/2023",
-    "time": 1400,
+    "date": "12/7/2023",
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -3156,56 +3156,56 @@
     "room": "N/A"
   },
   "10198": {
-    "date": "12/7/2023",
-    "time": 1900,
+    "date": "12/8/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "10716": {
     "date": "12/7/2023",
-    "time": 1400,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "10717": {
-    "date": "12/8/2023",
+    "date": "12/7/2023",
     "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "14300": {
-    "date": "12/6/2023",
-    "time": 1400,
+    "date": "12/11/2023",
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "11747": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "12776": {
     "date": "12/6/2023",
-    "time": 900,
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "13801": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "16363": {
     "date": "12/6/2023",
-    "time": 1400,
+    "time": 1900,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
   "12780": {
-    "date": "12/8/2023",
-    "time": 900,
+    "date": "12/9/2023",
+    "time": 1400,
     "building": "TAKE_HOME",
     "room": "N/A"
   },
@@ -3216,8 +3216,8 @@
     "room": "N/A"
   },
   "12799": {
-    "date": "12/6/2023",
-    "time": 1400,
+    "date": "12/7/2023",
+    "time": 900,
     "building": "TAKE_HOME",
     "room": "N/A"
   }
