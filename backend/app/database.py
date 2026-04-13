@@ -17,6 +17,7 @@ def _migrate(conn):
         ("exam", "section", "TEXT"),
         ("exam", "title", "TEXT"),
         ("exam", "instructor", "TEXT"),
+        ("exam", "exam_type", "TEXT"),
     ]
     for table, column, col_type in migrations:
         try:

@@ -1,10 +1,50 @@
-from fastapi import APIRouter, Depends, HTTPException
+from typing import Optional
+
+from fastapi import APIRouter, Depends, HTTPException, Query
 from sqlmodel import Session, select
 
 from ..database import get_session
-from ..models import Room, RoomCreate
+from ..models import Exam, Room, RoomCreate, Schedule, TimeSlot
 
 router = APIRouter(prefix="/rooms", tags=["rooms"])
+
+
+@router.get("/detailed")
+def list_rooms_detailed(
+    version_id: Optional[int] = Query(None),
+    session: Session = Depends(get_session),
+):
+    from ..routers.schedules import _get_version_id
+    vid = _get_version_id(session, version_id)
+
+    schedules = session.exec(select(Schedule).where(Schedule.version_id == vid)).all()
+
+    # Index schedules by room
+    room_schedules: dict[int, list[dict]] = {}
+    for s in schedules:
+        exam = session.get(Exam, s.exam_id)
+        ts = session.get(TimeSlot, s.timeslot_id)
+        entry = {
+            "schedule_id": s.id,
+            "exam": exam.model_dump() if exam else None,
+            "timeslot": ts.model_dump() if ts else None,
+        }
+        room_schedules.setdefault(s.room_id, []).append(entry)
+
+    rooms = session.exec(select(Room)).all()
+    result = []
+    for r in rooms:
+        entries = room_schedules.get(r.id, [])
+        # Sort entries by date then time
+        entries.sort(key=lambda e: (
+            e["timeslot"]["date"] if e["timeslot"] else "",
+            e["timeslot"]["start_time"] if e["timeslot"] else "",
+        ))
+        result.append({"room": r.model_dump(), "schedules": entries})
+
+    # Sort: rooms with exams first, then by building + name
+    result.sort(key=lambda x: (len(x["schedules"]) == 0, x["room"]["building"], x["room"]["name"]))
+    return result
 
 
 @router.get("/", response_model=list[Room])

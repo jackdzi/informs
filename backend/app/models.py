@@ -25,6 +25,7 @@ class Exam(SQLModel, table=True):
     section: Optional[str] = None
     title: Optional[str] = None
     instructor: Optional[str] = None
+    exam_type: Optional[str] = None   # e.g. "No Final Exam", "Scheduled Final Exam-OTR Room"
     student_count: int
     duration_minutes: int
 

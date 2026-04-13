@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef, useCallback } from "react";
 import "./styles.css";
-import { DetailedSchedule, TimeSlot, Conflict, Analytics, StudentInfo, ScheduleVersion } from "./types";
+import { DetailedSchedule, TimeSlot, Conflict, Analytics, StudentInfo, ScheduleVersion, RoomDetailed } from "./types";
 import { API } from "./helpers";
 import { CalendarGrid, OpenSlot } from "./components/CalendarGrid";
 import { AnalyticsPanel } from "./components/AnalyticsPanel";
@@ -9,8 +9,11 @@ import { VersionSelector } from "./components/VersionSelector";
 import { StudentsPage } from "./components/StudentsPage";
 import { StudentDetailView } from "./components/StudentDetailView";
 import { ExamStudentsModal } from "./components/ExamStudentsModal";
+import { UnscheduledModal } from "./components/UnscheduledModal";
+import { RescheduleModal } from "./components/RescheduleModal";
+import { RoomsPage } from "./components/RoomsPage";
 
-type Page = "exams" | "students";
+type Page = "exams" | "students" | "rooms";
 
 export default function App() {
   const [page, setPage] = useState<Page>("exams");
@@ -21,6 +24,7 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [week, setWeek] = useState(0);
   const [students, setStudents] = useState<StudentInfo[]>([]);
+  const [roomsDetailed, setRoomsDetailed] = useState<RoomDetailed[]>([]);
   const [versions, setVersions] = useState<ScheduleVersion[]>([]);
   const [activeVersionId, setActiveVersionId] = useState<number>(1);
 
@@ -32,6 +36,9 @@ export default function App() {
   // Drawer + exam students modal (lifted so they survive navigation)
   const [openSlot, setOpenSlot] = useState<OpenSlot | null>(null);
   const [examModal, setExamModal] = useState<{ examId: number; examName: string } | null>(null);
+  const [showUnscheduled, setShowUnscheduled] = useState(false);
+  const [includeNoExam, setIncludeNoExam] = useState(false);
+  const [rescheduleTarget, setRescheduleTarget] = useState<DetailedSchedule | null>(null);
 
   // Drag state
   const draggedRef = useRef<DetailedSchedule | null>(null);
@@ -57,21 +64,30 @@ export default function App() {
       .catch(console.error);
   }, [activeVersionId]);
 
+  const fetchAnalytics = useCallback(() => {
+    fetch(`${API}/schedules/analytics?${vParam}&include_no_exam=${includeNoExam}`)
+      .then((r) => r.json())
+      .then(setAnalytics)
+      .catch(console.error);
+  }, [vParam, includeNoExam]);
+
   const fetchData = useCallback((showLoading = false) => {
     if (showLoading) setLoading(true);
     Promise.all([
       fetch(`${API}/schedules/detailed?${vParam}`).then((r) => r.json()),
       fetch(`${API}/schedules/timeslots`).then((r) => r.json()),
       fetch(`${API}/schedules/conflicts?${vParam}`).then((r) => r.json()),
-      fetch(`${API}/schedules/analytics?${vParam}`).then((r) => r.json()),
+      fetch(`${API}/schedules/analytics?${vParam}&include_no_exam=${includeNoExam}`).then((r) => r.json()),
       fetch(`${API}/schedules/students`).then((r) => r.json()),
+      fetch(`${API}/rooms/detailed?${vParam}`).then((r) => r.json()),
     ])
-      .then(([s, t, c, a, st]) => {
+      .then(([s, t, c, a, st, rd]) => {
         setSchedules(s);
         setTimeslots(t);
         setConflicts(c.conflicts || []);
         setAnalytics(a);
         setStudents(Array.isArray(st) ? st : []);
+        setRoomsDetailed(Array.isArray(rd) ? rd : []);
       })
       .catch(console.error)
       .finally(() => setLoading(false));
@@ -79,6 +95,7 @@ export default function App() {
 
   useEffect(() => { fetchVersions(); }, [fetchVersions]);
   useEffect(() => { fetchData(true); }, [fetchData]);
+  useEffect(() => { fetchAnalytics(); }, [fetchAnalytics]);
 
   useEffect(() => {
     const clearDrag = () => { draggedRef.current = null; setDraggingId(null); };
@@ -181,6 +198,7 @@ export default function App() {
               onDragStart={handleExamDragStart}
               onDrop={handleExamDrop}
               draggingId={draggingId}
+              onReschedule={(s) => setRescheduleTarget(s)}
             />
           </div>
         </div>
@@ -210,6 +228,9 @@ export default function App() {
               </button>
               <button className={`header-nav-btn ${page === "students" ? "active" : ""}`} onClick={() => setPage("students")}>
                 Students
+              </button>
+              <button className={`header-nav-btn ${page === "rooms" ? "active" : ""}`} onClick={() => setPage("rooms")}>
+                Rooms
               </button>
             </nav>
             <div className={`autosave-indicator ${autoSaveStatus}`}>
@@ -251,10 +272,23 @@ export default function App() {
                   <span className="stat-secondary"> / {analytics?.total_rooms ?? 0}</span>
                 </div>
               </div>
+              <div className="stat-card stat-card-toggle">
+                <label className="no-exam-toggle">
+                  <input
+                    type="checkbox"
+                    checked={includeNoExam}
+                    onChange={(e) => setIncludeNoExam(e.target.checked)}
+                  />
+                  <span>Include No-Exam</span>
+                </label>
+              </div>
             </div>
 
             <div className="section-title">
               <h2>Exam Calendar</h2>
+              <button className="unscheduled-btn" onClick={() => setShowUnscheduled(true)}>
+                {(analytics?.total_exams ?? 0) - (analytics?.scheduled_exams ?? 0)} unscheduled
+              </button>
             </div>
 
             <CalendarGrid
@@ -272,6 +306,7 @@ export default function App() {
                 examId: s.exam?.id ?? 0,
                 examName: s.exam?.course_name ?? "Exam",
               })}
+              onMoveClick={(s) => setRescheduleTarget(s)}
             />
           </div>
 
@@ -297,6 +332,32 @@ export default function App() {
             />
           </div>
         </div>
+      )}
+
+      {page === "rooms" && (
+        <div className="layout">
+          <div className="calendar-col">
+            <RoomsPage rooms={roomsDetailed} />
+          </div>
+        </div>
+      )}
+
+      {rescheduleTarget && (
+        <RescheduleModal
+          schedule={rescheduleTarget}
+          versionId={activeVersionId}
+          onClose={() => setRescheduleTarget(null)}
+          onRescheduled={() => fetchData(false)}
+        />
+      )}
+
+      {showUnscheduled && (
+        <UnscheduledModal
+          versionId={activeVersionId}
+          includeNoExam={includeNoExam}
+          onClose={() => setShowUnscheduled(false)}
+          onScheduled={() => fetchData(false)}
+        />
       )}
 
       {conflictModal && (

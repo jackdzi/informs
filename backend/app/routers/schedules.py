@@ -214,6 +214,92 @@ def bulk_save_schedules(items: list[ScheduleCreate], version_id: Optional[int] =
     return created
 
 
+# --- Unscheduled / suggestions ---
+
+
+@router.get("/unscheduled")
+def list_unscheduled(
+    version_id: Optional[int] = Query(None),
+    include_no_exam: bool = Query(False),
+    session: Session = Depends(get_session),
+):
+    vid = _get_version_id(session, version_id)
+    scheduled_ids = {
+        s.exam_id for s in session.exec(select(Schedule).where(Schedule.version_id == vid)).all()
+    }
+    all_exams = session.exec(select(Exam)).all()
+    result = []
+    for e in all_exams:
+        if e.id in scheduled_ids:
+            continue
+        if not include_no_exam and e.exam_type == "No Final Exam":
+            continue
+        result.append(e)
+    return result
+
+
+@router.get("/suggest/{exam_id}")
+def suggest_timeslots(
+    exam_id: int,
+    version_id: Optional[int] = Query(None),
+    session: Session = Depends(get_session),
+):
+    vid = _get_version_id(session, version_id)
+    exam = session.get(Exam, exam_id)
+    if not exam:
+        raise HTTPException(404, "Exam not found")
+
+    # Students enrolled in this exam
+    enrolled_ids = {
+        se.student_id
+        for se in session.exec(select(StudentExam).where(StudentExam.exam_id == exam_id)).all()
+    }
+
+    # Current schedule: exam_id -> timeslot_id, timeslot_id -> set of room_ids used
+    schedules = session.exec(select(Schedule).where(Schedule.version_id == vid)).all()
+    exam_to_ts: dict[int, int] = {s.exam_id: s.timeslot_id for s in schedules}
+    ts_rooms: dict[int, set[int]] = defaultdict(set)
+    for s in schedules:
+        ts_rooms[s.timeslot_id].add(s.room_id)
+
+    # For each enrolled student, which timeslots are they already busy at?
+    all_se = session.exec(select(StudentExam)).all()
+    student_busy: dict[int, set[int]] = defaultdict(set)
+    for se in all_se:
+        if se.student_id in enrolled_ids and se.exam_id in exam_to_ts:
+            student_busy[se.student_id].add(exam_to_ts[se.exam_id])
+
+    timeslots = session.exec(select(TimeSlot)).all()
+    rooms = session.exec(select(Room)).all()
+
+    suggestions = []
+    for ts in timeslots:
+        # Skip timeslots where this exam is already scheduled
+        if exam_to_ts.get(exam_id) == ts.id:
+            continue
+        conflict_count = sum(1 for sid in enrolled_ids if ts.id in student_busy.get(sid, set()))
+
+        # Pick best available room: smallest fitting, else largest available
+        used = ts_rooms.get(ts.id, set())
+        available = [r for r in rooms if r.id not in used]
+        fitting = [r for r in available if r.capacity >= exam.student_count]
+        if fitting:
+            best_room = min(fitting, key=lambda r: r.capacity)
+        elif available:
+            best_room = max(available, key=lambda r: r.capacity)
+        else:
+            best_room = None
+
+        suggestions.append({
+            "timeslot": ts.model_dump(),
+            "conflict_count": conflict_count,
+            "room": best_room.model_dump() if best_room else None,
+        })
+
+    suggestions.sort(key=lambda x: (x["conflict_count"], x["timeslot"]["date"], x["timeslot"]["start_time"]))
+    return suggestions[:3]
+
+
 # --- Students ---
 
 
@@ -323,11 +409,16 @@ def get_conflicts(version_id: Optional[int] = Query(None), session: Session = De
 
 
 @router.get("/analytics")
-def get_analytics(version_id: Optional[int] = Query(None), session: Session = Depends(get_session)):
+def get_analytics(
+    version_id: Optional[int] = Query(None),
+    include_no_exam: bool = Query(False),
+    session: Session = Depends(get_session),
+):
     vid = _get_version_id(session, version_id)
     schedules = session.exec(select(Schedule).where(Schedule.version_id == vid)).all()
     rooms = session.exec(select(Room)).all()
-    exams = session.exec(select(Exam)).all()
+    all_exams = session.exec(select(Exam)).all()
+    exams = all_exams if include_no_exam else [e for e in all_exams if e.exam_type != "No Final Exam"]
     timeslots = session.exec(select(TimeSlot)).all()
     enrollments = session.exec(select(StudentExam)).all()
     students = session.exec(select(Student)).all()
@@ -371,7 +462,8 @@ def get_analytics(version_id: Optional[int] = Query(None), session: Session = De
                 "capacity": room.capacity,
             })
 
-    scheduled_ids = set(exam_to_ts.keys())
+    exam_ids = set(exam_map.keys())
+    scheduled_ids = {eid for eid in exam_to_ts.keys() if eid in exam_ids}
     return {
         "total_exams": len(exams),
         "scheduled_exams": len(scheduled_ids),

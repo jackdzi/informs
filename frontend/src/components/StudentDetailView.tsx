@@ -13,6 +13,7 @@ export function StudentDetailView({
   onDragStart,
   onDrop,
   draggingId,
+  onReschedule,
 }: {
   student: StudentInfo;
   conflicts: Conflict[];
@@ -23,6 +24,7 @@ export function StudentDetailView({
   onDragStart: (s: DetailedSchedule) => void;
   onDrop: (date: string, timeRange: string) => void;
   draggingId: number | null;
+  onReschedule?: (s: DetailedSchedule) => void;
 }) {
   const [schedules, setSchedules] = useState<DetailedSchedule[]>([]);
   const [week, setWeek] = useState(0);
@@ -68,6 +70,7 @@ export function StudentDetailView({
         draggingId={draggingId}
         openSlot={openSlot}
         setOpenSlot={setOpenSlot}
+        onChipClick={onReschedule}
       />
 
       {studentConflicts.length > 0 && (

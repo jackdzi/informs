@@ -1,16 +1,9 @@
 import { useEffect } from "react";
 import { DetailedSchedule } from "../types";
-import { formatTime, shortCourse } from "../helpers";
+import { formatTime } from "../helpers";
 
 export function SlotDrawer({
-  date,
-  timeRange,
-  items,
-  colorFn,
-  onClose,
-  onDragStart,
-  onExamClick,
-  draggingId,
+  date, timeRange, items, colorFn, onClose, onDragStart, onExamClick, onMoveClick, draggingId,
 }: {
   date: string;
   timeRange: string;
@@ -19,6 +12,7 @@ export function SlotDrawer({
   onClose: () => void;
   onDragStart?: (s: DetailedSchedule) => void;
   onExamClick?: (s: DetailedSchedule) => void;
+  onMoveClick?: (s: DetailedSchedule) => void;
   draggingId?: number | null;
 }) {
   const [start, end] = timeRange.split("-");
@@ -59,7 +53,6 @@ export function SlotDrawer({
                 e.dataTransfer.setData("text/plain", String(s.id));
                 onDragStart?.(s);
               }}
-              onClick={() => onExamClick?.(s)}
             >
               <div className="drawer-card-left">
                 <div className="drawer-card-course">{s.exam?.course_name ?? "—"}</div>
@@ -74,9 +67,9 @@ export function SlotDrawer({
                   ) : null}
                 </div>
               </div>
-              <div className="drawer-card-right">
-                <div className="drawer-card-code">{shortCourse(s.exam?.course_name ?? "")}</div>
-                <div className="drawer-card-hint">View students ›</div>
+              <div className="drawer-card-actions">
+                <button className="drawer-action-btn" onClick={() => onExamClick?.(s)}>Students</button>
+                <button className="drawer-action-btn drawer-action-move" onClick={() => onMoveClick?.(s)}>Move ⟳</button>
               </div>
             </div>
           ))

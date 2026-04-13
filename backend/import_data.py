@@ -128,6 +128,7 @@ def import_exams(session: Session, csv_path: str, duration_minutes: int) -> dict
                 section=row.get("SECTION", "").strip() or None,
                 title=row.get("COURSE_TITLE", "").strip() or None,
                 instructor=row.get("INSTRUCTOR", "").strip() or None,
+                exam_type=row.get("EXAM_TYPE", "").strip() or None,
                 student_count=enrollment,
                 duration_minutes=duration_minutes,
             )

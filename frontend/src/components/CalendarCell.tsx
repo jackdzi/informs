@@ -5,7 +5,7 @@ import { shortCourse } from "../helpers";
 const PREVIEW = 2; // how many course labels to show before "…"
 
 export function CalendarCell({
-  items, colorFn, date, timeRange, onDragStart, onDrop, draggingId, onCellClick,
+  items, colorFn, date, timeRange, onDragStart, onDrop, draggingId, onCellClick, onChipClick,
 }: {
   items: DetailedSchedule[];
   colorFn: (id: number) => number;
@@ -15,6 +15,7 @@ export function CalendarCell({
   onDrop?: (date: string, timeRange: string) => void;
   draggingId?: number | null;
   onCellClick?: (date: string, timeRange: string) => void;
+  onChipClick?: (s: DetailedSchedule) => void;
 }) {
   const dragCountRef = useRef(0);
   const [dragOver, setDragOver] = useState(false);
@@ -47,7 +48,7 @@ export function CalendarCell({
                   e.dataTransfer.setData("text/plain", String(s.id));
                   onDragStart?.(s);
                 }}
-                onClick={(e) => e.stopPropagation()} // drag only, cell click opens drawer
+                onClick={(e) => { e.stopPropagation(); onChipClick?.(s); }}
               >
                 {shortCourse(s.exam?.course_name ?? "")}
               </div>

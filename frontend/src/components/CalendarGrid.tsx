@@ -8,7 +8,7 @@ export type OpenSlot = { date: string; timeRange: string };
 
 export function CalendarGrid({
   schedules, timeslots, week, setWeek, colorFn, onDragStart, onDrop, draggingId,
-  onExamClick, openSlot, setOpenSlot,
+  onExamClick, onMoveClick, onChipClick, openSlot, setOpenSlot,
 }: {
   schedules: DetailedSchedule[];
   timeslots: TimeSlot[];
@@ -19,6 +19,8 @@ export function CalendarGrid({
   onDrop?: (date: string, timeRange: string) => void;
   draggingId?: number | null;
   onExamClick?: (s: DetailedSchedule) => void;
+  onMoveClick?: (s: DetailedSchedule) => void;
+  onChipClick?: (s: DetailedSchedule) => void;
   openSlot: OpenSlot | null;
   setOpenSlot: (slot: OpenSlot | null) => void;
 }) {
@@ -87,6 +89,7 @@ export function CalendarGrid({
                     onDrop={onDrop}
                     draggingId={draggingId}
                     onCellClick={(d, t) => setOpenSlot({ date: d, timeRange: t })}
+                    onChipClick={onChipClick}
                   />
                 ))}
               </div>
@@ -104,6 +107,7 @@ export function CalendarGrid({
           onClose={() => setOpenSlot(null)}
           onDragStart={onDragStart}
           onExamClick={onExamClick}
+          onMoveClick={onMoveClick}
           draggingId={draggingId}
         />
       )}
