@@ -1,12 +1,34 @@
 from pathlib import Path
 
+from sqlalchemy import text
 from sqlmodel import Session, SQLModel, create_engine, select
 
 DB_PATH = Path(__file__).resolve().parent.parent / "informs.db"
 engine = create_engine(f"sqlite:///{DB_PATH}", echo=False)
 
 
+def _migrate(conn):
+    """Add new columns to existing tables without dropping data."""
+    migrations = [
+        ("student", "person_id", "INTEGER"),
+        ("exam", "crn", "INTEGER"),
+        ("exam", "subject", "TEXT"),
+        ("exam", "course_number", "TEXT"),
+        ("exam", "section", "TEXT"),
+        ("exam", "title", "TEXT"),
+        ("exam", "instructor", "TEXT"),
+    ]
+    for table, column, col_type in migrations:
+        try:
+            conn.execute(text(f"ALTER TABLE {table} ADD COLUMN {column} {col_type}"))
+        except Exception:
+            pass  # column already exists
+
+
 def create_db_and_tables():
+    with engine.connect() as conn:
+        _migrate(conn)
+        conn.commit()
     SQLModel.metadata.create_all(engine)
 
 

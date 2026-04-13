@@ -2,9 +2,13 @@ import { useState } from "react";
 import { DetailedSchedule, TimeSlot } from "../types";
 import { formatTime, WEEKDAYS } from "../helpers";
 import { CalendarCell } from "./CalendarCell";
+import { SlotDrawer } from "./SlotDrawer";
+
+export type OpenSlot = { date: string; timeRange: string };
 
 export function CalendarGrid({
   schedules, timeslots, week, setWeek, colorFn, onDragStart, onDrop, draggingId,
+  onExamClick, openSlot, setOpenSlot,
 }: {
   schedules: DetailedSchedule[];
   timeslots: TimeSlot[];
@@ -14,8 +18,12 @@ export function CalendarGrid({
   onDragStart?: (s: DetailedSchedule) => void;
   onDrop?: (date: string, timeRange: string) => void;
   draggingId?: number | null;
+  onExamClick?: (s: DetailedSchedule) => void;
+  openSlot: OpenSlot | null;
+  setOpenSlot: (slot: OpenSlot | null) => void;
 }) {
   const [dragHoverWeek, setDragHoverWeek] = useState<number | null>(null);
+
   const allDates = [...new Set(timeslots.map((t) => t.date))].sort();
   const weeks: string[][] = [];
   for (let i = 0; i < allDates.length; i += 5) weeks.push(allDates.slice(i, i + 5));
@@ -29,8 +37,10 @@ export function CalendarGrid({
     );
   };
 
+  const openItems = openSlot ? getCell(openSlot.date, openSlot.timeRange) : [];
+
   return (
-    <>
+    <div className="calendar-grid-root">
       <div className="week-toggle">
         {weeks.map((_, i) => (
           <button
@@ -76,6 +86,7 @@ export function CalendarGrid({
                     onDragStart={onDragStart}
                     onDrop={onDrop}
                     draggingId={draggingId}
+                    onCellClick={(d, t) => setOpenSlot({ date: d, timeRange: t })}
                   />
                 ))}
               </div>
@@ -83,6 +94,19 @@ export function CalendarGrid({
           })}
         </div>
       </div>
-    </>
+
+      {openSlot && (
+        <SlotDrawer
+          date={openSlot.date}
+          timeRange={openSlot.timeRange}
+          items={openItems}
+          colorFn={colorFn}
+          onClose={() => setOpenSlot(null)}
+          onDragStart={onDragStart}
+          onExamClick={onExamClick}
+          draggingId={draggingId}
+        />
+      )}
+    </div>
   );
 }

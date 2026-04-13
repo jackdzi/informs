@@ -2,11 +2,13 @@ import { useEffect, useState, useRef, useCallback } from "react";
 import "./styles.css";
 import { DetailedSchedule, TimeSlot, Conflict, Analytics, StudentInfo, ScheduleVersion } from "./types";
 import { API } from "./helpers";
-import { CalendarGrid } from "./components/CalendarGrid";
+import { CalendarGrid, OpenSlot } from "./components/CalendarGrid";
 import { AnalyticsPanel } from "./components/AnalyticsPanel";
 import { ConflictModal } from "./components/ConflictModal";
 import { VersionSelector } from "./components/VersionSelector";
 import { StudentsPage } from "./components/StudentsPage";
+import { StudentDetailView } from "./components/StudentDetailView";
+import { ExamStudentsModal } from "./components/ExamStudentsModal";
 
 type Page = "exams" | "students";
 
@@ -21,6 +23,15 @@ export default function App() {
   const [students, setStudents] = useState<StudentInfo[]>([]);
   const [versions, setVersions] = useState<ScheduleVersion[]>([]);
   const [activeVersionId, setActiveVersionId] = useState<number>(1);
+
+  // Student detail navigation
+  const [selectedStudent, setSelectedStudent] = useState<StudentInfo | null>(null);
+  const [studentReturnPage, setStudentReturnPage] = useState<Page>("students");
+  const [studentReturnLabel, setStudentReturnLabel] = useState("All Students");
+
+  // Drawer + exam students modal (lifted so they survive navigation)
+  const [openSlot, setOpenSlot] = useState<OpenSlot | null>(null);
+  const [examModal, setExamModal] = useState<{ examId: number; examName: string } | null>(null);
 
   // Drag state
   const draggedRef = useRef<DetailedSchedule | null>(null);
@@ -60,7 +71,7 @@ export default function App() {
         setTimeslots(t);
         setConflicts(c.conflicts || []);
         setAnalytics(a);
-        setStudents(st);
+        setStudents(Array.isArray(st) ? st : []);
       })
       .catch(console.error)
       .finally(() => setLoading(false));
@@ -74,6 +85,20 @@ export default function App() {
     document.addEventListener("dragend", clearDrag);
     return () => document.removeEventListener("dragend", clearDrag);
   }, []);
+
+  // ── Navigation helpers ──
+
+  const goToStudent = (student: StudentInfo, returnPage: Page, returnLabel: string) => {
+    setSelectedStudent(student);
+    setStudentReturnPage(returnPage);
+    setStudentReturnLabel(returnLabel);
+    // intentionally NOT clearing openSlot or examModal so they reappear on back
+  };
+
+  const goBack = () => {
+    setSelectedStudent(null);
+    setPage(studentReturnPage);
+  };
 
   // ── Optimistic drag ──
 
@@ -97,7 +122,6 @@ export default function App() {
     const slot = timeslots.find((t) => t.date === date && t.start_time === start && t.end_time === end);
     if (!slot || dragged.timeslot?.id === slot.id) return;
 
-    // Optimistic
     applyOptimisticMove(dragged, slot);
     setAutoSaveStatus("saving");
 
@@ -110,24 +134,58 @@ export default function App() {
         if (!r.ok) throw new Error(`PUT failed: ${r.status}`);
         setAutoSaveStatus("saved");
         setTimeout(() => setAutoSaveStatus("idle"), 1500);
-        // Sync server state for conflicts/analytics
         fetchData(false);
       })
       .catch((err) => {
         console.error("Failed to update schedule:", err);
         setAutoSaveStatus("error");
         setTimeout(() => setAutoSaveStatus("idle"), 2000);
-        // Rollback
         setSchedules((prev) => prev.map((s) => (s.id === dragged.id ? dragged : s)));
       });
   };
 
-  const handleVersionSwitch = (id: number) => {
-    setActiveVersionId(id);
-  };
-
   if (loading) {
     return <div className="app"><div className="loading"><div className="loading-spinner" />Loading schedule...</div></div>;
+  }
+
+  // ── Student detail view (accessible from any page) ──
+  if (selectedStudent) {
+    return (
+      <div className="app">
+        <header className="header">
+          <div className="header-inner">
+            <div className="header-left">
+              <h1 className="logo">InForms</h1>
+              <div className="divider" />
+              <span className="subtitle">Final Exam Scheduling</span>
+            </div>
+            <div className="header-right">
+              <VersionSelector
+                versions={versions}
+                activeVersionId={activeVersionId}
+                onSwitch={setActiveVersionId}
+                onVersionsChanged={fetchVersions}
+              />
+            </div>
+          </div>
+        </header>
+        <div className="layout">
+          <div className="calendar-col">
+            <StudentDetailView
+              student={selectedStudent}
+              conflicts={conflicts}
+              timeslots={timeslots}
+              versionId={activeVersionId}
+              backLabel={studentReturnLabel}
+              onBack={goBack}
+              onDragStart={handleExamDragStart}
+              onDrop={handleExamDrop}
+              draggingId={draggingId}
+            />
+          </div>
+        </div>
+      </div>
+    );
   }
 
   return (
@@ -143,7 +201,7 @@ export default function App() {
             <VersionSelector
               versions={versions}
               activeVersionId={activeVersionId}
-              onSwitch={handleVersionSwitch}
+              onSwitch={setActiveVersionId}
               onVersionsChanged={fetchVersions}
             />
             <nav className="header-nav">
@@ -208,6 +266,12 @@ export default function App() {
               onDragStart={handleExamDragStart}
               onDrop={handleExamDrop}
               draggingId={draggingId}
+              openSlot={openSlot}
+              setOpenSlot={setOpenSlot}
+              onExamClick={(s) => setExamModal({
+                examId: s.exam?.id ?? 0,
+                examName: s.exam?.course_name ?? "Exam",
+              })}
             />
           </div>
 
@@ -229,11 +293,7 @@ export default function App() {
             <StudentsPage
               students={students}
               conflicts={conflicts}
-              timeslots={timeslots}
-              versionId={activeVersionId}
-              onDragStart={handleExamDragStart}
-              onDrop={handleExamDrop}
-              draggingId={draggingId}
+              onStudentClick={(s) => goToStudent(s, "students", "All Students")}
             />
           </div>
         </div>
@@ -244,6 +304,15 @@ export default function App() {
           slotKey={conflictModal.key}
           items={conflictModal.items}
           onClose={() => setConflictModal(null)}
+        />
+      )}
+
+      {examModal && (
+        <ExamStudentsModal
+          examId={examModal.examId}
+          examName={examModal.examName}
+          onClose={() => setExamModal(null)}
+          onStudentClick={(s) => goToStudent(s, "exams", "Exam Calendar")}
         />
       )}
     </div>

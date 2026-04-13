@@ -1,12 +1,11 @@
-import { useState, useRef } from "react";
+import { useRef, useState } from "react";
 import { DetailedSchedule } from "../types";
 import { shortCourse } from "../helpers";
-import { CellPopover } from "./CellPopover";
 
-const MAX_CHIPS = 3;
+const PREVIEW = 2; // how many course labels to show before "…"
 
 export function CalendarCell({
-  items, colorFn, date, timeRange, onDragStart, onDrop, draggingId,
+  items, colorFn, date, timeRange, onDragStart, onDrop, draggingId, onCellClick,
 }: {
   items: DetailedSchedule[];
   colorFn: (id: number) => number;
@@ -15,41 +14,48 @@ export function CalendarCell({
   onDragStart?: (s: DetailedSchedule) => void;
   onDrop?: (date: string, timeRange: string) => void;
   draggingId?: number | null;
+  onCellClick?: (date: string, timeRange: string) => void;
 }) {
-  const [expanded, setExpanded] = useState(false);
   const dragCountRef = useRef(0);
   const [dragOver, setDragOver] = useState(false);
-  const visible = items.slice(0, MAX_CHIPS);
-  const overflow = items.length - MAX_CHIPS;
+
+  const preview = items.slice(0, PREVIEW);
+  const extra = items.length - PREVIEW;
+  const isEmpty = items.length === 0;
 
   return (
     <div
-      className={`calendar-cell${dragOver ? " drag-over" : ""}`}
+      className={`calendar-cell${dragOver ? " drag-over" : ""}${isEmpty ? " cell-empty" : " cell-has-items"}`}
+      onClick={() => !isEmpty && onCellClick?.(date, timeRange)}
       onDragOver={(e) => { e.preventDefault(); e.dataTransfer.dropEffect = "move"; }}
-      onDragEnter={(e) => { e.preventDefault(); e.dataTransfer.dropEffect = "move"; dragCountRef.current++; setDragOver(true); }}
+      onDragEnter={(e) => { e.preventDefault(); dragCountRef.current++; setDragOver(true); }}
       onDragLeave={() => { dragCountRef.current--; if (dragCountRef.current <= 0) { dragCountRef.current = 0; setDragOver(false); } }}
       onDrop={(e) => { e.preventDefault(); dragCountRef.current = 0; setDragOver(false); onDrop?.(date, timeRange); }}
     >
-      {visible.map((s) => (
-        <div
-          key={s.id}
-          className={`exam-chip color-${colorFn(s.exam?.id ?? 0)}${draggingId === s.id ? " dragging" : ""}`}
-          title={`${s.exam?.course_name}\n${s.room?.name} (${s.room?.building})\n${s.exam?.student_count} students`}
-          draggable
-          onDragStart={(e) => {
-            e.dataTransfer.effectAllowed = "move";
-            e.dataTransfer.setData("text/plain", String(s.id));
-            onDragStart?.(s);
-          }}
-        >
-          <span className="chip-course">{shortCourse(s.exam?.course_name ?? "")}</span>
-          <span className="chip-room">{s.room?.name}</span>
-        </div>
-      ))}
-      {overflow > 0 && (
-        <button className="overflow-btn" onClick={() => setExpanded(true)}>+{overflow} more</button>
+      {!isEmpty && (
+        <>
+          <div className="cell-count">{items.length}</div>
+          <div className="cell-previews">
+            {preview.map((s) => (
+              <div
+                key={s.id}
+                className={`cell-chip color-${colorFn(s.exam?.id ?? 0)}${draggingId === s.id ? " dragging" : ""}`}
+                draggable
+                onDragStart={(e) => {
+                  e.stopPropagation();
+                  e.dataTransfer.effectAllowed = "move";
+                  e.dataTransfer.setData("text/plain", String(s.id));
+                  onDragStart?.(s);
+                }}
+                onClick={(e) => e.stopPropagation()} // drag only, cell click opens drawer
+              >
+                {shortCourse(s.exam?.course_name ?? "")}
+              </div>
+            ))}
+            {extra > 0 && <div className="cell-extra">+{extra} more</div>}
+          </div>
+        </>
       )}
-      {expanded && <CellPopover items={items} onClose={() => setExpanded(false)} />}
     </div>
   );
 }

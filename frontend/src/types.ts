@@ -2,7 +2,7 @@ export interface Room { id: number; name: string; capacity: number; building: st
 export interface Exam { id: number; course_name: string; student_count: number; duration_minutes: number }
 export interface TimeSlot { id: number; start_time: string; end_time: string; date: string }
 export interface DetailedSchedule { id: number; exam: Exam | null; room: Room | null; timeslot: TimeSlot | null }
-export interface StudentInfo { id: number; name: string; email: string }
+export interface StudentInfo { id: number; person_id: number | null; name: string | null; email: string | null }
 export interface Conflict { student: StudentInfo | null; timeslot: TimeSlot | null; exams: Exam[] }
 export interface ScheduleVersion { id: number; name: string; active: boolean }
 export interface Analytics {

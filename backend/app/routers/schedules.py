@@ -222,6 +222,19 @@ def list_students(session: Session = Depends(get_session)):
     return session.exec(select(Student)).all()
 
 
+@router.get("/exams/{exam_id}/students")
+def get_exam_students(exam_id: int, session: Session = Depends(get_session)):
+    enrollments = session.exec(
+        select(StudentExam).where(StudentExam.exam_id == exam_id)
+    ).all()
+    students = []
+    for e in enrollments:
+        s = session.get(Student, e.student_id)
+        if s:
+            students.append(s.model_dump())
+    return students
+
+
 @router.get("/students/{student_id}/schedule")
 def get_student_schedule(student_id: int, version_id: Optional[int] = Query(None), session: Session = Depends(get_session)):
     vid = _get_version_id(session, version_id)
