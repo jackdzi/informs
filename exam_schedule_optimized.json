@@ -1,9484 +1,3224 @@
 {
-  "UNIV110": {
-    "date": "12/6/2023",
+  "14344": {
+    "date": "12/12/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "282"
-      }
-    ]
+    "building": "BKH",
+    "room": "116"
+  },
+  "14345": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "DCH",
+    "room": "1042"
   },
-  "COMM120": {
+  "10253": {
     "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "123"
-      }
-    ]
-  },
-  "CHBE495": {
-    "date": "12/11/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
-  },
-  "MILI401": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "233"
-      }
-    ]
+    "building": "dummy",
+    "room": "1"
   },
-  "COMM110": {
-    "date": "12/6/2023",
+  "14349": {
+    "date": "12/9/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "MEB",
-        "room": "128"
-      }
-    ]
+    "building": "KRF",
+    "room": "102"
   },
-  "CHEM213": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "1"
-      }
-    ]
+  "12306": {
+    "date": "12/11/2023",
+    "time": 1400,
+    "building": "PCF",
+    "room": "4"
   },
-  "CSCI477": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "285"
-      }
-    ]
+  "10259": {
+    "date": "12/8/2023",
+    "time": 900,
+    "building": "ABL",
+    "room": "130"
   },
-  "MUSI381": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "102"
-      }
-    ]
-  },
-  "EEPS491": {
-    "date": "12/10/2023",
+  "12316": {
+    "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "126"
-      }
-    ]
-  },
-  "RCEL420": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "ECON498": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1046"
-      }
-    ]
-  },
-  "ECON499": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DBH",
-        "room": "180"
-      }
-    ]
-  },
-  "KINE499": {
-    "date": "12/11/2023",
+    "building": "HRZ",
+    "room": "AMP"
+  },
+  "10282": {
+    "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "102"
-      }
-    ]
-  },
-  "MUSI181": {
+    "building": "RZR",
+    "room": "227"
+  },
+  "14380": {
     "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "130"
-      }
-    ]
-  },
-  "CEVE499": {
-    "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
-  },
-  "FOTO205": {
+    "building": "GRW",
+    "room": "160A"
+  },
+  "12342": {
     "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "210"
-      }
-    ]
-  },
-  "HUMA399": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
+    "time": 1900,
+    "building": "HRZ",
+    "room": "AMP"
   },
-  "MECH477": {
-    "date": "12/6/2023",
+  "14391": {
+    "date": "12/12/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
+    "building": "HUM",
+    "room": "328"
   },
-  "MUSI191": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "MCA",
-        "room": "210"
-      }
-    ]
-  },
-  "MUSI391": {
+  "10300": {
     "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "562"
-      }
-    ]
-  },
-  "MUSI151": {
+    "building": "HRG",
+    "room": "224"
+  },
+  "10301": {
     "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "303"
-      }
-    ]
-  },
-  "MECH490": {
-    "date": "12/10/2023",
+    "building": "HRG",
+    "room": "224"
+  },
+  "10310": {
+    "date": "12/9/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "305"
-      }
-    ]
-  },
-  "ENGL493": {
+    "building": "HRG",
+    "room": "100"
+  },
+  "10315": {
     "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "251"
-      }
-    ]
-  },
-  "COMP390": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "101"
-      }
-    ]
-  },
-  "ENGI120": {
-    "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
+    "building": "SEW",
+    "room": "101"
   },
-  "FWIS188": {
-    "date": "12/6/2023",
+  "10316": {
+    "date": "12/11/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
+    "building": "RZR",
+    "room": "202"
   },
-  "ENGI220": {
-    "date": "12/10/2023",
+  "10317": {
+    "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
-  },
-  "MUSI338": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1055"
-      }
-    ]
-  },
-  "POLI210": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "3"
-      }
-    ]
+    "building": "RZR",
+    "room": "119"
   },
-  "POLI212": {
+  "16470": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1055"
-      }
-    ]
+    "building": "RZR",
+    "room": "310"
   },
-  "POLI405": {
-    "date": "12/7/2023",
+  "16471": {
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "RZR",
+    "room": "310"
+  },
+  "16473": {
+    "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "229"
-      }
-    ]
-  },
-  "ELEC261": {
+    "building": "SEW",
+    "room": "462"
+  },
+  "12389": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "RZR",
+    "room": "302"
+  },
+  "12395": {
     "date": "12/12/2023",
+    "time": 1900,
+    "building": "dummy",
+    "room": "1"
+  },
+  "12397": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "100"
-      }
-    ]
-  },
-  "ELEC326": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "100"
-      }
-    ]
-  },
-  "POLI211": {
+    "building": "BRC",
+    "room": "282"
+  },
+  "10355": {
     "date": "12/11/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
-  },
-  "MECH340": {
+    "building": "RZR",
+    "room": "310"
+  },
+  "10417": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "MCA",
+    "room": "103"
+  },
+  "10419": {
     "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "MECH407": {
+    "building": "RZR",
+    "room": "227"
+  },
+  "10432": {
     "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "100"
-      }
-    ]
-  },
-  "ARCH201": {
+    "building": "OES",
+    "room": "132"
+  },
+  "12546": {
     "date": "12/8/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "DBH",
-        "room": "180"
-      }
-    ]
-  },
-  "ARCH301": {
+    "building": "PCF",
+    "room": "3"
+  },
+  "12549": {
     "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SST",
-        "room": "106"
-      }
-    ]
-  },
-  "ARCH401": {
+    "time": 1900,
+    "building": "DCH",
+    "room": "1055"
+  },
+  "12551": {
+    "date": "12/8/2023",
+    "time": 1900,
+    "building": "MXF",
+    "room": "251"
+  },
+  "14605": {
+    "date": "12/9/2023",
+    "time": 900,
+    "building": "ABL",
+    "room": "131"
+  },
+  "12557": {
     "date": "12/12/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "227"
+  },
+  "14613": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "119"
-      }
-    ]
-  },
-  "COMP412": {
+    "building": "ANH",
+    "room": "117"
+  },
+  "10522": {
     "date": "12/8/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "1"
-      }
-    ]
-  },
-  "COMP450": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "284"
-      }
-    ]
-  },
-  "MATH102": {
+    "building": "DCH",
+    "room": "1075"
+  },
+  "10523": {
     "date": "12/10/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "2"
-      }
-    ]
-  },
-  "MATH212": {
+    "building": "RZR",
+    "room": "310"
+  },
+  "12573": {
     "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DBH",
-        "room": "180"
-      },
-      {
-        "building": "dummy",
-        "room": "1"
-      }
-    ]
-  },
-  "MATH321": {
-    "date": "12/9/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      }
-    ]
-  },
-  "MATH355": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "3"
-      },
-      {
-        "building": "dummy",
-        "room": "3"
-      }
-    ]
-  },
-  "MATH490": {
-    "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "B21"
-      }
-    ]
-  },
-  "NAVA101": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "282"
-      }
-    ]
+    "building": "BRK",
+    "room": "103"
   },
-  "PHYS111": {
-    "date": "12/6/2023",
+  "12574": {
+    "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1020 / SYM II"
-      }
-    ]
+    "building": "KRF",
+    "room": "102"
   },
-  "PHYS125": {
+  "14623": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "1"
-      }
-    ]
+    "building": "DCC",
+    "room": "113"
   },
-  "PHYS425": {
-    "date": "12/8/2023",
+  "14624": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
-  },
-  "PHYS491": {
+    "building": "GRW",
+    "room": "220"
+  },
+  "14625": {
     "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "TUD",
-        "room": "201"
-      }
-    ]
-  },
-  "BIOE252": {
-    "date": "12/11/2023",
+    "time": 1400,
+    "building": "RZR",
+    "room": "227"
+  },
+  "12575": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DBH",
-        "room": "180"
-      }
-    ]
-  },
-  "BIOE400": {
-    "date": "12/10/2023",
+    "building": "KWG",
+    "room": "128"
+  },
+  "12584": {
+    "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
-  },
-  "BIOE451": {
+    "building": "BRC",
+    "room": "282"
+  },
+  "14634": {
     "date": "12/11/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
-  },
-  "CEVE101": {
-    "date": "12/11/2023",
+    "building": "HUM",
+    "room": "328"
+  },
+  "10543": {
+    "date": "12/10/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
-  },
-  "PSYC101": {
-    "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "1"
-      },
-      {
-        "building": "dummy",
-        "room": "2"
-      }
-    ]
-  },
-  "PSYC340": {
+    "building": "PCF",
+    "room": "3"
+  },
+  "10545": {
     "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
-  },
-  "PSYC485": {
+    "building": "GRW",
+    "room": "220"
+  },
+  "10574": {
     "date": "12/9/2023",
+    "time": 900,
+    "building": "DCH",
+    "room": "1075"
+  },
+  "10594": {
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "BKH",
+    "room": "116"
+  },
+  "10595": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "dummy",
+    "room": "3"
+  },
+  "14701": {
+    "date": "12/10/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
+    "building": "MXF",
+    "room": "251"
   },
-  "PSYC499": {
+  "14719": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
+    "building": "SEW",
+    "room": "101"
   },
-  "HEAL222": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
-  },
-  "HEAL460": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SST",
-        "room": "106"
-      }
-    ]
-  },
-  "HEAL499": {
+  "14720": {
     "date": "12/12/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "KWG",
-        "room": "100"
-      }
-    ]
-  },
-  "KINE300": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
-  },
-  "STAT280": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
-  },
-  "STAT305": {
+    "building": "RZR",
+    "room": "202"
+  },
+  "10628": {
+    "date": "12/8/2023",
+    "time": 900,
+    "building": "DCC",
+    "room": "113"
+  },
+  "10634": {
     "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1055"
-      }
-    ]
-  },
-  "STAT310": {
+    "building": "KCK",
+    "room": "102"
+  },
+  "10635": {
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "106"
+  },
+  "14734": {
+    "date": "12/10/2023",
+    "time": 1400,
+    "building": "HRG",
+    "room": "128"
+  },
+  "14735": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "SEW",
+    "room": "133"
+  },
+  "12695": {
+    "date": "12/11/2023",
+    "time": 900,
+    "building": "SEW",
+    "room": "301"
+  },
+  "10650": {
     "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "1"
-      }
-    ]
-  },
-  "HUMA201": {
+    "building": "ABL",
+    "room": "131"
+  },
+  "10651": {
     "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "ANH",
-        "room": "117"
-      }
-    ]
-  },
-  "HUMA309": {
+    "time": 900,
+    "building": "KRF",
+    "room": "110"
+  },
+  "10652": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "HRG",
+    "room": "128"
+  },
+  "12711": {
     "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
-  },
-  "HUMA310": {
-    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
-  },
-  "MUSI117": {
-    "date": "12/10/2023",
+    "building": "RZR",
+    "room": "205"
+  },
+  "12712": {
+    "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1020 / SYM II"
-      }
-    ]
-  },
-  "MUSI141": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "103"
-      }
-    ]
-  },
-  "MUSI231": {
-    "date": "12/8/2023",
+    "building": "RZR",
+    "room": "302"
+  },
+  "10666": {
+    "date": "12/10/2023",
+    "time": 1900,
+    "building": "ABL",
+    "room": "131"
+  },
+  "10667": {
+    "date": "12/9/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "102"
-      }
-    ]
-  },
-  "MUSI281": {
+    "building": "HRZ",
+    "room": "AMP"
+  },
+  "10668": {
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "DCH",
+    "room": "1075"
+  },
+  "10687": {
     "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
+    "building": "HUM",
+    "room": "328"
   },
-  "MUSI291": {
-    "date": "12/6/2023",
+  "12740": {
+    "date": "12/12/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "307"
-      }
-    ]
+    "building": "RZR",
+    "room": "205"
   },
-  "MUSI303": {
-    "date": "12/9/2023",
+  "10715": {
+    "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
-  },
-  "MUSI317": {
+    "building": "SEW",
+    "room": "305"
+  },
+  "12763": {
     "date": "12/10/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
+    "building": "KRF",
+    "room": "102"
   },
-  "MUSI321": {
-    "date": "12/6/2023",
+  "10718": {
+    "date": "12/10/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1064"
-      }
-    ]
+    "building": "SEW",
+    "room": "309"
   },
-  "MUSI331": {
-    "date": "12/7/2023",
+  "10722": {
+    "date": "12/10/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
+    "building": "ABL",
+    "room": "130"
   },
-  "MUSI337": {
-    "date": "12/6/2023",
+  "12775": {
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "HUM",
+    "room": "120"
+  },
+  "10729": {
+    "date": "12/9/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      }
-    ]
+    "building": "PCF",
+    "room": "4"
   },
-  "MUSI340": {
+  "12808": {
     "date": "12/6/2023",
+    "time": 900,
+    "building": "PCF",
+    "room": "4"
+  },
+  "12845": {
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "ANH",
+    "room": "117"
+  },
+  "12861": {
+    "date": "12/10/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "560"
-      }
-    ]
+    "building": "RZR",
+    "room": "302"
   },
-  "MUSI342": {
-    "date": "12/6/2023",
+  "12881": {
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "SEW",
+    "room": "305"
+  },
+  "12882": {
+    "date": "12/10/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "211"
-      }
-    ]
+    "building": "BRC",
+    "room": "282"
   },
-  "MUSI403": {
+  "12885": {
     "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
+    "building": "RZR",
+    "room": "310"
   },
-  "MUSI421": {
+  "10992": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "ANH",
-        "room": "117"
-      }
-    ]
+    "building": "SEW",
+    "room": "303"
   },
-  "MUSI451": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "125"
-      }
-    ]
-  },
-  "MUSI453": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "303"
-      }
-    ]
-  },
-  "MUSI455": {
-    "date": "12/8/2023",
+  "10996": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "RZR",
+    "room": "304"
+  },
+  "15128": {
+    "date": "12/12/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "233"
-      }
-    ]
-  },
-  "MUSI457": {
-    "date": "12/10/2023",
+    "building": "RZR",
+    "room": "123"
+  },
+  "15149": {
+    "date": "12/12/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "460"
-      }
-    ]
-  },
-  "MUSI461": {
+    "building": "HBH",
+    "room": "423"
+  },
+  "15163": {
     "date": "12/7/2023",
+    "time": 1400,
+    "building": "MXF",
+    "room": "251"
+  },
+  "15164": {
+    "date": "12/8/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "WSC",
-        "room": "146"
-      }
-    ]
-  },
-  "MUSI463": {
+    "building": "SEW",
+    "room": "309"
+  },
+  "15176": {
     "date": "12/10/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "KWG",
-        "room": "128"
-      }
-    ]
-  },
-  "MUSI467": {
-    "date": "12/10/2023",
+    "building": "BRK",
+    "room": "101"
+  },
+  "15178": {
+    "date": "12/8/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "560"
-      }
-    ]
-  },
-  "MUSI471": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "107"
-      }
-    ]
+    "building": "RZR",
+    "room": "310"
   },
-  "MUSI472": {
+  "15179": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "205"
-      }
-    ]
+    "time": 1900,
+    "building": "DCH",
+    "room": "1042"
   },
-  "MUSI473": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
-  },
-  "MUSI481": {
+  "15180": {
     "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RYN",
-        "room": "102"
-      }
-    ]
-  },
-  "MUSI487": {
+    "time": 1900,
+    "building": "KWG",
+    "room": "128"
+  },
+  "15194": {
     "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "233"
-      }
-    ]
-  },
-  "MUSI493": {
-    "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "462"
-      }
-    ]
-  },
-  "MUSI495": {
+    "building": "SEW",
+    "room": "101"
+  },
+  "15198": {
     "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
-  },
-  "MUSI497": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "224"
-      }
-    ]
-  },
-  "CHEM430": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
+    "time": 1900,
+    "building": "SEW",
+    "room": "462"
   },
-  "CHEM491": {
-    "date": "12/6/2023",
+  "13207": {
+    "date": "12/10/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
+    "building": "ABL",
+    "room": "131"
   },
-  "COMP326": {
-    "date": "12/10/2023",
+  "13217": {
+    "date": "12/12/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "GRB",
-        "room": "W212"
-      }
-    ]
+    "building": "dummy",
+    "room": "2"
   },
-  "CSCI390": {
-    "date": "12/6/2023",
+  "13218": {
+    "date": "12/10/2023",
+    "time": 900,
+    "building": "HRG",
+    "room": "100"
+  },
+  "13219": {
+    "date": "12/8/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
+    "building": "HRG",
+    "room": "100"
   },
-  "CSCI481": {
+  "15271": {
     "date": "12/10/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
-  },
-  "ASTR470": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KWG",
-        "room": "128"
-      }
-    ]
-  },
-  "ECON437": {
+    "building": "BKH",
+    "room": "116"
+  },
+  "15272": {
     "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RYN",
-        "room": "201"
-      }
-    ]
-  },
-  "BIOE385": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "210"
-      }
-    ]
-  },
-  "BIOE370": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
-  },
-  "THEA331": {
-    "date": "12/8/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "251"
-      }
-    ]
-  },
-  "BUSI296": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "130"
-      }
-    ]
-  },
-  "MUSI415": {
+    "building": "WSC",
+    "room": "123"
+  },
+  "15273": {
     "date": "12/11/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "119"
-      }
-    ]
-  },
-  "ARTS388": {
+    "building": "RZR",
+    "room": "310"
+  },
+  "15275": {
     "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "328"
-      }
-    ]
-  },
-  "ELEC450": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "101"
-      }
-    ]
-  },
-  "MECH450": {
-    "date": "12/11/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "105"
-      }
-    ]
-  },
-  "ELEC303": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "STAT405": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      }
-    ]
-  },
-  "SMGT376": {
+    "building": "RZR",
+    "room": "202"
+  },
+  "15276": {
     "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "427"
-      }
-    ]
-  },
-  "SMGT377": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "116"
-      }
-    ]
-  },
-  "SMGT379": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "120"
-      }
-    ]
-  },
-  "GLHT400": {
-    "date": "12/8/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "120"
-      }
-    ]
+    "building": "RZR",
+    "room": "310"
   },
-  "ARTS499": {
+  "15301": {
     "date": "12/6/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "210"
-      }
-    ]
-  },
-  "ELEC494": {
-    "date": "12/7/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "RYN",
-        "room": "201"
-      }
-    ]
-  },
-  "CHEM211": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "1"
-      }
-    ]
-  },
-  "PSYC370": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "117"
-      }
-    ]
-  },
-  "KINE302": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "212"
-      }
-    ]
-  },
-  "ASTR451": {
+    "building": "BRC",
+    "room": "284"
+  },
+  "13258": {
     "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KWG",
-        "room": "130"
-      }
-    ]
-  },
-  "POLI307": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
-  },
-  "STAT482": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "ANH",
-        "room": "117"
-      }
-    ]
-  },
-  "GLHT201": {
-    "date": "12/9/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1055"
-      }
-    ]
-  },
-  "GLHT451": {
+    "building": "PCF",
+    "room": "3"
+  },
+  "13262": {
     "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "224"
-      }
-    ]
-  },
-  "ECON307": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "210"
-      }
-    ]
-  },
-  "AFSC201": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "202"
-      }
-    ]
-  },
-  "BUSI310": {
-    "date": "12/11/2023",
+    "time": 900,
+    "building": "HRG",
+    "room": "224"
+  },
+  "15326": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      },
-      {
-        "building": "dummy",
-        "room": "2"
-      }
-    ]
-  },
-  "CEVE310": {
+    "building": "BKH",
+    "room": "229"
+  },
+  "15327": {
     "date": "12/9/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
-  },
-  "CEVE302": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "303"
-      }
-    ]
-  },
-  "ENGI302": {
+    "building": "DCC",
+    "room": "113"
+  },
+  "15328": {
     "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "305"
-      }
-    ]
-  },
-  "MECH371": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "3"
-      }
-    ]
-  },
-  "HONS470": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "117"
-      }
-    ]
-  },
-  "SOCI403": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RYN",
-        "room": "102"
-      }
-    ]
-  },
-  "PSYC203": {
-    "date": "12/7/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "1"
-      }
-    ]
-  },
-  "COLL200": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "207 / SYM I"
-      }
-    ]
-  },
-  "KINE319": {
-    "date": "12/10/2023",
+    "building": "SEW",
+    "room": "101"
+  },
+  "15346": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "282"
-      }
-    ]
-  },
-  "FILM327": {
-    "date": "12/10/2023",
+    "building": "KRF",
+    "room": "102"
+  },
+  "13299": {
+    "date": "12/11/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "102"
-      }
-    ]
-  },
-  "ARTS327": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "KINE375": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "113"
-      }
-    ]
+    "building": "RZR",
+    "room": "227"
   },
-  "ENGI330": {
+  "13300": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      }
-    ]
+    "time": 900,
+    "building": "HRG",
+    "room": "224"
   },
-  "UNIV301": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "MCA",
-        "room": "237"
-      }
-    ]
-  },
-  "ARCH101": {
+  "13301": {
     "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "307"
-      }
-    ]
-  },
-  "HUMA210": {
-    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
-  },
-  "MUSI339": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
+    "building": "RZR",
+    "room": "304"
   },
-  "CHEM492": {
+  "13302": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "303"
-      }
-    ]
+    "time": 900,
+    "building": "RZR",
+    "room": "202"
   },
-  "MUSI483": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
+  "13303": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "KWG",
+    "room": "130"
   },
-  "MUSI377": {
+  "15360": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "MCA",
-        "room": "237"
-      }
-    ]
+    "building": "GRW",
+    "room": "220"
   },
-  "ANTH324": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "SWGS494": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "251"
-      }
-    ]
-  },
-  "NAVA403": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "120"
-      }
-    ]
-  },
-  "MUSI285": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "310"
-      }
-    ]
-  },
-  "MUSI401": {
-    "date": "12/7/2023",
+  "15371": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "GRB",
-        "room": "W212"
-      }
-    ]
-  },
-  "MUSI491": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RYN",
-        "room": "201"
-      }
-    ]
-  },
-  "FILM280": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "102"
-      }
-    ]
-  },
-  "ARTS280": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "227"
-      }
-    ]
-  },
-  "HART280": {
-    "date": "12/10/2023",
+    "building": "GRW",
+    "room": "160A"
+  },
+  "15375": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "ABL",
+    "room": "131"
+  },
+  "15376": {
+    "date": "12/11/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "106"
-      }
-    ]
-  },
-  "SMGT350": {
+    "building": "RZR",
+    "room": "304"
+  },
+  "13352": {
     "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
-  },
-  "MSNE402": {
-    "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "101"
-      }
-    ]
-  },
-  "MSNE406": {
+    "building": "RZR",
+    "room": "202"
+  },
+  "13354": {
     "date": "12/12/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "105"
-      }
-    ]
-  },
-  "CHEM391": {
+    "building": "RZR",
+    "room": "310"
+  },
+  "15403": {
     "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "205"
-      }
-    ]
-  },
-  "STAT499": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "MEB",
-        "room": "128"
-      }
-    ]
+    "time": 900,
+    "building": "HBH",
+    "room": "427"
   },
-  "ENGI200": {
-    "date": "12/6/2023",
+  "15405": {
+    "date": "12/9/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "116"
-      }
-    ]
+    "building": "BRK",
+    "room": "101"
   },
-  "CHIN263": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "116"
-      }
-    ]
+  "15406": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "OES",
+    "room": "130"
   },
-  "FREN263": {
+  "15407": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "110"
-      }
-    ]
+    "building": "WSC",
+    "room": "123"
+  },
+  "15408": {
+    "date": "12/12/2023",
+    "time": 1400,
+    "building": "RZR",
+    "room": "227"
   },
-  "SPAN263": {
+  "15409": {
     "date": "12/8/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
-  },
-  "SPAN321": {
-    "date": "12/9/2023",
+    "building": "KRF",
+    "room": "102"
+  },
+  "15410": {
+    "date": "12/8/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
+    "building": "HRG",
+    "room": "128"
   },
-  "MILI106": {
+  "15411": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
+    "building": "RZR",
+    "room": "227"
   },
-  "MILI109": {
-    "date": "12/10/2023",
+  "11323": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "WSC",
-        "room": "123"
-      }
-    ]
-  },
-  "MILI123": {
-    "date": "12/10/2023",
+    "building": "HUM",
+    "room": "328"
+  },
+  "11324": {
+    "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "226"
-      }
-    ]
-  },
-  "MILI203": {
+    "building": "ABL",
+    "room": "130"
+  },
+  "15422": {
+    "date": "12/10/2023",
+    "time": 1400,
+    "building": "HUM",
+    "room": "328"
+  },
+  "15434": {
     "date": "12/9/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
-  },
-  "MILI403": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "252"
-      }
-    ]
-  },
-  "EMSP282": {
-    "date": "12/8/2023",
+    "building": "MXF",
+    "room": "252"
+  },
+  "15435": {
+    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "207 / SYM I"
-      }
-    ]
-  },
-  "EMSP491": {
+    "building": "BKH",
+    "room": "102"
+  },
+  "15442": {
     "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
-  },
-  "CHBE301": {
+    "building": "HUM",
+    "room": "328"
+  },
+  "15443": {
     "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "119"
-      }
-    ]
-  },
-  "MATH101": {
+    "building": "SEW",
+    "room": "133"
+  },
+  "11354": {
     "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      },
-      {
-        "building": "dummy",
-        "room": "2"
-      }
-    ]
-  },
-  "NSCI120": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "100"
-      }
-    ]
+    "time": 1900,
+    "building": "ABL",
+    "room": "131"
   },
-  "KINE301": {
-    "date": "12/6/2023",
+  "11363": {
+    "date": "12/12/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
+    "building": "DCC",
+    "room": "113"
   },
-  "MILI121": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "285"
-      }
-    ]
-  },
-  "ARTS165": {
-    "date": "12/10/2023",
+  "11377": {
+    "date": "12/8/2023",
+    "time": 1400,
+    "building": "ABL",
+    "room": "131"
+  },
+  "11378": {
+    "date": "12/7/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "119"
-      }
-    ]
-  },
-  "SOCI101": {
+    "building": "ABL",
+    "room": "131"
+  },
+  "15475": {
     "date": "12/9/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "100"
-      }
-    ]
-  },
-  "ECON399": {
-    "date": "12/8/2023",
+    "building": "KWG",
+    "room": "128"
+  },
+  "15500": {
+    "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "WSC",
-        "room": "146"
-      }
-    ]
-  },
-  "STAT418": {
-    "date": "12/12/2023",
+    "building": "RZR",
+    "room": "227"
+  },
+  "15505": {
+    "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "ENST100": {
-    "date": "12/12/2023",
+    "building": "SEW",
+    "room": "462"
+  },
+  "15510": {
+    "date": "12/10/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "210"
-      }
-    ]
+    "building": "SST",
+    "room": "106"
   },
-  "ARCH105": {
+  "15520": {
     "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "101"
-      }
-    ]
+    "building": "ABL",
+    "room": "131"
   },
-  "ECON100": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      },
-      {
-        "building": "dummy",
-        "room": "1"
-      },
-      {
-        "building": "dummy",
-        "room": "3"
-      }
-    ]
-  },
-  "ECON203": {
+  "15535": {
     "date": "12/12/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
-  },
-  "ECON308": {
+    "building": "ABL",
+    "room": "131"
+  },
+  "15536": {
     "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
-  },
-  "ECON422": {
+    "building": "RZR",
+    "room": "205"
+  },
+  "13496": {
     "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "113"
-      }
-    ]
-  },
-  "GERM301": {
-    "date": "12/10/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TUD",
-        "room": "201"
-      }
-    ]
-  },
-  "BIOE440": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "PHYS103": {
-    "date": "12/10/2023",
+    "building": "SEW",
+    "room": "301"
+  },
+  "13499": {
+    "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "1"
-      }
-    ]
-  },
-  "PHYS101": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "1"
-      }
-    ]
+    "building": "HUM",
+    "room": "328"
   },
-  "COMP311": {
-    "date": "12/6/2023",
+  "15551": {
+    "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
+    "building": "BRC",
+    "room": "282"
   },
-  "CHEM367": {
+  "13510": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "117"
-      }
-    ]
+    "time": 1900,
+    "building": "SEW",
+    "room": "309"
   },
-  "CHIN141": {
-    "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DBH",
-        "room": "180"
-      }
-    ]
+  "13515": {
+    "date": "12/8/2023",
+    "time": 1900,
+    "building": "ANH",
+    "room": "117"
   },
-  "FREN141": {
+  "15565": {
     "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
-  },
-  "GERM141": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "MEB",
-        "room": "128"
-      }
-    ]
+    "building": "KWG",
+    "room": "128"
   },
-  "JAPA141": {
-    "date": "12/6/2023",
+  "15566": {
+    "date": "12/10/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
+    "building": "BRK",
+    "room": "103"
   },
-  "PORT106": {
+  "15567": {
+    "date": "12/7/2023",
+    "time": 1400,
+    "building": "RZR",
+    "room": "202"
+  },
+  "15575": {
     "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "ANH",
-        "room": "117"
-      }
-    ]
-  },
-  "SPAN141": {
+    "building": "SEW",
+    "room": "462"
+  },
+  "15580": {
     "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "212"
-      }
-    ]
-  },
-  "SPAN142": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "252"
-      }
-    ]
-  },
-  "SOSC444": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "305"
-      }
-    ]
-  },
-  "THEA102": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RYN",
-        "room": "201"
-      }
-    ]
-  },
-  "UNIV295": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
+    "building": "HRG",
+    "room": "128"
   },
-  "ANTH205": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SST",
-        "room": "106"
-      }
-    ]
-  },
-  "HEAL103": {
+  "13534": {
     "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1055"
-      }
-    ]
-  },
-  "EMSP281": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "102"
-      }
-    ]
+    "time": 900,
+    "building": "ANH",
+    "room": "117"
   },
-  "ECON210": {
+  "15598": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
+    "time": 900,
+    "building": "DBH",
+    "room": "180"
   },
-  "FWIS100": {
+  "11504": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "2"
-      }
-    ]
+    "building": "KRF",
+    "room": "102"
   },
-  "MUSI341": {
+  "13563": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "105"
-      }
-    ]
+    "building": "SEW",
+    "room": "305"
   },
-  "MUSI441": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
-  },
-  "ELEC491": {
+  "15615": {
     "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "101"
-      }
-    ]
-  },
-  "SMGT362": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
-  },
-  "ECON300": {
+    "time": 900,
+    "building": "HRG",
+    "room": "128"
+  },
+  "15624": {
     "date": "12/10/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "KWG",
-        "room": "100"
-      }
-    ]
-  },
-  "ECON305": {
+    "building": "RZR",
+    "room": "227"
+  },
+  "11533": {
     "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
-  },
-  "CHEM123": {
-    "date": "12/9/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1055"
-      },
-      {
-        "building": "dummy",
-        "room": "1"
-      }
-    ]
-  },
-  "AFSC101": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "211"
-      }
-    ]
+    "building": "RYN",
+    "room": "201"
   },
-  "PSYC202": {
-    "date": "12/6/2023",
+  "11538": {
+    "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "3"
-      }
-    ]
+    "building": "HRG",
+    "room": "128"
+  },
+  "15644": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "SEW",
+    "room": "309"
   },
-  "ELEC240": {
+  "11549": {
     "date": "12/11/2023",
+    "time": 1400,
+    "building": "HRG",
+    "room": "128"
+  },
+  "15654": {
+    "date": "12/8/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "3"
-      }
-    ]
-  },
-  "NEUR310": {
+    "building": "RZR",
+    "room": "202"
+  },
+  "15656": {
     "date": "12/12/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "100"
-      }
-    ]
-  },
-  "NEUR401": {
+    "building": "WSC",
+    "room": "146"
+  },
+  "15657": {
     "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "MCA",
-        "room": "103"
-      }
-    ]
+    "time": 900,
+    "building": "HRG",
+    "room": "128"
+  },
+  "15661": {
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "302"
   },
-  "CHEM330": {
+  "15664": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "282"
-      }
-    ]
+    "time": 900,
+    "building": "HBH",
+    "room": "453"
   },
-  "CHIN301": {
-    "date": "12/12/2023",
+  "13619": {
+    "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "MEB",
-        "room": "128"
-      }
-    ]
+    "building": "HRG",
+    "room": "128"
   },
-  "COMP490": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "102"
-      }
-    ]
+  "11585": {
+    "date": "12/11/2023",
+    "time": 900,
+    "building": "KRF",
+    "room": "125"
   },
-  "MUSI336": {
+  "11586": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "205"
-      }
-    ]
+    "building": "HUM",
+    "room": "119"
   },
-  "PHYS493": {
+  "15685": {
     "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "106"
-      }
-    ]
-  },
-  "STAT449": {
-    "date": "12/9/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "252"
-      }
-    ]
-  },
-  "SOCI469": {
-    "date": "12/11/2023",
+    "building": "HRG",
+    "room": "224"
+  },
+  "13642": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
-  },
-  "ARCH225": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "STAT425": {
-    "date": "12/11/2023",
+    "building": "SEW",
+    "room": "562"
+  },
+  "13643": {
+    "date": "12/8/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
-  },
-  "HART225": {
-    "date": "12/10/2023",
+    "building": "RZR",
+    "room": "302"
+  },
+  "13652": {
+    "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "125"
-      }
-    ]
-  },
-  "SOCI381": {
-    "date": "12/10/2023",
+    "building": "MXF",
+    "room": "251"
+  },
+  "13653": {
+    "date": "12/8/2023",
+    "time": 1900,
+    "building": "RYN",
+    "room": "201"
+  },
+  "11607": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1064"
-      }
-    ]
+    "building": "HUM",
+    "room": "117"
   },
-  "PSYC321": {
+  "11630": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
+    "building": "SEW",
+    "room": "301"
   },
-  "BUSI305": {
+  "11631": {
     "date": "12/10/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "2"
-      }
-    ]
-  },
-  "BUSI343": {
-    "date": "12/8/2023",
+    "building": "ANH",
+    "room": "117"
+  },
+  "11633": {
+    "date": "12/11/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "1"
-      }
-    ]
-  },
-  "MECH454": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "119"
-      }
-    ]
-  },
-  "BIOE454": {
+    "building": "RZR",
+    "room": "227"
+  },
+  "13697": {
+    "date": "12/7/2023",
+    "time": 1400,
+    "building": "DBH",
+    "room": "180"
+  },
+  "11675": {
     "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "204"
-      }
-    ]
-  },
-  "BUSI223": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      }
-    ]
-  },
-  "GERM263": {
-    "date": "12/10/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "284"
-      }
-    ]
-  },
-  "ARAB141": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SST",
-        "room": "106"
-      }
-    ]
-  },
-  "KINE440": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "252"
-      }
-    ]
-  },
-  "HEAL495": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "562"
-      }
-    ]
-  },
-  "HEAL379": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
+    "building": "OES",
+    "room": "130"
   },
-  "BIOE401": {
-    "date": "12/6/2023",
+  "11683": {
+    "date": "12/11/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
+    "building": "ABL",
+    "room": "131"
   },
-  "ECON200": {
+  "15798": {
     "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "3"
-      }
-    ]
-  },
-  "HART300": {
-    "date": "12/9/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "285"
-      }
-    ]
-  },
-  "CHBE390": {
+    "building": "BRC",
+    "room": "284"
+  },
+  "15807": {
     "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "ANH",
-        "room": "117"
-      }
-    ]
-  },
-  "CHBE401": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1046"
-      }
-    ]
-  },
-  "ARAB263": {
-    "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
-  },
-  "PSYC351": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "100"
-      }
-    ]
-  },
-  "MATH211": {
+    "building": "GRW",
+    "room": "160A"
+  },
+  "15813": {
     "date": "12/7/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "2"
-      }
-    ]
-  },
-  "NAVA203": {
-    "date": "12/10/2023",
+    "building": "HBH",
+    "room": "427"
+  },
+  "15825": {
+    "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "310"
-      }
-    ]
+    "building": "DCH",
+    "room": "1020 / SYM II"
   },
-  "PHYS461": {
-    "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "305"
-      }
-    ]
+  "15832": {
+    "date": "12/9/2023",
+    "time": 1900,
+    "building": "SEW",
+    "room": "303"
   },
-  "ARTS225": {
+  "15835": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
+    "building": "BRK",
+    "room": "103"
   },
-  "ARTS301": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "119"
-      }
-    ]
-  },
-  "CEVE320": {
+  "13804": {
     "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "118"
-      }
-    ]
+    "time": 1900,
+    "building": "dummy",
+    "room": "3"
   },
-  "CEVE314": {
+  "11795": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "102"
-      }
-    ]
+    "time": 1900,
+    "building": "HRG",
+    "room": "128"
   },
-  "GLHT314": {
-    "date": "12/6/2023",
+  "11847": {
+    "date": "12/8/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "227"
+  },
+  "11853": {
+    "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
+    "building": "RZR",
+    "room": "302"
   },
-  "FREN313": {
-    "date": "12/12/2023",
+  "11854": {
+    "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "3"
-      }
-    ]
-  },
-  "SOSC302": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1055"
-      }
-    ]
-  },
-  "ELEC460": {
+    "building": "RZR",
+    "room": "302"
+  },
+  "11856": {
     "date": "12/10/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "327"
-      }
-    ]
+    "building": "HRG",
+    "room": "128"
   },
-  "BIOE365": {
+  "11868": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "WSC",
-        "room": "146"
-      }
-    ]
+    "building": "PCF",
+    "room": "4"
   },
-  "ENGI301": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "MEB",
-        "room": "128"
-      }
-    ]
-  },
-  "PLST305": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "102"
-      }
-    ]
-  },
-  "BUSI390": {
-    "date": "12/10/2023",
+  "11870": {
+    "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "PLST401": {
+    "building": "DCH",
+    "room": "1064"
+  },
+  "13924": {
     "date": "12/10/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "282"
-      }
-    ]
-  },
-  "ECON299": {
+    "building": "DCH",
+    "room": "1075"
+  },
+  "11884": {
     "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SST",
-        "room": "106"
-      }
-    ]
-  },
-  "ANTH493": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
-  },
-  "MDHM201": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "3"
-      }
-    ]
-  },
-  "MDHM402": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
-  },
-  "STAT492": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1064"
-      }
-    ]
-  },
-  "RCEL100": {
+    "building": "SEW",
+    "room": "101"
+  },
+  "11896": {
     "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "119"
-      }
-    ]
+    "time": 900,
+    "building": "HRZ",
+    "room": "212"
   },
-  "RCEL241": {
+  "11903": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "212"
-      }
-    ]
+    "building": "BRC",
+    "room": "286"
   },
-  "RCEL440": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "460"
-      }
-    ]
-  },
-  "RCEL450": {
-    "date": "12/10/2023",
+  "11913": {
+    "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "118"
-      }
-    ]
-  },
-  "KINE321": {
-    "date": "12/10/2023",
+    "building": "RZR",
+    "room": "304"
+  },
+  "11919": {
+    "date": "12/9/2023",
+    "time": 900,
+    "building": "SEW",
+    "room": "309"
+  },
+  "16017": {
+    "date": "12/11/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "ANH",
-        "room": "117"
-      }
-    ]
-  },
-  "RCEL400": {
+    "building": "ABL",
+    "room": "131"
+  },
+  "11922": {
     "date": "12/12/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "305"
-      }
-    ]
-  },
-  "UNIV250": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "227"
-      }
-    ]
-  },
-  "SOPA200": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
-  },
-  "SPAN264": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
-  },
-  "MDHM430": {
-    "date": "12/12/2023",
+    "building": "HRZ",
+    "room": "210"
+  },
+  "13970": {
+    "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
-  },
-  "POLI395": {
-    "date": "12/10/2023",
+    "building": "RZR",
+    "room": "302"
+  },
+  "16019": {
+    "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "SST",
-        "room": "106"
-      }
-    ]
-  },
-  "CEVE471": {
+    "building": "BRC",
+    "room": "282"
+  },
+  "16024": {
     "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "WSC",
-        "room": "146"
-      }
-    ]
-  },
-  "DSCI301": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "113"
-      }
-    ]
-  },
-  "MECH332": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "100"
-      }
-    ]
-  },
-  "STAT413": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "100"
-      }
-    ]
-  },
-  "COMP301": {
-    "date": "12/10/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "210"
-      }
-    ]
-  },
-  "ENGL410": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "251"
-      }
-    ]
-  },
-  "ENST250": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
+    "building": "BRK",
+    "room": "101"
   },
-  "RELI403": {
+  "11937": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
+    "building": "BRK",
+    "room": "101"
   },
-  "MECH202": {
-    "date": "12/11/2023",
+  "11939": {
+    "date": "12/12/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "2"
-      }
-    ]
-  },
-  "MECH203": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "SPAN303": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "303"
-      }
-    ]
-  },
-  "BUSI461": {
-    "date": "12/8/2023",
+    "building": "PCF",
+    "room": "3"
+  },
+  "11940": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
-  },
-  "COMP215": {
+    "building": "DCH",
+    "room": "1064"
+  },
+  "11941": {
     "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "1"
-      }
-    ]
-  },
-  "COMP417": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "212"
-      }
-    ]
-  },
-  "ELEC434": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "303"
-      }
-    ]
-  },
-  "CEVE472": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "MEB",
-        "room": "128"
-      }
-    ]
-  },
-  "BIOE420": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1042"
-      }
-    ]
-  },
-  "CEVE432": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1020 / SYM II"
-      }
-    ]
-  },
-  "CEVE431": {
-    "date": "12/8/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "207 / SYM I"
-      }
-    ]
-  },
-  "STAT315": {
+    "building": "MXF",
+    "room": "251"
+  },
+  "11945": {
     "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
-  },
-  "SMGT260": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1055"
-      }
-    ]
-  },
-  "CEVE211": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "227"
-      }
-    ]
-  },
-  "HART402": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
-  },
-  "JAPA301": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "117"
-      }
-    ]
+    "time": 900,
+    "building": "PCF",
+    "room": "4"
   },
-  "RCEL200": {
+  "11951": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "126"
-      }
-    ]
-  },
-  "CHEM280": {
-    "date": "12/6/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
+    "building": "RZR",
+    "room": "310"
   },
-  "PJHC300": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "224"
-      }
-    ]
-  },
-  "MUSI449": {
+  "11953": {
     "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "305"
-      }
-    ]
-  },
-  "BUSI499": {
-    "date": "12/7/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
-  },
-  "ANTH490": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "562"
-      }
-    ]
+    "building": "KRF",
+    "room": "102"
   },
-  "BIOE422": {
+  "11961": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "305"
-      }
-    ]
+    "building": "BRC",
+    "room": "286"
   },
-  "CHEM201": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "FREN302": {
+  "14009": {
     "date": "12/9/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "116"
-      }
-    ]
-  },
-  "CHIN311": {
-    "date": "12/10/2023",
+    "building": "HBH",
+    "room": "427"
+  },
+  "16063": {
+    "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "307"
-      }
-    ]
+    "building": "GRW",
+    "room": "220"
   },
-  "CHIN401": {
+  "11975": {
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "KRF",
+    "room": "105"
+  },
+  "11977": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
+    "building": "RYN",
+    "room": "201"
   },
-  "DSCI304": {
+  "11980": {
     "date": "12/11/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RYN",
-        "room": "201"
-      }
-    ]
-  },
-  "MUSI416": {
-    "date": "12/8/2023",
+    "building": "HRG",
+    "room": "128"
+  },
+  "16083": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
-  },
-  "SMGT276": {
+    "building": "MXF",
+    "room": "251"
+  },
+  "11989": {
     "date": "12/9/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      }
-    ]
-  },
-  "THEA301": {
+    "building": "DCH",
+    "room": "1046"
+  },
+  "11990": {
     "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "252"
-      }
-    ]
-  },
-  "ELEC490": {
-    "date": "12/9/2023",
+    "time": 1400,
+    "building": "HRG",
+    "room": "128"
+  },
+  "16103": {
+    "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1042"
-      }
-    ]
-  },
-  "STAT450": {
+    "building": "HUM",
+    "room": "119"
+  },
+  "14056": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "KRF",
+    "room": "125"
+  },
+  "16107": {
     "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "SMGT366": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "282"
-      }
-    ]
-  },
-  "POLI102": {
-    "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "117"
-      }
-    ]
-  },
-  "POLI473": {
-    "date": "12/8/2023",
+    "building": "SEW",
+    "room": "309"
+  },
+  "16108": {
+    "date": "12/12/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "204"
-      }
-    ]
-  },
-  "ECON483": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "282"
-      }
-    ]
-  },
-  "ANTH203": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "MATH280": {
+    "building": "RZR",
+    "room": "302"
+  },
+  "16109": {
     "date": "12/11/2023",
+    "time": 1900,
+    "building": "RZR",
+    "room": "227"
+  },
+  "16127": {
+    "date": "12/12/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
-  },
-  "ASTR101": {
+    "building": "KCK",
+    "room": "101"
+  },
+  "16128": {
     "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
-  },
-  "BIOS128": {
+    "building": "HRZ",
+    "room": "AMP"
+  },
+  "16140": {
+    "date": "12/12/2023",
+    "time": 1900,
+    "building": "BRC",
+    "room": "286"
+  },
+  "10013": {
     "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "100"
-      }
-    ]
-  },
-  "BIOS201": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "AMP"
-      }
-    ]
-  },
-  "BIOS204": {
+    "building": "RZR",
+    "room": "304"
+  },
+  "10014": {
     "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
-  },
-  "BIOS211": {
+    "time": 1900,
+    "building": "HRG",
+    "room": "128"
+  },
+  "10018": {
     "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1055"
-      }
-    ]
-  },
-  "BIOS212": {
-    "date": "12/11/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "117"
-      }
-    ]
+    "building": "ABL",
+    "room": "131"
+  },
+  "10019": {
+    "date": "12/8/2023",
+    "time": 1400,
+    "building": "OES",
+    "room": "132"
   },
-  "BIOS213": {
+  "12071": {
     "date": "12/6/2023",
+    "time": 900,
+    "building": "WSC",
+    "room": "123"
+  },
+  "10024": {
+    "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "102"
-      }
-    ]
+    "building": "KWG",
+    "room": "128"
   },
-  "BIOS215": {
+  "16171": {
     "date": "12/11/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
-  },
-  "BIOS216": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SST",
-        "room": "106"
-      }
-    ]
-  },
-  "BIOS299": {
-    "date": "12/9/2023",
+    "building": "SEW",
+    "room": "133"
+  },
+  "16173": {
+    "date": "12/10/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "102"
-      }
-    ]
-  },
-  "BIOS301": {
+    "building": "RZR",
+    "room": "304"
+  },
+  "16174": {
     "date": "12/11/2023",
+    "time": 1400,
+    "building": "KRF",
+    "room": "102"
+  },
+  "16183": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      },
-      {
-        "building": "PCF",
-        "room": "3"
-      }
-    ]
-  },
-  "BIOS311": {
-    "date": "12/7/2023",
+    "building": "HBH",
+    "room": "423"
+  },
+  "10053": {
+    "date": "12/10/2023",
+    "time": 1400,
+    "building": "DCH",
+    "room": "1042"
+  },
+  "10056": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DBH",
-        "room": "180"
-      }
-    ]
+    "building": "DCH",
+    "room": "1055"
   },
-  "BIOS312": {
+  "10057": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "WSC",
-        "room": "146"
-      }
-    ]
+    "time": 900,
+    "building": "KCK",
+    "room": "100"
   },
-  "BIOS318": {
-    "date": "12/11/2023",
+  "14154": {
+    "date": "12/6/2023",
+    "time": 1900,
+    "building": "HRZ",
+    "room": "212"
+  },
+  "10059": {
+    "date": "12/7/2023",
+    "time": 1900,
+    "building": "OES",
+    "room": "130"
+  },
+  "10060": {
+    "date": "12/12/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "DBH",
-        "room": "180"
-      }
-    ]
+    "building": "PCF",
+    "room": "3"
   },
-  "BIOS327": {
-    "date": "12/6/2023",
+  "14155": {
+    "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "251"
-      }
-    ]
+    "building": "DCH",
+    "room": "1075"
   },
-  "BIOS341": {
-    "date": "12/9/2023",
+  "14156": {
+    "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "1"
-      }
-    ]
-  },
-  "BIOS352": {
-    "date": "12/9/2023",
+    "building": "BRK",
+    "room": "101"
+  },
+  "14159": {
+    "date": "12/10/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "251"
-      }
-    ]
-  },
-  "BIOS401": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "3"
-      }
-    ]
-  },
-  "BIOS423": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "KWG",
-        "room": "100"
-      }
-    ]
-  },
-  "BIOS449": {
+    "building": "SEW",
+    "room": "101"
+  },
+  "14160": {
     "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "106"
-      }
-    ]
-  },
-  "SMGT320": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "102"
-      }
-    ]
-  },
-  "SMGT450": {
-    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
-  },
-  "BIOS300": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "BIOS372": {
-    "date": "12/9/2023",
+    "building": "HUM",
+    "room": "119"
+  },
+  "14162": {
+    "date": "12/12/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "3"
-      }
-    ]
-  },
-  "BIOE341": {
+    "building": "RZR",
+    "room": "304"
+  },
+  "14163": {
     "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1020 / SYM II"
-      }
-    ]
+    "time": 1900,
+    "building": "DCH",
+    "room": "1075"
+  },
+  "14164": {
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "RZR",
+    "room": "304"
   },
-  "CHBE468": {
+  "14165": {
     "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "427"
-      }
-    ]
+    "building": "HUM",
+    "room": "328"
   },
-  "SPAN322": {
-    "date": "12/8/2023",
+  "14166": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "3"
-      }
-    ]
-  },
-  "SOCI102": {
-    "date": "12/8/2023",
+    "building": "SEW",
+    "room": "307"
+  },
+  "10073": {
+    "date": "12/10/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "RYN",
-        "room": "201"
-      }
-    ]
-  },
-  "FWIS115": {
+    "building": "KWG",
+    "room": "128"
+  },
+  "10074": {
     "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "MCA",
-        "room": "210"
-      }
-    ]
-  },
-  "ENST301": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "284"
-      }
-    ]
-  },
-  "MECH343": {
-    "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      }
-    ]
-  },
-  "CHEM401": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1055"
-      }
-    ]
-  },
-  "MILI201": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
-  },
-  "ENGI390": {
+    "building": "ABL",
+    "room": "130"
+  },
+  "10075": {
     "date": "12/11/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
+    "building": "dummy",
+    "room": "2"
   },
-  "MUCH423": {
+  "10079": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "KWG",
-        "room": "128"
-      }
-    ]
+    "building": "BKH",
+    "room": "233"
   },
-  "HIST403": {
+  "10084": {
     "date": "12/11/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1042"
-      }
-    ]
-  },
-  "CHBE403": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "305"
-      }
-    ]
-  },
-  "HART400": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "227"
-      }
-    ]
+    "building": "SEW",
+    "room": "309"
   },
-  "CHEM415": {
-    "date": "12/6/2023",
+  "12133": {
+    "date": "12/11/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "286"
-      }
-    ]
+    "building": "HRG",
+    "room": "128"
   },
-  "CHEM215": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1055"
-      }
-    ]
-  },
-  "BIOE443": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "303"
-      }
-    ]
-  },
-  "BIOE447": {
+  "10087": {
     "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "286"
-      }
-    ]
-  },
-  "BIOE449": {
-    "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "204"
-      }
-    ]
+    "building": "DBH",
+    "room": "180"
+  },
+  "10092": {
+    "date": "12/11/2023",
+    "time": 1400,
+    "building": "BRK",
+    "room": "101"
   },
-  "ASTR350": {
+  "10093": {
+    "date": "12/7/2023",
+    "time": 1400,
+    "building": "dummy",
+    "room": "2"
+  },
+  "14198": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "123"
-      }
-    ]
+    "time": 900,
+    "building": "SEW",
+    "room": "101"
   },
-  "HEAL380": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SST",
-        "room": "106"
-      }
-    ]
-  },
-  "HEAL407": {
+  "14199": {
     "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "210"
-      }
-    ]
-  },
-  "PHYS411": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "GRW",
-        "room": "220"
-      }
-    ]
-  },
-  "DSCI101": {
+    "building": "KRF",
+    "room": "105"
+  },
+  "14200": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "SEW",
+    "room": "462"
+  },
+  "12153": {
     "date": "12/9/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
-  },
-  "ARCH311": {
-    "date": "12/10/2023",
+    "building": "HRG",
+    "room": "128"
+  },
+  "12157": {
+    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
-  },
-  "ASTR400": {
+    "building": "RZR",
+    "room": "227"
+  },
+  "10114": {
+    "date": "12/8/2023",
+    "time": 1400,
+    "building": "MXF",
+    "room": "251"
+  },
+  "10115": {
     "date": "12/11/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1064"
-      }
-    ]
-  },
-  "CMST203": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "110"
-      }
-    ]
-  },
-  "UNIV212": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1042"
-      }
-    ]
-  },
-  "BIOE492": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
-  },
-  "KORE141": {
+    "building": "DCC",
+    "room": "113"
+  },
+  "10116": {
     "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
-  },
-  "SPAN323": {
+    "time": 1400,
+    "building": "dummy",
+    "room": "3"
+  },
+  "12169": {
     "date": "12/7/2023",
+    "time": 900,
+    "building": "HUM",
+    "room": "328"
+  },
+  "12170": {
+    "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "307"
-      }
-    ]
-  },
-  "ECON441": {
-    "date": "12/9/2023",
+    "building": "HUM",
+    "room": "328"
+  },
+  "12179": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "OES",
+    "room": "132"
+  },
+  "12180": {
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "SST",
+    "room": "106"
+  },
+  "16277": {
+    "date": "12/11/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
-  },
-  "ECON485": {
+    "building": "RZR",
+    "room": "302"
+  },
+  "16282": {
     "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "117"
-      }
-    ]
-  },
-  "ECON497": {
-    "date": "12/10/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
+    "building": "DCH",
+    "room": "1020 / SYM II"
   },
-  "ELEC424": {
+  "10139": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
+    "building": "BKH",
+    "room": "116"
   },
-  "COMP424": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
+  "16285": {
+    "date": "12/10/2023",
+    "time": 1900,
+    "building": "SEW",
+    "room": "309"
   },
-  "ENGL304": {
-    "date": "12/6/2023",
+  "14254": {
+    "date": "12/10/2023",
+    "time": 1900,
+    "building": "ABL",
+    "room": "130"
+  },
+  "16311": {
+    "date": "12/10/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "KWG",
-        "room": "100"
-      }
-    ]
+    "building": "RZR",
+    "room": "227"
   },
-  "FWIS142": {
-    "date": "12/11/2023",
+  "12231": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "HUM",
+    "room": "120"
+  },
+  "16343": {
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "HUM",
+    "room": "117"
+  },
+  "10200": {
+    "date": "12/12/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "103"
-      }
-    ]
-  },
-  "GERM280": {
+    "building": "HRG",
+    "room": "128"
+  },
+  "16344": {
     "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "GRW",
-        "room": "220"
-      }
-    ]
-  },
-  "CMST201": {
-    "date": "12/9/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
+    "building": "DCC",
+    "room": "113"
   },
-  "MUSI335": {
+  "14299": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
+    "time": 1900,
+    "building": "ABL",
+    "room": "131"
   },
-  "MUSI444": {
-    "date": "12/9/2023",
+  "16347": {
+    "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "130"
-      }
-    ]
-  },
-  "PHIL130": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
-  },
-  "STAT490": {
-    "date": "12/9/2023",
+    "building": "RZR",
+    "room": "304"
+  },
+  "16349": {
+    "date": "12/11/2023",
+    "time": 900,
+    "building": "BRC",
+    "room": "286"
+  },
+  "16350": {
+    "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "427"
-      }
-    ]
-  },
-  "BIOS118": {
+    "building": "RZR",
+    "room": "202"
+  },
+  "14303": {
     "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "307"
-      }
-    ]
-  },
-  "BIOS425": {
-    "date": "12/7/2023",
+    "building": "ABL",
+    "room": "131"
+  },
+  "10205": {
+    "date": "12/10/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
-  },
-  "CHEM121": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      },
-      {
-        "building": "dummy",
-        "room": "1"
-      }
-    ]
-  },
-  "CHEM205": {
-    "date": "12/12/2023",
+    "building": "RZR",
+    "room": "227"
+  },
+  "12251": {
+    "date": "12/10/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1042"
-      }
-    ]
-  },
-  "EEPS110": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1020 / SYM II"
-      },
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
-  },
-  "EEPS322": {
+    "building": "BRC",
+    "room": "282"
+  },
+  "10209": {
     "date": "12/8/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "207 / SYM I"
-      }
-    ]
-  },
-  "EEPS481": {
+    "building": "RZR",
+    "room": "310"
+  },
+  "10210": {
     "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "305"
-      }
-    ]
-  },
-  "ARTS401": {
-    "date": "12/9/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "102"
-      }
-    ]
-  },
-  "ENGL301": {
+    "building": "DCH",
+    "room": "1064"
+  },
+  "16354": {
     "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "ECON209": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
-  },
-  "MUSI165": {
-    "date": "12/8/2023",
+    "time": 900,
+    "building": "RZR",
+    "room": "123"
+  },
+  "16352": {
+    "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "ANH",
-        "room": "117"
-      }
-    ]
-  },
-  "MUSI195": {
+    "building": "BRK",
+    "room": "103"
+  },
+  "16353": {
     "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1020 / SYM II"
-      }
-    ]
-  },
-  "FREN403": {
+    "time": 900,
+    "building": "DCH",
+    "room": "1064"
+  },
+  "10211": {
+    "date": "12/12/2023",
+    "time": 900,
+    "building": "MCA",
+    "room": "103"
+  },
+  "10212": {
     "date": "12/10/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1075"
-      }
-    ]
-  },
-  "ENGL200": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "EEPS410": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "423"
-      }
-    ]
+    "building": "RZR",
+    "room": "123"
   },
-  "EEPS401": {
-    "date": "12/6/2023",
+  "16359": {
+    "date": "12/11/2023",
+    "time": 900,
+    "building": "RZR",
+    "room": "302"
+  },
+  "16357": {
+    "date": "12/11/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "102"
-      }
-    ]
+    "building": "RZR",
+    "room": "302"
   },
-  "ASIA495": {
-    "date": "12/8/2023",
+  "16374": {
+    "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
+    "building": "KRF",
+    "room": "102"
   },
-  "EEPS114": {
+  "10233": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "113"
-      }
-    ]
+    "building": "RZR",
+    "room": "227"
   },
-  "THEA314": {
-    "date": "12/7/2023",
+  "10234": {
+    "date": "12/10/2023",
+    "time": 1400,
+    "building": "WSC",
+    "room": "123"
+  },
+  "10235": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "120"
-      }
-    ]
+    "building": "BRK",
+    "room": "101"
   },
-  "HEAL132": {
+  "10237": {
     "date": "12/6/2023",
+    "time": 900,
+    "building": "KRF",
+    "room": "120"
+  },
+  "16383": {
+    "date": "12/8/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
+    "building": "DCH",
+    "room": "1055"
   },
-  "SOCI380": {
+  "12802": {
     "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "110"
-      }
-    ]
-  },
-  "BIOS385": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      }
-    ]
-  },
-  "CHBE470": {
-    "date": "12/11/2023",
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "12809": {
+    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "251"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ARTS311": {
+  "12813": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "130"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "BIOS329": {
-    "date": "12/10/2023",
+  "13327": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "ECON481": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "ANH",
-        "room": "117"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "MUSI361": {
+  "12307": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "307"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "SOPA400": {
+  "14358": {
     "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "102"
-      }
-    ]
-  },
-  "FWIS151": {
-    "date": "12/11/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "102"
-      }
-    ]
-  },
-  "MSNE450": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "113"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "MSNE451": {
+  "14362": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "GRB",
-        "room": "W212"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "BIOS202": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "125"
-      }
-    ]
-  },
-  "ENGL305": {
-    "date": "12/7/2023",
+  "12831": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "110"
-      }
-    ]
-  },
-  "ARCH207": {
-    "date": "12/7/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "12832": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "3"
-      }
-    ]
-  },
-  "RCEL436": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "211"
-      }
-    ]
-  },
-  "ARCH346": {
-    "date": "12/8/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "11298": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "282"
-      }
-    ]
-  },
-  "UNIV330": {
-    "date": "12/12/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "11299": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "14372": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
-  },
-  "BIOS122": {
-    "date": "12/7/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "16421": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "STAT487": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "102"
-      }
-    ]
-  },
-  "FILM432": {
-    "date": "12/10/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15398": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "110"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "BIOS280": {
+  "12839": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "RCEL410": {
+  "12841": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "11309": {
+    "date": "12/7/2023",
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ARTS432": {
+  "11310": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "310"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "SOCI492": {
+  "12343": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1046"
-      }
-    ]
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "CHEM110": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1020 / SYM II"
-      }
-    ]
-  },
-  "ANTH317": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "125"
-      }
-    ]
-  },
-  "ANTH344": {
-    "date": "12/11/2023",
+  "12344": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "KORE263": {
-    "date": "12/10/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "12345": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
-  },
-  "ENGL383": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "119"
-      }
-    ]
-  },
-  "FWIS181": {
-    "date": "12/7/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "16442": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1042"
-      }
-    ]
-  },
-  "HIST117": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "212"
-      }
-    ]
-  },
-  "HIST256": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "LING481": {
+  "12346": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "120"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "LING482": {
-    "date": "12/7/2023",
+  "12347": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "310"
-      }
-    ]
-  },
-  "GERM335": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "PHIL125": {
+  "12348": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KWG",
-        "room": "100"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ASTR102": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "130"
-      }
-    ]
-  },
-  "SOCI309": {
-    "date": "12/12/2023",
+  "12349": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "328"
-      }
-    ]
-  },
-  "ARTS326": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
-  },
-  "THEA308": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
-  },
-  "MUSI413": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
-  },
-  "ENGL210": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "328"
-      }
-    ]
-  },
-  "FILM308": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "ENGI101": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "305"
-      }
-    ]
-  },
-  "COMP480": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "117"
-      }
-    ]
-  },
-  "THEA303": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KWG",
-        "room": "100"
-      }
-    ]
-  },
-  "ENGL390": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "116"
-      }
-    ]
-  },
-  "FREN301": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "116"
-      }
-    ]
-  },
-  "NAVA302": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "310"
-      }
-    ]
-  },
-  "BUSI221": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "3"
-      }
-    ]
-  },
-  "ENGI221": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "286"
-      }
-    ]
-  },
-  "BUSI420": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "BUSI401": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      }
-    ]
-  },
-  "ASTR461": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
-  },
-  "BUSI395": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "100"
-      }
-    ]
-  },
-  "CHBE243": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
-  },
-  "FILM434": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "305"
-      }
-    ]
-  },
-  "SOCI307": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "207 / SYM I"
-      }
-    ]
-  },
-  "KINE311": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "210"
-      }
-    ]
-  },
-  "ENGL113": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1064"
-      }
-    ]
-  },
-  "CHEM452": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "ANH",
-        "room": "117"
-      }
-    ]
-  },
-  "PHIL460": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "460"
-      }
-    ]
-  },
-  "RELI120": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "AMP"
-      }
-    ]
-  },
-  "ENGL222": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "106"
-      }
-    ]
-  },
-  "ASIA222": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "227"
-      }
-    ]
-  },
-  "LALX158": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DBH",
-        "room": "180"
-      }
-    ]
-  },
-  "DSCI305": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DBH",
-        "room": "180"
-      }
-    ]
-  },
-  "MATH466": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "ENGL272": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "282"
-      }
-    ]
-  },
-  "MATH354": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "DSCI303": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "110"
-      }
-    ]
-  },
-  "BIOE383": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "COMP310": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "ANH",
-        "room": "117"
-      }
-    ]
-  },
-  "JAPA263": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "303"
-      }
-    ]
-  },
-  "JAPA401": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
-  },
-  "COMP442": {
-    "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1046"
-      }
-    ]
-  },
-  "MSNE304": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "130"
-      }
-    ]
-  },
-  "BUSI360": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "210"
-      }
-    ]
-  },
-  "FWIS196": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "286"
-      }
-    ]
-  },
-  "SWGS101": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
-  },
-  "FWIS141": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
-  },
-  "POLI260": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "227"
-      }
-    ]
-  },
-  "ELEC406": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1075"
-      }
-    ]
-  },
-  "MUSI334": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "SOCI325": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "212"
-      }
-    ]
-  },
-  "SOCI358": {
-    "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "CHEM496": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "GRB",
-        "room": "W212"
-      }
-    ]
-  },
-  "HART301": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "GRB",
-        "room": "W212"
-      }
-    ]
-  },
-  "SMGT266": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "284"
-      }
-    ]
-  },
-  "FWIS103": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "MEB",
-        "room": "128"
-      }
-    ]
-  },
-  "POLI359": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "DSCI435": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "COMP449": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "119"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "STAT410": {
+  "12350": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
-  },
-  "SPAN158": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "128"
-      }
-    ]
-  },
-  "ELEC380": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "BIOE380": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "117"
-      }
-    ]
-  },
-  "NEUR383": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "100"
-      }
-    ]
-  },
-  "BIOE392": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "119"
-      }
-    ]
-  },
-  "GLHT392": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "128"
-      }
-    ]
-  },
-  "SPAN356": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "ANH",
-        "room": "117"
-      }
-    ]
-  },
-  "SPAN330": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "284"
-      }
-    ]
-  },
-  "CEVE481": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SST",
-        "room": "106"
-      }
-    ]
-  },
-  "ENGI210": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "227"
-      }
-    ]
-  },
-  "SOPA309": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "102"
-      }
-    ]
-  },
-  "MUSI378": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1064"
-      }
-    ]
-  },
-  "MUSI426": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "B21"
-      }
-    ]
-  },
-  "PHIL230": {
-    "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RYN",
-        "room": "201"
-      }
-    ]
-  },
-  "RELI101": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "3"
-      }
-    ]
-  },
-  "RELI307": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "105"
-      }
-    ]
-  },
-  "RELI442": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
-  },
-  "CMOR422": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      }
-    ]
-  },
-  "CMOR360": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
-  },
-  "CMOR490": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "120"
-      }
-    ]
-  },
-  "CMOR492": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1020 / SYM II"
-      }
-    ]
-  },
-  "CMOR302": {
-    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "AMP"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "CMOR410": {
+  "12351": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "202"
-      }
-    ]
-  },
-  "CMOR420": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "252"
-      }
-    ]
-  },
-  "CMOR494": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
-  },
-  "CHBE412": {
-    "date": "12/6/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      }
-    ]
-  },
-  "CHEM365": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "101"
-      }
-    ]
-  },
-  "ELEC361": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "HEAL279": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "212"
-      }
-    ]
-  },
-  "KINE275": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "KINE310": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1046"
-      }
-    ]
-  },
-  "PSYC231": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "PSYC330": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "123"
-      }
-    ]
-  },
-  "PSYC375": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "PSYC409": {
+  "14913": {
     "date": "12/6/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "305"
-      }
-    ]
-  },
-  "FWIS101": {
-    "date": "12/10/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TUD",
-        "room": "201"
-      }
-    ]
-  },
-  "FWIS107": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "303"
-      }
-    ]
-  },
-  "FWIS109": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "FWIS165": {
+  "14914": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "101"
-      }
-    ]
-  },
-  "FWIS182": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "FWIS193": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "102"
-      }
-    ]
-  },
-  "ANTH303": {
-    "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ANTH315": {
+  "12352": {
     "date": "12/6/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "560"
-      }
-    ]
-  },
-  "ANTH321": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "233"
-      }
-    ]
-  },
-  "ANTH340": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SST",
-        "room": "106"
-      }
-    ]
-  },
-  "ANTH348": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "GRB",
-        "room": "W211"
-      }
-    ]
-  },
-  "ANTH381": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
-  },
-  "ANTH392": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "207 / SYM I"
-      }
-    ]
-  },
-  "HART358": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
-  },
-  "HART389": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "ANH",
-        "room": "117"
-      }
-    ]
-  },
-  "ASIA223": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "286"
-      }
-    ]
-  },
-  "ASIA302": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "305"
-      }
-    ]
-  },
-  "ASIA305": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "252"
-      }
-    ]
-  },
-  "BIOS330": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
-  },
-  "BIOS470": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
-  },
-  "BIOS481": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "307"
-      }
-    ]
-  },
-  "CEVE325": {
-    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "207 / SYM I"
-      }
-    ]
-  },
-  "CEVE400": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "MEB",
-        "room": "128"
-      }
-    ]
-  },
-  "CEVE460": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
-  },
-  "CEVE476": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "560"
-      }
-    ]
-  },
-  "ENGL269": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
-  },
-  "ENGL274": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "ENGL300": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "102"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ENGL308": {
+  "12353": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "227"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ENGL332": {
+  "12354": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1042"
-      }
-    ]
-  },
-  "ENGL341": {
-    "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "125"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ENGL360": {
+  "12355": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "119"
-      }
-    ]
-  },
-  "ENGL362": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "ENGL373": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "GRW",
-        "room": "220"
-      }
-    ]
-  },
-  "ENST205": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "3"
-      }
-    ]
-  },
-  "ENST315": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "117"
-      }
-    ]
-  },
-  "HIST259": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "HIST291": {
-    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
-  },
-  "HIST314": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RYN",
-        "room": "201"
-      }
-    ]
-  },
-  "HIST338": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "HIST387": {
+  "12356": {
     "date": "12/6/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "119"
-      }
-    ]
-  },
-  "MATH300": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "285"
-      }
-    ]
-  },
-  "MATH302": {
-    "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "212"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "MATH370": {
+  "12357": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "116"
-      }
-    ]
-  },
-  "MECH411": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "207 / SYM I"
-      }
-    ]
-  },
-  "MECH482": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KWG",
-        "room": "100"
-      }
-    ]
-  },
-  "CLAS336": {
-    "date": "12/10/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "252"
-      }
-    ]
-  },
-  "FREN305": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "101"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "FREN402": {
+  "12358": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "453"
-      }
-    ]
-  },
-  "FREN424": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "310"
-      }
-    ]
-  },
-  "LALX350": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "207 / SYM I"
-      }
-    ]
-  },
-  "SPAN350": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "130"
-      }
-    ]
-  },
-  "PHYS492": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "205"
-      }
-    ]
-  },
-  "PHYS494": {
-    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "226"
-      }
-    ]
-  },
-  "POLI354": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "POLI371": {
+  "12359": {
     "date": "12/6/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
-  },
-  "PLST315": {
-    "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1042"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ARTS312": {
+  "12360": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "MCA",
-        "room": "237"
-      }
-    ]
-  },
-  "FILM287": {
-    "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "227"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "FOTO210": {
+  "12361": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DBH",
-        "room": "180"
-      }
-    ]
-  },
-  "THEA300": {
-    "date": "12/11/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "118"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "THEA309": {
+  "12362": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "MCA",
-        "room": "210"
-      }
-    ]
-  },
-  "CHIN206": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
-  },
-  "GERM142": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "KORE401": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "307"
-      }
-    ]
-  },
-  "SOCI409": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "SOCI426": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "460"
-      }
-    ]
-  },
-  "SOCI459": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "118"
-      }
-    ]
-  },
-  "BIOE446": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "286"
-      }
-    ]
-  },
-  "EEPS101": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "EEPS115": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "EEPS412": {
-    "date": "12/11/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "119"
-      }
-    ]
-  },
-  "EEPS465": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "562"
-      }
-    ]
-  },
-  "EEPS471": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "453"
-      }
-    ]
-  },
-  "SMGT360": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1064"
-      }
-    ]
-  },
-  "SMGT364": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "101"
-      }
-    ]
-  },
-  "SMGT373": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "SMGT400": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "105"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "FOTO477": {
+  "12363": {
     "date": "12/6/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "123"
-      }
-    ]
-  },
-  "SWGS477": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "118"
-      }
-    ]
-  },
-  "SOCI231": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
-  },
-  "SOCI301": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "207 / SYM I"
-      }
-    ]
-  },
-  "HIST428": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "101"
-      }
-    ]
-  },
-  "HIST340": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "110"
-      }
-    ]
-  },
-  "HIST319": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "B21"
-      }
-    ]
-  },
-  "HIST275": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RYN",
-        "room": "201"
-      }
-    ]
-  },
-  "GERM324": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "GERM326": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "102"
-      }
-    ]
-  },
-  "MECH400": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "WSC",
-        "room": "146"
-      }
-    ]
-  },
-  "ASIA378": {
-    "date": "12/9/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "560"
-      }
-    ]
-  },
-  "KINE320": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "KINE498": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "B21"
-      }
-    ]
-  },
-  "ENST265": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "118"
-      }
-    ]
-  },
-  "FILM373": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "227"
-      }
-    ]
-  },
-  "HART380": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "305"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "SWGS338": {
+  "12364": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RYN",
-        "room": "102"
-      }
-    ]
-  },
-  "LING336": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "105"
-      }
-    ]
-  },
-  "SWGS345": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "WSC",
-        "room": "146"
-      }
-    ]
-  },
-  "HUMA372": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "113"
-      }
-    ]
-  },
-  "MATH304": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "102"
-      }
-    ]
-  },
-  "ENST312": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1020 / SYM II"
-      }
-    ]
-  },
-  "COMP182": {
-    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "131"
-      }
-    ]
-  },
-  "ENGL382": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "211"
-      }
-    ]
-  },
-  "PHIL490": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "MEB",
-        "room": "128"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "THEA304": {
+  "12365": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "224"
-      }
-    ]
-  },
-  "SWGS380": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "103"
-      }
-    ]
-  },
-  "ANTH477": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "310"
-      }
-    ]
-  },
-  "MDHM238": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "100"
-      }
-    ]
-  },
-  "NAVA303": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "BUSI430": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "dummy",
-        "room": "3"
-      }
-    ]
-  },
-  "BUSI440": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "204"
-      }
-    ]
-  },
-  "PHIL289": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "KWG",
-        "room": "100"
-      }
-    ]
-  },
-  "SMGT432": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RYN",
-        "room": "201"
-      }
-    ]
-  },
-  "MATH452": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "COMP429": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RYN",
-        "room": "201"
-      }
-    ]
-  },
-  "RELI375": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "123"
-      }
-    ]
-  },
-  "RELI421": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "560"
-      }
-    ]
-  },
-  "ANTH402": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "PSYC308": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "PSYC332": {
-    "date": "12/12/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "SPAN453": {
+  "12366": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "FREN307": {
-    "date": "12/10/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "302"
-      }
-    ]
-  },
-  "HART328": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "113"
-      }
-    ]
-  },
-  "LEAD402": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "123"
-      }
-    ]
-  },
-  "LEAD215": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "PHYS413": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "204"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "PSYC467": {
+  "12367": {
     "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "229"
-      }
-    ]
-  },
-  "COLL153": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "MEB",
-        "room": "128"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COLL169": {
+  "12368": {
     "date": "12/6/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "TUD",
-        "room": "201"
-      }
-    ]
-  },
-  "COLL172": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "328"
-      }
-    ]
-  },
-  "COLL175": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "MEB",
-        "room": "128"
-      }
-    ]
-  },
-  "COLL108": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "116"
-      }
-    ]
-  },
-  "COLL156": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "282"
-      }
-    ]
-  },
-  "COLL118": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "119"
-      }
-    ]
-  },
-  "POLI341": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "110"
-      }
-    ]
-  },
-  "POLI326": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      }
-    ]
-  },
-  "SPAN406": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "110"
-      }
-    ]
-  },
-  "PSYC353": {
-    "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "PSYC461": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "305"
-      }
-    ]
-  },
-  "SPAN368": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COLL178": {
+  "12369": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "119"
-      }
-    ]
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COLL180": {
+  "12370": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COLL183": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "252"
-      }
-    ]
-  },
-  "COLL184": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "125"
-      }
-    ]
-  },
-  "COLL186": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
-  },
-  "COLL179": {
-    "date": "12/7/2023",
+  "12372": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "305"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COLL188": {
+  "12373": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "MEB",
-        "room": "128"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COLL189": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KWG",
-        "room": "128"
-      }
-    ]
-  },
-  "COLL114": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
-  },
-  "PSYC430": {
-    "date": "12/12/2023",
+  "12374": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "3"
-      }
-    ]
-  },
-  "KINE441": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DBH",
-        "room": "180"
-      }
-    ]
-  },
-  "HIST354": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ARTS325": {
+  "12375": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "204"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "FILM324": {
+  "12376": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "MEB",
-        "room": "128"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "HART203": {
-    "date": "12/11/2023",
+  "12377": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "117"
-      }
-    ]
-  },
-  "HIST391": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "305"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ENGL403": {
+  "12378": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "226"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "HIST438": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1046"
-      }
-    ]
-  },
-  "HIST480": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "119"
-      }
-    ]
-  },
-  "RELI142": {
-    "date": "12/9/2023",
+  "12379": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "212"
-      }
-    ]
-  },
-  "LALX332": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
-  },
-  "HART366": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "224"
-      }
-    ]
-  },
-  "HART321": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "HART241": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1075"
-      }
-    ]
-  },
-  "HART204": {
-    "date": "12/7/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "12381": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "DBH",
-        "room": "180"
-      }
-    ]
-  },
-  "GERM305": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "HART202": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "100"
-      }
-    ]
-  },
-  "MDHM359": {
-    "date": "12/10/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "12382": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "PLST307": {
+  "12383": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "GRB",
-        "room": "W211"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "SPAN436": {
+  "12384": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "205"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ASIA360": {
-    "date": "12/7/2023",
+  "12385": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "106"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COMP462": {
+  "12386": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "229"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "BIOS315": {
-    "date": "12/11/2023",
+  "10340": {
+    "date": "12/12/2023",
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "13930": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "101"
-      }
-    ]
-  },
-  "BIOS353": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "125"
-      }
-    ]
-  },
-  "BIOS441": {
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "12915": {
     "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "226"
-      }
-    ]
-  },
-  "RELI271": {
-    "date": "12/7/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15477": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "CHEM462": {
-    "date": "12/7/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15478": {
+    "date": "12/11/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "119"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "POLI457": {
-    "date": "12/6/2023",
+  "15479": {
+    "date": "12/8/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "118"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "POLI429": {
-    "date": "12/12/2023",
+  "15480": {
+    "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "118"
-      }
-    ]
-  },
-  "PJHC371": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "WSC",
-        "room": "146"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15481": {
+    "date": "12/8/2023",
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "MSNE222": {
+  "11898": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TUD",
-        "room": "201"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "MDEM271": {
+  "15482": {
     "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "204"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ANTH346": {
-    "date": "12/12/2023",
+  "15483": {
+    "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "284"
-      }
-    ]
-  },
-  "BIOE123": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "105"
-      }
-    ]
-  },
-  "RELI333": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "226"
-      }
-    ]
-  },
-  "FWIS119": {
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15484": {
     "date": "12/8/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "282"
-      }
-    ]
-  },
-  "FWIS128": {
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15485": {
     "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "113"
-      }
-    ]
-  },
-  "FWIS122": {
-    "date": "12/12/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "251"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15487": {
+    "date": "12/7/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "BIOS411": {
+  "15488": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "303"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "LING327": {
-    "date": "12/12/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "207 / SYM I"
-      }
-    ]
-  },
-  "FREN478": {
+  "12927": {
     "date": "12/9/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "RELI219": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "119"
-      }
-    ]
-  },
-  "CHEM366": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1046"
-      }
-    ]
-  },
-  "PHIL220": {
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15498": {
     "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "BRK",
-        "room": "101"
-      }
-    ]
-  },
-  "MSNE407": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "560"
-      }
-    ]
-  },
-  "MSNE490": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "DBH",
-        "room": "180"
-      }
-    ]
-  },
-  "PHIL470": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1046"
-      }
-    ]
-  },
-  "PHIL400": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "MCA",
-        "room": "237"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COMP416": {
+  "13453": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "117"
-      }
-    ]
-  },
-  "COLL185": {
-    "date": "12/10/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "DBH",
-        "room": "180"
-      }
-    ]
-  },
-  "THEA432": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "MCA",
-        "room": "210"
-      }
-    ]
-  },
-  "BUSI224": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "105"
-      }
-    ]
-  },
-  "SOCI411": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "HIST217": {
-    "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "285"
-      }
-    ]
+  "12947": {
+    "date": "12/7/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "BIOS314": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "WSC",
-        "room": "146"
-      }
-    ]
-  },
-  "ENGI355": {
+  "12948": {
     "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KWG",
-        "room": "100"
-      }
-    ]
-  },
-  "AMCI400": {
-    "date": "12/10/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "COMP431": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
-  },
-  "EEPS480": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "328"
-      }
-    ]
-  },
-  "PHIL498": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "CMOR462": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "ABL",
-        "room": "130"
-      }
-    ]
-  },
-  "MUSI414": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "102"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "CMOR451": {
+  "15509": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "FWIS171": {
-    "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "125"
-      }
-    ]
-  },
-  "FWIS114": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "123"
-      }
-    ]
-  },
-  "CMOR304": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "100"
-      }
-    ]
-  },
-  "MATH111": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      }
-    ]
-  },
-  "KINE120": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "HART381": {
+  "14999": {
     "date": "12/9/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "211"
-      }
-    ]
-  },
-  "MUCH238": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "SWGS493": {
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "16026": {
     "date": "12/9/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "227"
-      }
-    ]
-  },
-  "MUSI445": {
-    "date": "12/11/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15433": {
+    "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "227"
-      }
-    ]
-  },
-  "CMOR441": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "BKH",
-        "room": "102"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "CHBE443": {
+  "15011": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1020 / SYM II"
-      }
-    ]
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "CHBE302": {
+  "11946": {
     "date": "12/6/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "FOTO395": {
-    "date": "12/10/2023",
+  "10924": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "MEB",
-        "room": "128"
-      }
-    ]
-  },
-  "FWIS198": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "100"
-      }
-    ]
-  },
-  "FWIS187": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "304"
-      }
-    ]
-  },
-  "FWIS173": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "212"
-      }
-    ]
-  },
-  "FWIS159": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
-  },
-  "GERM491": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "460"
-      }
-    ]
-  },
-  "FWIS184": {
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "13485": {
     "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "MXF",
-        "room": "252"
-      }
-    ]
-  },
-  "ARTS400": {
-    "date": "12/10/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "BIOS344": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCC",
-        "room": "113"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "JWST318": {
+  "11442": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HRZ",
-        "room": "211"
-      }
-    ]
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "NEUR477": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "119"
-      }
-    ]
-  },
-  "CHEM219": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "207 / SYM I"
-      }
-    ]
-  },
-  "CHEM313": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      },
-      {
-        "building": "dummy",
-        "room": "3"
-      }
-    ]
-  },
-  "CHEM314": {
-    "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "301"
-      },
-      {
-        "building": "PCF",
-        "room": "3"
-      }
-    ]
-  },
-  "FWIS195": {
-    "date": "12/10/2023",
+  "15546": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "SST",
-        "room": "106"
-      }
-    ]
-  },
-  "ENGL267": {
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "14012": {
     "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
-  },
-  "ENGL398": {
-    "date": "12/10/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "205"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "EEPS106": {
+  "16064": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "HBH",
-        "room": "227"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "RELI322": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "MCA",
-        "room": "237"
-      }
-    ]
-  },
-  "POLI339": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "126"
-      }
-    ]
-  },
-  "ASIA322": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "PCF",
-        "room": "4"
-      }
-    ]
-  },
-  "POLI416": {
+  "15555": {
     "date": "12/8/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15556": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "110"
-      }
-    ]
-  },
-  "FWIS134": {
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "16068": {
     "date": "12/10/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15047": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1042"
-      }
-    ]
-  },
-  "FWIS126": {
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "13512": {
     "date": "12/8/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "HRG",
-        "room": "100"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "FWIS110": {
+  "13513": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1075"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "FWIS135": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "123"
-      }
-    ]
-  },
-  "EEPS438": {
-    "date": "12/11/2023",
+  "11981": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "KCK",
-        "room": "101"
-      }
-    ]
-  },
-  "FILM456": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "560"
-      }
-    ]
-  },
-  "COMP413": {
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "14030": {
     "date": "12/7/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1070"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "BUSI222": {
+  "13529": {
     "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "110"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ELEC430": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "227"
-      }
-    ]
-  },
-  "SPAN477": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "MCA",
-        "room": "237"
-      }
-    ]
-  },
-  "ARCH327": {
-    "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1046"
-      }
-    ]
-  },
-  "ARCH350": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "133"
-      }
-    ]
-  },
-  "ARCH403": {
-    "date": "12/7/2023",
+  "13530": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1020 / SYM II"
-      }
-    ]
-  },
-  "ARCH450": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "RZR",
-        "room": "119"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "PSYC102": {
+  "13531": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "PHYS100": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1020 / SYM II"
-      }
-    ]
-  },
-  "CMOR495": {
-    "date": "12/11/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "307"
-      }
-    ]
-  },
-  "ASIA238": {
-    "date": "12/9/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "328"
-      }
-    ]
-  },
-  "THEA435": {
-    "date": "12/10/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "HUM",
-        "room": "328"
-      }
-    ]
-  },
-  "HEAL119": {
+  "13532": {
     "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1064"
-      }
-    ]
-  },
-  "ARTS300": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "132"
-      }
-    ]
-  },
-  "UNIV201": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "309"
-      }
-    ]
-  },
-  "PSYC362": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "BRC",
-        "room": "284"
-      }
-    ]
-  },
-  "NEUR362": {
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "11340": {
+    "date": "12/8/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "13023": {
     "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "OES",
-        "room": "130"
-      }
-    ]
-  },
-  "FWIS153": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "DCH",
-        "room": "1064"
-      }
-    ]
-  },
-  "FWIS176": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "303"
-      }
-    ]
-  },
-  "FWIS180": {
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15587": {
     "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "125"
-      }
-    ]
-  },
-  "FWIS166": {
-    "date": "12/12/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "16100": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "16101": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "WSC",
-        "room": "123"
-      }
-    ]
-  },
-  "FWIS175": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "KRF",
-        "room": "125"
-      }
-    ]
-  },
-  "ANTH357": {
-    "date": "12/7/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "16102": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "SEW",
-        "room": "562"
-      }
-    ]
-  },
-  "BIOS310": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "14053": {
+    "date": "12/11/2023",
+    "time": 1900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "RELI401": {
+  "11495": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ELEC241": {
-    "date": "12/8/2023",
+  "13552": {
+    "date": "12/10/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "MATH381": {
-    "date": "12/7/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15132": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "MATH425": {
+  "12063": {
     "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "MATH444": {
+  "10017": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "PHYS201": {
-    "date": "12/8/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "PHYS301": {
+  "12578": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "PHYS311": {
-    "date": "12/10/2023",
+  "15652": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "MUSI211": {
+  "15653": {
     "date": "12/6/2023",
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15142": {
+    "date": "12/11/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "MUSI311": {
-    "date": "12/9/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "GREE101": {
+  "15143": {
     "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "LATI201": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "MECH472": {
-    "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "ENGI100": {
-    "date": "12/12/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COMP409": {
+  "12587": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COMP382": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+  "15660": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ECON310": {
+  "15147": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COMP430": {
-    "date": "12/8/2023",
+  "15148": {
+    "date": "12/7/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "MSNE401": {
+  "15151": {
     "date": "12/6/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "LATI101": {
+  "13616": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "EDUC304": {
-    "date": "12/9/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "LING300": {
+  "16444": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15154": {
     "date": "12/9/2023",
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15667": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "LING401": {
-    "date": "12/7/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "CHEM301": {
-    "date": "12/8/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15153": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ELEC425": {
+  "15668": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COMP425": {
+  "11588": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "SOSC445": {
+  "15686": {
+    "date": "12/7/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15687": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "11592": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ELEC462": {
+  "13127": {
     "date": "12/6/2023",
+    "time": 1900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15690": {
+    "date": "12/10/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "MECH484": {
-    "date": "12/7/2023",
+  "15431": {
+    "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "ARCH314": {
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "10061": {
     "date": "12/11/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "MATH356": {
-    "date": "12/8/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "13646": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "13647": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "13648": {
+    "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "PSYC480": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "EDUC305": {
+  "13649": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "MATH463": {
-    "date": "12/8/2023",
+  "13650": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "CEVE411": {
+  "13651": {
     "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "BIOS332": {
-    "date": "12/12/2023",
+  "14925": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "10578": {
+    "date": "12/7/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "PHYS480": {
+  "10062": {
     "date": "12/6/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "time": 1900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "LING303": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "ITAL141": {
+  "15191": {
     "date": "12/7/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "CSCI340": {
-    "date": "12/8/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "HUMA315": {
-    "date": "12/12/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "10063": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "HIST101": {
-    "date": "12/9/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "16217": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "HIST312": {
-    "date": "12/12/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "16218": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "LING200": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "ANTH200": {
-    "date": "12/10/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "10579": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "POLI372": {
-    "date": "12/11/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "SOCI366": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "EEPS321": {
-    "date": "12/7/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "10076": {
+    "date": "12/8/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "EDUC345": {
-    "date": "12/6/2023",
+  "10077": {
+    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "BUSI450": {
-    "date": "12/11/2023",
+  "10078": {
+    "date": "12/8/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "PHIL373": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "ECON205": {
-    "date": "12/9/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "12641": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ECON435": {
+  "12642": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COMP140": {
-    "date": "12/8/2023",
+  "10597": {
+    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "EDUC466": {
+  "16455": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "time": 1900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "EDUC465": {
+  "12135": {
     "date": "12/6/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "EDUC461": {
+  "11624": {
     "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "EDUC421": {
+  "12649": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ELEC220": {
-    "date": "12/12/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "HIST331": {
+  "11625": {
     "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "LING397": {
-    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "PHIL160": {
-    "date": "12/10/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15725": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COMP481": {
+  "10094": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "BUSI380": {
+  "14931": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ASIA219": {
-    "date": "12/9/2023",
+  "14707": {
+    "date": "12/7/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "14423": {
+    "date": "12/11/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ASIA380": {
+  "14714": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "HIST380": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "COMP341": {
+  "11654": {
     "date": "12/10/2023",
+    "time": 1900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15755": {
+    "date": "12/6/2023",
+    "time": 1900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "10123": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "POLI321": {
-    "date": "12/9/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15756": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "LING205": {
-    "date": "12/10/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "10128": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "SWGS205": {
+  "14737": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "MUSI417": {
+  "14738": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "PHIL283": {
-    "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "PHIL310": {
-    "date": "12/10/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "RELI125": {
+  "13715": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "RELI221": {
-    "date": "12/8/2023",
+  "14739": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "RELI334": {
-    "date": "12/10/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "13717": {
+    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "LING216": {
-    "date": "12/11/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "12181": {
+    "date": "12/7/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "HIST237": {
-    "date": "12/10/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "HIST332": {
+  "11665": {
     "date": "12/6/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "11155": {
+    "date": "12/7/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "CLAS107": {
-    "date": "12/6/2023",
+  "15769": {
+    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "SOCI451": {
+  "12698": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "LALX238": {
+  "11156": {
     "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "LING305": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "CMOR220": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "HEBR125": {
-    "date": "12/7/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ASIA221": {
+  "15260": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "HUMA107": {
-    "date": "12/7/2023",
+  "15779": {
+    "date": "12/6/2023",
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "14245": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "HIST372": {
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "14762": {
     "date": "12/7/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "RELI337": {
+  "16469": {
     "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "RELI111": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "RELI328": {
-    "date": "12/8/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "COLL167": {
+  "14253": {
+    "date": "12/6/2023",
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "14764": {
     "date": "12/8/2023",
-    "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "GREE310": {
+  "14765": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COMP318": {
-    "date": "12/11/2023",
+  "12210": {
+    "date": "12/7/2023",
+    "time": 1900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15796": {
+    "date": "12/8/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "LATI310": {
+  "15797": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "HIST120": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "MDEM120": {
-    "date": "12/7/2023",
+  "11705": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ELEC468": {
+  "11708": {
     "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ELEC461": {
+  "14782": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "HUMA134": {
+  "12736": {
     "date": "12/6/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "NEUR415": {
+  "12741": {
     "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ELEC488": {
+  "15304": {
     "date": "12/6/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "CMOR415": {
+  "15820": {
     "date": "12/6/2023",
-    "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "time": 1900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ELEC414": {
-    "date": "12/6/2023",
+  "12749": {
+    "date": "12/7/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "CHBE421": {
+  "15821": {
     "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "PHIL383": {
-    "date": "12/8/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "PHIL372": {
-    "date": "12/11/2023",
-    "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "SMGT440": {
-    "date": "12/10/2023",
+  "13263": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ELEC478": {
+  "15312": {
     "date": "12/6/2023",
+    "time": 1400,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "16340": {
+    "date": "12/7/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "ITAL301": {
-    "date": "12/10/2023",
+  "12757": {
+    "date": "12/6/2023",
     "time": 900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "POLI338": {
+  "16342": {
     "date": "12/6/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "10198": {
+    "date": "12/8/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "10716": {
+    "date": "12/7/2023",
+    "time": 1900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "10717": {
+    "date": "12/7/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
   },
-  "COLL222": {
+  "14300": {
     "date": "12/8/2023",
+    "time": 1900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "11747": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "12776": {
+    "date": "12/6/2023",
     "time": 1400,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
-  },
-  "MSNE477": {
-    "date": "12/7/2023",
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "13801": {
+    "date": "12/6/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "16363": {
+    "date": "12/6/2023",
     "time": 1900,
-    "rooms": [
-      {
-        "building": "TAKE_HOME",
-        "room": "N/A"
-      }
-    ]
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "12780": {
+    "date": "12/8/2023",
+    "time": 1900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "15341": {
+    "date": "12/9/2023",
+    "time": 1900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
+  },
+  "12799": {
+    "date": "12/7/2023",
+    "time": 900,
+    "building": "TAKE_HOME",
+    "room": "N/A"
   }
 }
