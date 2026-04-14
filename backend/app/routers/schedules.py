@@ -418,7 +418,7 @@ def get_analytics(
     schedules = session.exec(select(Schedule).where(Schedule.version_id == vid)).all()
     rooms = session.exec(select(Room)).all()
     all_exams = session.exec(select(Exam)).all()
-    exams = all_exams if include_no_exam else [e for e in all_exams if e.exam_type != "No Final Exam"]
+    exams = [e for e in all_exams if e.student_count > 0 and (include_no_exam or e.exam_type != "No Final Exam")]
     timeslots = session.exec(select(TimeSlot)).all()
     enrollments = session.exec(select(StudentExam)).all()
     students = session.exec(select(Student)).all()

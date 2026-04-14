@@ -48,7 +48,7 @@ export function ConflictModal({
             <div className="modal-student-list">
               {items.map((c, i) => (
                 <div key={i} className="modal-student-row">
-                  <span className="modal-student-id">ID: {c.student?.id}</span>
+                  <span className="modal-student-id">{c.student?.person_id ?? c.student?.id}</span>
                   <span className="modal-student-email">{c.student?.email}</span>
                   <span className="modal-student-exams">
                     {c.exams.map((e) => shortCourse(e.course_name)).join(", ")}

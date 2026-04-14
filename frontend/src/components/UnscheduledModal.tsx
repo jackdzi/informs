@@ -66,8 +66,8 @@ export function UnscheduledModal({
   }
 
   const q = search.toLowerCase();
-  const regularExams = exams.filter((e) => e.exam_type !== NO_EXAM && e.course_name.toLowerCase().includes(q));
-  const noExamExams  = exams.filter((e) => e.exam_type === NO_EXAM  && e.course_name.toLowerCase().includes(q));
+  const regularExams = exams.filter((e) => e.exam_type !== NO_EXAM && e.student_count > 0 && e.course_name.toLowerCase().includes(q));
+  const noExamExams  = exams.filter((e) => e.exam_type === NO_EXAM  && e.student_count > 0 && e.course_name.toLowerCase().includes(q));
 
   return (
     <div className="modal-overlay" onMouseDown={(e) => { if (e.target === e.currentTarget) onClose(); }}>
