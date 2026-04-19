@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { DetailedSchedule } from "../types";
 import { shortCourse } from "../helpers";
 
-const PREVIEW = 2; // how many course labels to show before "…"
+const PREVIEW = 6;
 
 export function CalendarCell({
   items, colorFn, date, timeRange, onDragStart, onDrop, draggingId, onCellClick, onChipClick,

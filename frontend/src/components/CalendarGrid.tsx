@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { DetailedSchedule, TimeSlot } from "../types";
-import { formatTime, WEEKDAYS } from "../helpers";
+import { formatTime } from "../helpers";
 import { CalendarCell } from "./CalendarCell";
 import { SlotDrawer } from "./SlotDrawer";
 
@@ -28,7 +28,9 @@ export function CalendarGrid({
 
   const allDates = [...new Set(timeslots.map((t) => t.date))].sort();
   const weeks: string[][] = [];
-  for (let i = 0; i < allDates.length; i += 5) weeks.push(allDates.slice(i, i + 5));
+  const numGroups = Math.max(1, Math.ceil(allDates.length / 5));
+  const groupSize = Math.ceil(allDates.length / numGroups);
+  for (let i = 0; i < allDates.length; i += groupSize) weeks.push(allDates.slice(i, i + groupSize));
   const currentDates = weeks[week] || [];
   const allTimes = [...new Set(timeslots.map((t) => `${t.start_time}-${t.end_time}`))].sort();
 
@@ -61,11 +63,11 @@ export function CalendarGrid({
       <div className="calendar">
         <div className="calendar-header" style={{ gridTemplateColumns: `72px repeat(${Math.max(currentDates.length, 1)}, 1fr)` }}>
           <div className="calendar-corner" />
-          {currentDates.map((date, i) => {
+          {currentDates.map((date) => {
             const d = new Date(date + "T00:00:00");
             return (
               <div key={date} className="calendar-header-cell">
-                {WEEKDAYS[i] || d.toLocaleDateString("en-US", { weekday: "short" })}
+                {d.toLocaleDateString("en-US", { weekday: "short" })}
                 <span className="day-num">{d.getDate()}</span>
               </div>
             );

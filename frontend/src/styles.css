@@ -494,7 +494,7 @@ body {
   border-left: 1px solid var(--slate-100);
   border-bottom: 1px solid var(--slate-100);
   padding: 6px;
-  min-height: 80px;
+  min-height: 160px;
   position: relative;
   transition: background 0.15s;
 }
